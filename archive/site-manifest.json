@@ -1,0 +1,2955 @@
+{
+  "source_url": "https://deck.artofgamedesign.com/",
+  "captured_at": "2026-09-07T10:02:49.921591+00:00",
+  "rights_note": "Repository owner confirmed permission to reproduce and translate the deck in this conversation on 2026-09-07.",
+  "scope": "HTML entry point, runtime JS/CSS/font dependencies, declared locales, lens art and thumbnails; excludes external linked sites and source maps",
+  "files": [
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/BottomWatermark.png",
+      "path": "assets/images/BottomWatermark.png",
+      "bytes": 10411,
+      "sha256": "a6d9e6e7c277908243c824543237243ca1dd13f02c900855c257485def6725b6",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"6768ea8e4a32780825eaa901ee215ab7-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/arrow-left.png",
+      "path": "assets/images/arrow-left.png",
+      "bytes": 5198,
+      "sha256": "4c1f933c859f0b4933009b80a2811d454501289d7d4edb0354470c2b8460c47e",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"7f153cca00f0ade2567ed98627fb6920-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/arrow-right.png",
+      "path": "assets/images/arrow-right.png",
+      "bytes": 5081,
+      "sha256": "13edf20777012e82d77df6633298a242a98f586190079c162a7c1063c2f5a52b",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"65bab94518baea080afc006c00673c03-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/blue-light.png",
+      "path": "assets/images/blue-light.png",
+      "bytes": 196,
+      "sha256": "867cfda83bf9d0a765369c02c0f80fecc404b67be13ffc3665101f6fa1a8e33b",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"ff0f33878f0d0854a91c50a830ea6943-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/bookcover.png",
+      "path": "assets/images/bookcover.png",
+      "bytes": 257543,
+      "sha256": "87aa723af87c87a6d3a84a548d97b2e9be11108140056251c2c5e88afe54f6e6",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"e83b2a4477aabaccb430cb9d7ca07fdc-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/cardBorder.png",
+      "path": "assets/images/cardBorder.png",
+      "bytes": 138517,
+      "sha256": "6df94858f11095faf22de53c998dc422f2f3ba293c4cbcb67c94248f971dd441",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"27fbcd732f12bbc8266f45bd2046dce9-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/cardback.png",
+      "path": "assets/images/cardback.png",
+      "bytes": 119632,
+      "sha256": "a17273d388cedfcad285bd6e3b8dcacdade154fad564d0c2edc1d5052d7d7683",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"df0a03bb56c6d5886a0b14c745ba032c-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/cardex.png",
+      "path": "assets/images/cardex.png",
+      "bytes": 111998,
+      "sha256": "a460428b5ace8f803d47d3277caca6e541ad446ed143ab07f31ff837f115a70a",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"d5c2016b4dd1e54c4b9071899ed0a0fc-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/favorite-on.png",
+      "path": "assets/images/favorite-on.png",
+      "bytes": 4739,
+      "sha256": "8fa2be15b2d17da2feb282812d2617e8ec412af19ab0f19dddf75317feefd288",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"f0dcdb488f22432f8ba1b0d1430b18df-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/favorite.png",
+      "path": "assets/images/favorite.png",
+      "bytes": 3655,
+      "sha256": "86541e037d57ff15e6353ea16fdf0de0242c4c4a54c5b62ac1ab652951e382c6",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"6683c2d731d3c4fb349c50edeeb34be7-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/favorite@2x.png",
+      "path": "assets/images/favorite@2x.png",
+      "bytes": 810,
+      "sha256": "12c1a448aefc6218c87304925eea6c767c1ab479e9e27017dcc7214d7c1f5606",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"c18bff68f4adee61944c0d810e61e251-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/favorite_s.png",
+      "path": "assets/images/favorite_s.png",
+      "bytes": 3876,
+      "sha256": "79fbbb3fa547c46806743d0404814987dfa2f89efcda1f2eb7216934a2242b5a",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"87af42b4dab4a1925c0d76310b0af6b2-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/favorite_s@2x.png",
+      "path": "assets/images/favorite_s@2x.png",
+      "bytes": 1001,
+      "sha256": "e8027479e24e68e01cd633cfc0e2ea266c6252838bf19c1df72fbb96bc09567f",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"f0b5043137a385f6dd9a5840263a6bdc-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/howtouse_card_example.png",
+      "path": "assets/images/howtouse_card_example.png",
+      "bytes": 97918,
+      "sha256": "7ac5a90f9521fb33e6edc485064a4ae26b72460f5707bfc909bc32e4f3e7f98b",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"9b7988bc3113b20fa4be57911bcbd0ce-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/icon_MagGlass_transparency.png",
+      "path": "assets/images/icon_MagGlass_transparency.png",
+      "bytes": 15632,
+      "sha256": "827be49c90db3bbe499db7bf8fda566ca20809698c752b9b328c065881396952",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"fe0620d0ee79056b6a13991bb6686d6d-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/1.png",
+      "path": "assets/images/lensArt/1.png",
+      "bytes": 267860,
+      "sha256": "1a0f716f4219853070f24e36c77c8728d26c7a0d9e83e981f862ab3aa860b274",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"05a483eef36edceb9a5121a8d525349d-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/10.png",
+      "path": "assets/images/lensArt/10.png",
+      "bytes": 278692,
+      "sha256": "59372a47f57b394a97099975ec50a5b44e8cf3cc310e5fb7d15b6386165fda40",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"efdbdff2f812c0aa902328a67192353a-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/100.png",
+      "path": "assets/images/lensArt/100.png",
+      "bytes": 153634,
+      "sha256": "00366a2508aa49f6893faaf519066dc478951520968a2ba60c2d6ef4a45826cd",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"5fc712c2f620ce6dd53caeb9461316be-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/101.png",
+      "path": "assets/images/lensArt/101.png",
+      "bytes": 183598,
+      "sha256": "6fb07ef2f5159746a0a7a1292ec9d863df2db4c5c62da658f9eaaaa7522ff9cc",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"52a5614a8a1160ee85726ced93398a15-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/102.png",
+      "path": "assets/images/lensArt/102.png",
+      "bytes": 361475,
+      "sha256": "6f8bd4754e26bfbc6cd46f5d7d61d6488e46e70d387b890a15f7a6770228cd6b",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"e22879f98d321730069dcbe0b565cbc5-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/103.png",
+      "path": "assets/images/lensArt/103.png",
+      "bytes": 191167,
+      "sha256": "0656342ac1c732ced76b9dae56f9e634dde40ab611be29ca5ef6ec2e2ea4dcc7",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"ffb2fb4784bb16eb4797f75f3f98bed9-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/104.png",
+      "path": "assets/images/lensArt/104.png",
+      "bytes": 304565,
+      "sha256": "c543b30bdf97fcb0b693865077ec087e92403fd6045b7584bb5322f7a1b4cad7",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"57b40f78ca50f20fc8a1b654f950b275-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/105.png",
+      "path": "assets/images/lensArt/105.png",
+      "bytes": 150597,
+      "sha256": "2167e14665114855f761f1dda4d3a1e5d1c95cb045ea85ffebbc1e2edc0381eb",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"d80e8cfe9362d9e4434e1fda6d114d9b-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/106.png",
+      "path": "assets/images/lensArt/106.png",
+      "bytes": 216245,
+      "sha256": "c758bcc708231d176db1abacc3dafd4683b2c757ed2e1d742938240a6a923f30",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"f7eee5eec071273b71837a07cf6724cf-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/107.png",
+      "path": "assets/images/lensArt/107.png",
+      "bytes": 162500,
+      "sha256": "29a074da8a01ac13e5716a6a25a2ec3d96d7c8a1ef1b92f1afc5cd6c79dd8595",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"fd3201d5993b9641954173f8f2984e4a-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/108.png",
+      "path": "assets/images/lensArt/108.png",
+      "bytes": 131037,
+      "sha256": "af4fcfda4100924690978240e017c2581d1c638024e95b4fead6edcd70dce450",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"116e615bd2e609f14361d5952c41ad15-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/109.png",
+      "path": "assets/images/lensArt/109.png",
+      "bytes": 178905,
+      "sha256": "4ffe2eacf909b671bc8cc8aab2a642d17b601350c0bf80c4a747fa721bdec701",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"3e38ee70457a9f2507a656901b5521f2-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/11.png",
+      "path": "assets/images/lensArt/11.png",
+      "bytes": 221344,
+      "sha256": "03c2fe1412d7c3f2112e871b3d123580f821e73bdff46eccce52d30235703372",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"390085994b723f22570e5d33cc8ed317-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/110.png",
+      "path": "assets/images/lensArt/110.png",
+      "bytes": 166755,
+      "sha256": "0fade3c219aca1ea9f7c87ee7f6feff97d826d9da60ecfc25d36a1ef1eabe851",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"c4888541761506af2bbc9a5ba40df3ff-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/111.png",
+      "path": "assets/images/lensArt/111.png",
+      "bytes": 229031,
+      "sha256": "37d4838c4a023aadd4bf69a93c0a4e8917261cc2cf752238a5f56ead06c1fcd2",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"0e23d31027947bc731825546ea64ba24-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/112.png",
+      "path": "assets/images/lensArt/112.png",
+      "bytes": 251008,
+      "sha256": "82d4b1d299d35fec00b0cab28eb2a1ed39e45c83fbdad25094040cbc7d6af755",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"e849a558de6d9f79eb555b8e572ea722-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/113.png",
+      "path": "assets/images/lensArt/113.png",
+      "bytes": 165212,
+      "sha256": "78423f8cdf4a7d95e5d49fff7c8b67b01e3b3e3e391a403d0ae6f14af728598d",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"42c54e2ca0aca06031470d414d7849d8-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/12.png",
+      "path": "assets/images/lensArt/12.png",
+      "bytes": 179184,
+      "sha256": "abf2395869731341069b87f7721795d398a8287d0f6ced52063017f1b7098204",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"e1f34c7c3680d84f41da6ff66bc4aba3-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/13.png",
+      "path": "assets/images/lensArt/13.png",
+      "bytes": 207308,
+      "sha256": "ddf585ac64e6ad90d8b979f83731040477f09373fd4d7a93967802a37d5dbe4d",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"db232ba7a1713cb34f436b9cc2133202-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/14.png",
+      "path": "assets/images/lensArt/14.png",
+      "bytes": 311088,
+      "sha256": "2c899fc4989350f582660e9975f3642cb683220c2495c651f16e3d4a4eea9147",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"f03446532d2dc23df60de48d57922a8e-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/15.png",
+      "path": "assets/images/lensArt/15.png",
+      "bytes": 216822,
+      "sha256": "57d0f9d055537fbe0cbcaeaeea2c7b77341e3d363997603ec903280c4d9dbbf1",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"36ad4827f0c31dc2e26d9400bb96a392-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/16.png",
+      "path": "assets/images/lensArt/16.png",
+      "bytes": 223174,
+      "sha256": "74eb347a3760b4fc30d3d4985bcd6b81f5b9c1704f4f94f83bc7d7f3da3df7d2",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"9e0b7ab3c6ed3c512e80bd56f0633bd5-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/17.png",
+      "path": "assets/images/lensArt/17.png",
+      "bytes": 167468,
+      "sha256": "82c312dc7301dd30524dc665ad00ce1b7a43424915ec8b02487993576574b035",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"c4852431a3c75d48f21b8bc5a84fd012-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/18.png",
+      "path": "assets/images/lensArt/18.png",
+      "bytes": 242991,
+      "sha256": "1e66c66bf903e9c1c59770e926bf0fa06d3046b4fcd2fb52fe70106990729b6d",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"8a1667b86d5165c91f006adcd542b4d0-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/19.png",
+      "path": "assets/images/lensArt/19.png",
+      "bytes": 58834,
+      "sha256": "5073435abb2f930b57e5bf2c3a4fa3e5aae4810537396917650855e5e9df1f99",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"851d2a37173e5d50cc13770024b6470e-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/2.png",
+      "path": "assets/images/lensArt/2.png",
+      "bytes": 277270,
+      "sha256": "010fb60f8e9158ca001f712d92f0a2e96b4f411d7aff61f6edc45379b43ec983",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"c926054684e35274f76206dbccd4833b-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/20.png",
+      "path": "assets/images/lensArt/20.png",
+      "bytes": 290772,
+      "sha256": "7dcbe974d3013d10dd3f242dec244684677d8d1016371e7cc2478d60375f52c7",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"c6fb45244bda74c73040053b52e1f0f4-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/21.png",
+      "path": "assets/images/lensArt/21.png",
+      "bytes": 311991,
+      "sha256": "4e0be99afd0754f42ddcf28dec403376b9b2972bc3fca056fc28e35f596b0111",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"f50872fe059925581dcd4aa063d23c56-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/22.png",
+      "path": "assets/images/lensArt/22.png",
+      "bytes": 212985,
+      "sha256": "21bbab9ab176e90060bd81d6e3946379958fb814195f5851e042d0137d6c3f41",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"747d436ad1cc56b85f5983a0f2624864-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/23.png",
+      "path": "assets/images/lensArt/23.png",
+      "bytes": 230228,
+      "sha256": "310896869a5c3250facafdae24b7cf3137db6d6732155bb5949c0e38e4595b83",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"8103ba999931074ebb15455988248fd6-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/24.png",
+      "path": "assets/images/lensArt/24.png",
+      "bytes": 226590,
+      "sha256": "89f228c130c079640e5606ec4b9ff0494c8bbbc1873c110ba98f7812ae8df44f",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"5e2e124d9d5393cd97936d0d238af88f-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/25.png",
+      "path": "assets/images/lensArt/25.png",
+      "bytes": 113783,
+      "sha256": "1ac514c6b2a1f7e2e1f6412eaf6cbef61525850df5e07f55dcb190d5064c63dc",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"bb1ab702cef51febd5205c5c93391167-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/26.png",
+      "path": "assets/images/lensArt/26.png",
+      "bytes": 295197,
+      "sha256": "550885a9482d8bf0d08bbf6a9dbc73944f0c3cbe7bede50f33f211aedcbca0bb",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"85569e723748d72acf7def4471501508-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/27.png",
+      "path": "assets/images/lensArt/27.png",
+      "bytes": 194339,
+      "sha256": "8928e773bf1a0f45998e089f80ab042434410e320e6f6b4693a358694a2148d0",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"24b85fb79f2a66c4f296e794bdc33a1d-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/28.png",
+      "path": "assets/images/lensArt/28.png",
+      "bytes": 217029,
+      "sha256": "cf75130cdc93683738af2fff26bcc095a6881d1f35640c783ce01e2b12fbb571",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"e799be8e7ae32f2309d11ed025ca7161-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/29.png",
+      "path": "assets/images/lensArt/29.png",
+      "bytes": 151268,
+      "sha256": "a45ffc0b262b84535d73f344a4efadc3df4c5a6762c9079946b9c12aef304b33",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"1a97ae7ee1533693374cbef32dedf717-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/3.png",
+      "path": "assets/images/lensArt/3.png",
+      "bytes": 251466,
+      "sha256": "d6dec13c7a2c15f681e1339bbb5221eb25bc0dcc7795dbeb820324e836b14b4e",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"bb6c9c3d3ec1a18c1f330bdd243700c2-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/30.png",
+      "path": "assets/images/lensArt/30.png",
+      "bytes": 210738,
+      "sha256": "c6d3c01c2349b418fdd98be13e472703e666cd1cbd3bea2b6ed6ee1fc54cdf94",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"72efbce9f17a83ac092f59507e1cc8b5-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/31.png",
+      "path": "assets/images/lensArt/31.png",
+      "bytes": 247613,
+      "sha256": "fb8d2d33e4119f10bbdd31b21c77db64b439f4706513fca1566e0103a66c4c9d",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"b7adb5fe73b3a56d86ef3b70f88fb7a8-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/32.png",
+      "path": "assets/images/lensArt/32.png",
+      "bytes": 266979,
+      "sha256": "fec4875006a99351874bee9d5d253bfb401cea5aa11c3f75a48a720510a21070",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"a31b12ec96a614e315e88973380560cc-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/33.png",
+      "path": "assets/images/lensArt/33.png",
+      "bytes": 199015,
+      "sha256": "c4ddd29c9567b0ee4e249348637ee3ae44c7f7cba4ad34d91156fc72988ccc37",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"1ce8cb3c1ee04c566b674a93b471b09b-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/34.png",
+      "path": "assets/images/lensArt/34.png",
+      "bytes": 159156,
+      "sha256": "d86bda182bde35c6c83fd79a248d755f79824fd317aaf59810efd7e9ef65bce5",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"e5a032befda07600a965d2a6d6c33606-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/35.png",
+      "path": "assets/images/lensArt/35.png",
+      "bytes": 233740,
+      "sha256": "f56f8549dc57fdb72b2365717f8e12171c6501dd5ffdf987231a0e878ea79f10",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"38c3b74bae5120dafec06e87f6fec033-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/36.png",
+      "path": "assets/images/lensArt/36.png",
+      "bytes": 209678,
+      "sha256": "cd140a2d6175e076e6a3fe10f4fe0d94a62a303f7a43ffb6591086034e096313",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"867e7375c5f6918da8481fe512761a7d-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/37.png",
+      "path": "assets/images/lensArt/37.png",
+      "bytes": 200670,
+      "sha256": "e44e71c9ed444d2c47afe84a10842a2f87a7ef1db24fbc8b4019dc319655b534",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"25fece31c2570af45ef5b31fd80fd5f8-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/38.png",
+      "path": "assets/images/lensArt/38.png",
+      "bytes": 164936,
+      "sha256": "58efa8eb15409519a283ae98321475b1f6ebda2e46ce0b92219e2f6659dab08f",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"37983927d7efbd8d07f4139ae3746d7f-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/39.png",
+      "path": "assets/images/lensArt/39.png",
+      "bytes": 298045,
+      "sha256": "9b973e435ad9ab6e3541db2581193afb4c1a08834378a02aeba0c8a2f6aa9e88",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"61e3d057ab4589605646a8cb12cb05b7-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/4.png",
+      "path": "assets/images/lensArt/4.png",
+      "bytes": 230068,
+      "sha256": "169ca7cc84e88cd5c90dbcbf6b38888f3bdaa933b8da26d23eddfcaecd71dcfe",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"b9f3d7cc7bc315e7abde08ecd1f97403-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/40.png",
+      "path": "assets/images/lensArt/40.png",
+      "bytes": 187310,
+      "sha256": "de0413dc644613dc2a93fdbfbe6840c041e0088819a608cc73e8c225bfbab918",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"ce954d711d5a6aa8a055aad11dba10bd-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/41.png",
+      "path": "assets/images/lensArt/41.png",
+      "bytes": 162364,
+      "sha256": "f8813006ca1884776ae606c715e321b5ca6fc1bf4bdaa2d6186110ef6cceda4d",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"1ab61e68e1d6db605d9b68100131ef21-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/42.png",
+      "path": "assets/images/lensArt/42.png",
+      "bytes": 243072,
+      "sha256": "95448f13f962267093b9741dc0c8b4402c5686c99c197f235df8e72dd0892308",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"1378b69b44a76ef8cbe3148b1e3d2cf1-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/43.png",
+      "path": "assets/images/lensArt/43.png",
+      "bytes": 217314,
+      "sha256": "199ff121c32bcb6a85086c45ee4024bee4407c18fcc9bfb0e1615d40f2ebe67f",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"085abb7e5f6546a8cb68f5edfd6dc9f3-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/44.png",
+      "path": "assets/images/lensArt/44.png",
+      "bytes": 297239,
+      "sha256": "097ab38267cff5e660330857d269dcbce2f8d454171730cb6d77e4a9bc694212",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"68637eb8c8b8b6fe81b98bbd71e3a801-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/45.png",
+      "path": "assets/images/lensArt/45.png",
+      "bytes": 248317,
+      "sha256": "169e23f5f1c885fc4ffd0b11741263d105cb01a0654c61f4e0c08037d87d7528",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"ae4160bb00e2a5a41fc77b05fef5134e-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/46.png",
+      "path": "assets/images/lensArt/46.png",
+      "bytes": 196959,
+      "sha256": "ac8bc6b19dc1c5b1a0ad681d1f163985c2834b8f8a0fe23a2539a8ff41050570",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"7223911d7b6f2ec167a4f1b09800b862-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/47.png",
+      "path": "assets/images/lensArt/47.png",
+      "bytes": 229256,
+      "sha256": "f309dd98699ea78bb23ace5a93c5654fb40406475783e992a50f6410558ffa79",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"de0d353df1f8e097b4bac7daa7265509-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/48.png",
+      "path": "assets/images/lensArt/48.png",
+      "bytes": 205606,
+      "sha256": "648b00c60a54f8a80c8a45b715815881fa55ba7611595f5ce3f3ca306a874201",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"f4c7590a64296464ab09bb1047fab895-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/49.png",
+      "path": "assets/images/lensArt/49.png",
+      "bytes": 234190,
+      "sha256": "de2e1d69f645be871cfd3166ed3bbed3d1fd9f0520496b8c1244422311d4de96",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"94d692dd560b0a7b5f369e5ae41c4cb1-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/5.png",
+      "path": "assets/images/lensArt/5.png",
+      "bytes": 155206,
+      "sha256": "65668829ebcd74063e94920fa38a4b5b4c0e4cebd7ade79e7243e9548e6105a2",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"dcf85affc3c9d76641c2285c994ddb0c-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/50.png",
+      "path": "assets/images/lensArt/50.png",
+      "bytes": 237665,
+      "sha256": "f8aeb022e0d58bed465604fa198e7f0cb7537a933399df6164f63a30d6530109",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"a4f3900cc392ce2108b8fe5f49ae03cd-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/51.png",
+      "path": "assets/images/lensArt/51.png",
+      "bytes": 194833,
+      "sha256": "73164528a952e25c6734a7d67a84c2a93076b02f828b1fe0f17fd184e610d4c2",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"9e96545c70b4eb565a3bc220fd508f22-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/52.png",
+      "path": "assets/images/lensArt/52.png",
+      "bytes": 257747,
+      "sha256": "43abec7dda75c6beda75d19b6f9b54aee5f33a4c7f6dd207ce49934e632cb78c",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"e3dcb477ba2055201d37b5b23d4bf999-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/53.png",
+      "path": "assets/images/lensArt/53.png",
+      "bytes": 202527,
+      "sha256": "f3befb59cb0700cae4e21cc3422bc8f7f5e91fcebf4d82db5b7b8b8c579c07af",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"0fe3c18e405c557ca09d6eb4691f3adf-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/54.png",
+      "path": "assets/images/lensArt/54.png",
+      "bytes": 209063,
+      "sha256": "5cafb20aded2cc97cbb38e734bb69f2265aa65a0fc6499bbe7876671908ef608",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"7f75cf65d88088182c16bb57ba225f06-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/55.png",
+      "path": "assets/images/lensArt/55.png",
+      "bytes": 248199,
+      "sha256": "252d153885ea182af3a73756c791be23e7de30b63386e8d3af544d8d5553c418",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"8403ff7a456a74cafd1c369e7b705267-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/56.png",
+      "path": "assets/images/lensArt/56.png",
+      "bytes": 203815,
+      "sha256": "5846bb2c1034cc0e37b7172116a381b4aeb86a84c244f911e78eb3f34078b75d",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"bd8ed2e8ae0f0ccf4048b58424d68594-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/57.png",
+      "path": "assets/images/lensArt/57.png",
+      "bytes": 258370,
+      "sha256": "ffc4ef8160b3e3d9443110ab9499b6e4a184bd3cc621c9024e97cb6309ad0af8",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"789db7a0825f515d869392f12c85e372-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/58.png",
+      "path": "assets/images/lensArt/58.png",
+      "bytes": 266959,
+      "sha256": "938af686e87f8a521071bf2d29bce6fa81af5c9a78eb01903b11055de7bdbc95",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"0bdbd1c07bddb244177195417eb97d21-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/59.png",
+      "path": "assets/images/lensArt/59.png",
+      "bytes": 144550,
+      "sha256": "00ec17470b4c42b2a7cc81902b004ec35768ef92b7921941c05463763b2d3cd2",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"de3227b683d53fe04937d7c0eb91a653-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/6.png",
+      "path": "assets/images/lensArt/6.png",
+      "bytes": 189741,
+      "sha256": "2fbd611290e0f34eb0c1f20d0c7a8d0285d2e343a1e4b01a91b71cd98436e60f",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"e0bfdc244c67623e0d83fde6949a88a9-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/60.png",
+      "path": "assets/images/lensArt/60.png",
+      "bytes": 288009,
+      "sha256": "40b3114d4091abed0260c7ee7bde987f6c8117f023d4a71d47e1f037a0c6ad30",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"63e26550399c2ed01e82eeaa4c8cae2f-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/61.png",
+      "path": "assets/images/lensArt/61.png",
+      "bytes": 226672,
+      "sha256": "3adcdb6c64bb3b919bb0ea5a0c072120b987c73fa7210b1755f0b5955a4a0720",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"b6f06dc60e27f951086a181c0216c821-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/62.png",
+      "path": "assets/images/lensArt/62.png",
+      "bytes": 108197,
+      "sha256": "d276023cb8204e1d6b42f1fdf28014f5c13f60ccbefc2258c883d8c53f7669fa",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"a514bd049a8f2df08f3a66f471612de7-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/63.png",
+      "path": "assets/images/lensArt/63.png",
+      "bytes": 162365,
+      "sha256": "39b7d2104be57f3015c54457c32a0a6baab2ef53370c6af56499c71a09028490",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"a6ad1f3504ed6b03a49e9566befaf6e1-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/64.png",
+      "path": "assets/images/lensArt/64.png",
+      "bytes": 88790,
+      "sha256": "9c747af481d1565eb3141128099415a398d587d22a17e98505d7ae33aa40d34a",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"32aa62802b943614d773f02e3d39291a-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/65.png",
+      "path": "assets/images/lensArt/65.png",
+      "bytes": 244815,
+      "sha256": "20264974d42f62207a629e55c87d2601a96b0f435e85d7f110bc52d630174adc",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"f2c4e9a6fc4e744092c1e345b0305c4f-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/66.png",
+      "path": "assets/images/lensArt/66.png",
+      "bytes": 200437,
+      "sha256": "9ad04ec4de4bbadf28c84c361189c13278d68459ba253ef3df1fe854a13a0522",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"1cef3bc8687d363a64e093c83cf5aaaa-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/67.png",
+      "path": "assets/images/lensArt/67.png",
+      "bytes": 180595,
+      "sha256": "47ede9d3e8d23ceaf7a00a64473d4ae97ebee880ff8100f736422ee01dab92c1",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"39c271c1083f0832ff1b49fcc4d2d261-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/67_5.png",
+      "path": "assets/images/lensArt/67_5.png",
+      "bytes": 175182,
+      "sha256": "f1e474b9cea6262ae56df3dcdce9aa79b545edd0be3abd3c38bf9353972cc307",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"fc84e776dcdbe58122b972da6d22e1d2-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/68.png",
+      "path": "assets/images/lensArt/68.png",
+      "bytes": 724608,
+      "sha256": "2a2c8d7b37be77e41568432cbb3eb4524f94ea8edc423be76f8a3733f707e201",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"84f097a7b9bbf602d39c3f345097e0e3-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/69.png",
+      "path": "assets/images/lensArt/69.png",
+      "bytes": 198808,
+      "sha256": "dcf2b9880af49a3a9ae1647330fa4e52aa2e04605ccf2afabc9fac3dce94db19",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"84082f1bdcdf61548700d52a61086802-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/7.png",
+      "path": "assets/images/lensArt/7.png",
+      "bytes": 217336,
+      "sha256": "ccd520820f81f6b1f260b20b274e327696e670aba27d491cb2f166e82ddc86a8",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"4dab068982acc91e32bf09db36193743-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/70.png",
+      "path": "assets/images/lensArt/70.png",
+      "bytes": 140742,
+      "sha256": "ea5551e2757d4e0f2e571c7b60ef4291b997cd45d719e0f6f740a97622721d3a",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"b3b1e3fdb2fcf6fff56baeb3c7749623-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/71.png",
+      "path": "assets/images/lensArt/71.png",
+      "bytes": 159487,
+      "sha256": "84270b35141e9478e29932813e8942dbbb5b3d6ef801e283641f33471e447c88",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"5a45ad1e09c9d5c30fbc48329898b5de-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/72.png",
+      "path": "assets/images/lensArt/72.png",
+      "bytes": 161835,
+      "sha256": "4c353c18d357a33cd9b1fd77936e3766000a66f3573d9f125fc1fde6694749dc",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"96972cc742ad3b62aec480dd607a63e4-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/73.png",
+      "path": "assets/images/lensArt/73.png",
+      "bytes": 375735,
+      "sha256": "2a6a324a5d8c79c86f6ac7ccd591b31c1103c1945cd7367534b0bad01964a936",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"3424f590f9523b5f5d9ba990d0b0b227-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/74.png",
+      "path": "assets/images/lensArt/74.png",
+      "bytes": 273873,
+      "sha256": "6c14a20d394d16b3208b72a1ccf69f98119277685db81695879c472b43a98cfd",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"7538f5e1171ba45319502d6a2f4274e0-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/75.png",
+      "path": "assets/images/lensArt/75.png",
+      "bytes": 233815,
+      "sha256": "0df241beff3b02764e7b960321122cd18128826ececeda15c55b07db2d5a0fcf",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"94df421fae1c3646b89f5ad16751cf61-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/76.png",
+      "path": "assets/images/lensArt/76.png",
+      "bytes": 223540,
+      "sha256": "3ab20c7865dc8c5078f7add490ce6d01ad17d636fcead4c71336b4874a5d767c",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"8cd50e5f153443baae4ae1d9c44c16ba-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/77.png",
+      "path": "assets/images/lensArt/77.png",
+      "bytes": 196901,
+      "sha256": "1a060371cb3c79789a0619504141dd4409448e053f3f3fcd643c86d34c84367c",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"2858031c91543fa0b2fb4e1619ca91f3-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/78.png",
+      "path": "assets/images/lensArt/78.png",
+      "bytes": 250583,
+      "sha256": "ce9252bd01ae3595c5561219665814d835d8ca7d6b8ddfb2985103cf1453efd8",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"f9ee464cceb7cc8ccc87cdb79b752d02-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/79.png",
+      "path": "assets/images/lensArt/79.png",
+      "bytes": 142232,
+      "sha256": "9e40bbf1dca76b2ab8ecee65494916e664319256727779b6985e2920b7b2a238",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"f37e7fe01004ac87db73acfb7563b26c-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/8.png",
+      "path": "assets/images/lensArt/8.png",
+      "bytes": 318276,
+      "sha256": "098ef6f5daab14896adf19091aaa215c1bda17a8b51f2ab1ca3304847935e832",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"3992e33fa593a68517e4c4130f19a01b-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/80.png",
+      "path": "assets/images/lensArt/80.png",
+      "bytes": 280857,
+      "sha256": "90ecb3563420e98e7f0cde1a3a8b5fffbc395b80c07c3fb710bef6d803ebe0d1",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"d00dd67a68ed530ffaf190bc134ec58f-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/81.png",
+      "path": "assets/images/lensArt/81.png",
+      "bytes": 281199,
+      "sha256": "1defa0698940393f0ae5225e585d90900f1fd9f20ff3d63096785c35f3bc30be",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"45128b2688a243eb8d1fc09af141054f-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/82.png",
+      "path": "assets/images/lensArt/82.png",
+      "bytes": 200312,
+      "sha256": "c24b6b6aa0d7d82beb032ada49205034e7892467ff445b2b968b3ccca4bb8f2d",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"e1d2f1d121808f0ee1eaedd546d21619-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/83.png",
+      "path": "assets/images/lensArt/83.png",
+      "bytes": 182181,
+      "sha256": "8f8414040cf16ce3c3ce186e16419ed3ce29baba215fcebfc06a51dffcbc4e15",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"f0fdaf12b2f40e02e05ec9b80265a6d2-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/84.png",
+      "path": "assets/images/lensArt/84.png",
+      "bytes": 177196,
+      "sha256": "8f13be5744ef2a42637d7d06892cb8e9c925511a9952c68a1fe9fc72e852fe52",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"da82c05b014a63b106a128a5796701e2-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/85.png",
+      "path": "assets/images/lensArt/85.png",
+      "bytes": 266586,
+      "sha256": "73bc1d41c15ae0fa950079952d35cba046768011bc3be4503745be149ff66637",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"883713fe8feecbc727742e443aa6557d-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/86.png",
+      "path": "assets/images/lensArt/86.png",
+      "bytes": 202768,
+      "sha256": "6644e672a6513cf32e5fac10c2e9c3fada6505b089a1721b4491fc313e5be500",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"e83b0a3feb3960d23122a57685c928c2-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/87.png",
+      "path": "assets/images/lensArt/87.png",
+      "bytes": 217752,
+      "sha256": "6334e0266fc31136683cbb4dd05e6f4f72c066fadab5a667715c672dea7657f8",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"9a182f6efe6d83f15d7840f7cad2ac9f-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/88.png",
+      "path": "assets/images/lensArt/88.png",
+      "bytes": 186852,
+      "sha256": "e0f41e46c9ad70d13d3187fe984856f3d960255ee230846bc9ac5e854722f0f4",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"0be2569c3105706af1bc98bfae7e7a75-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/89.png",
+      "path": "assets/images/lensArt/89.png",
+      "bytes": 167445,
+      "sha256": "3800427aa9a442ab2a1653584aca74a3d53ebae6a79ef29f523c889c38f5be69",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"1a487623ecd38ddcdd70c98aba2b8a8e-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/9.png",
+      "path": "assets/images/lensArt/9.png",
+      "bytes": 250142,
+      "sha256": "8ea07b44903f6256de63ed971ab1e474d04e67e4508ad9f9af96485a346f1ac2",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"d2af9314b087c41e42979f1bd72364fc-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/90.png",
+      "path": "assets/images/lensArt/90.png",
+      "bytes": 253080,
+      "sha256": "632e4d6b9ce1cbb057d429425689c41433c54e27e2a60abc703b47f88ae93c9f",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"14fbe5ca8f5ae3c0825884dd41edc772-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/91.png",
+      "path": "assets/images/lensArt/91.png",
+      "bytes": 225073,
+      "sha256": "14b5d7819d7cd748603919bbd91b3a4eab65213bfceed44f9f6a8fdc41e33f02",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"2457dc8be1f44dbfc7af497dd2b91948-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/92.png",
+      "path": "assets/images/lensArt/92.png",
+      "bytes": 143471,
+      "sha256": "fd134b74e2785df6bc2c9e1bff91102eddda5e71b88202d0fd0c9d1899f18c69",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"eed04dc234fed90467ad17ffdb5fe8b6-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/93.png",
+      "path": "assets/images/lensArt/93.png",
+      "bytes": 246265,
+      "sha256": "229ea7cc70da23b49ff3e1f8d3958e39ce733de826a50d8d5b2452d74a1b7f16",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"a425ae7261e220456412023cdb3c3993-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/93_5.png",
+      "path": "assets/images/lensArt/93_5.png",
+      "bytes": 192052,
+      "sha256": "7ef2fb3c9c48d103e44260583215158d9d8bddaed1eed04694c0ea5e5ddf9b34",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"55293534d1580d5cc5325625b35cd6d5-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/94.png",
+      "path": "assets/images/lensArt/94.png",
+      "bytes": 187540,
+      "sha256": "c75ee288d0688457c7847ed46fda434df69370cce2eba184e2179b3836277d57",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"2ddc595ae89e9c2fbc8d2c109e9cedb9-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/95.png",
+      "path": "assets/images/lensArt/95.png",
+      "bytes": 176273,
+      "sha256": "539c38981b210445c76b002dd8302f0fe6d0f18aa0c66b3aa20ccb29abca90f2",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"740746d95986d6769ba84407c64f1eea-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/95_5.png",
+      "path": "assets/images/lensArt/95_5.png",
+      "bytes": 162108,
+      "sha256": "9fa8587183c484a4c50e8bb8a5fd1c9939c001f332352784308ec2028b8ec0d9",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"a908d67ebb349328464f0d1bb80e4982-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/96.png",
+      "path": "assets/images/lensArt/96.png",
+      "bytes": 222890,
+      "sha256": "97d0896adbe0a5018f09d120880d2aa26f5c0b57160c4e4c41b4adfe3d71eead",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"f35e7f339e23e15e66da973c369fd781-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/97.png",
+      "path": "assets/images/lensArt/97.png",
+      "bytes": 134028,
+      "sha256": "c7548383d3fa40f995836bdd21adbb6dcc9e90cbb3aa16cb3ae3ccba12404145",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"36c7d4f5fbad7055936c212362e6f83a-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/98.png",
+      "path": "assets/images/lensArt/98.png",
+      "bytes": 151696,
+      "sha256": "f69c79b57835e22dcd9acbc8ce1d6a153efef64085fc725677a1b27eb7b79c18",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"fadf2fdbfec1f84d5dcbfcf8ccd11040-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/99.png",
+      "path": "assets/images/lensArt/99.png",
+      "bytes": 172900,
+      "sha256": "714da39d29b9664ccd796288fb9be1b3cf818d70deddcf6ce24a4750f34d8b48",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"a9b82f53cd830528d7fc1aa948f7ad9f-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb1.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb1.png",
+      "bytes": 46087,
+      "sha256": "e89a89bff5dc76da2276282aa517144a66c2a8dbfc3ed3a1dca0b368817e0fa3",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"1677572999ed801916868095c155e68a-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb10.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb10.png",
+      "bytes": 45689,
+      "sha256": "42ddd89f84f863baefe719ed370e7d0791dcb798dca04a56c85aa6882a85b3f8",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"d31c2819251b601ebb8a3f219ffb42b8-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb100.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb100.png",
+      "bytes": 33297,
+      "sha256": "bb81c7f607ed4f7792f13deae6a299303719d95e4f1a86cc6989fee2959919d3",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"9ccf74241949445abf42e5659f3fdd19-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb101.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb101.png",
+      "bytes": 38517,
+      "sha256": "0d9d28279349e84bd4f4adb50ba98226afbafec3edf84fda2a6f02690be5b062",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"94b2e3cad8ccdae8d97af3a67279b162-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb102.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb102.png",
+      "bytes": 50459,
+      "sha256": "5df4764a031f8ee89a59bca6a9c3b19186cb38539d82a9ae5c9bbc110eb07a3e",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"63a44eae65a06a274292866902e99d8a-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb103.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb103.png",
+      "bytes": 40611,
+      "sha256": "c4f83ec6b172ea2841503e40ed53d8c2157354a9bfc3d41dc5da1c109dae83db",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"89d1c6a07d7d21e4d3693c566cc1a54c-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb104.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb104.png",
+      "bytes": 47309,
+      "sha256": "35b13c05ecb8d5e9303adfea231453c50e3f7df5d2416994b5be258a3d162955",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"1d6102880aa8fe3f1c19abe2bc96560c-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb105.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb105.png",
+      "bytes": 30976,
+      "sha256": "d64795f53fb7b2d2a50eb259ad0069edfd20411e84c9a6932af87c78e2683032",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"6ed6e2234b7f89442371b982ff44a9e5-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb106.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb106.png",
+      "bytes": 39757,
+      "sha256": "cd8c0f863e3727deab830ed97ff2f57bb25a5add0d4413b71c5fbffcb525fa02",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"025a38875d234faffe28e3d42dff260a-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb107.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb107.png",
+      "bytes": 37816,
+      "sha256": "00e3c406be49761e8211a2dfb17c72d54de7bf0292117ec540e79d404c0f2275",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"09db4012bb5987ed3705777ef2e24cc5-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb108.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb108.png",
+      "bytes": 31368,
+      "sha256": "4f098aa5e0ae82b1139c2a5ee73d8e8c1785739d35f2b382a11032677a9badaa",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"96a2fbcc3dae9532719dce18048d8a9d-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb109.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb109.png",
+      "bytes": 38987,
+      "sha256": "a107bb28c6e5ec47ddb7abab75ec880eda98c183c642b4a6a8f5df16f98b6fe2",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"e8d79194118c085702efc3769078da49-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb11.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb11.png",
+      "bytes": 37789,
+      "sha256": "6e3d894c9b265ab71251cc842b33b267b47c7c624f99160d21d59dcb7b6d061f",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"3f07c21f29833aa6f1d7717ad5bffbc2-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb110.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb110.png",
+      "bytes": 36551,
+      "sha256": "3ae37f867318294b101fa1e7830204745be6ae77aa88249e1432b8a77b65be2b",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"c732a98f2311e39b94368c617814de9c-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb111.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb111.png",
+      "bytes": 41698,
+      "sha256": "3cc610215575dc07b09c3facded06116000f4f68a56d72c919ea7f10d69cbec1",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"7215e9c2ce3baa05ee7235148aab22ca-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb112.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb112.png",
+      "bytes": 42965,
+      "sha256": "c5f104f99f04ff5314192427831fe2ad9ef05e7b5722f64d31ce4be014d643b7",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"390219e7c9954746ea92fa177d87a195-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb113.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb113.png",
+      "bytes": 39298,
+      "sha256": "4d2b7924856890218cb6f929ad20801d67132a6145c4443dd62c94c79ce051f1",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"34d321da577b1914faf6b35dc35765fe-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb12.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb12.png",
+      "bytes": 39040,
+      "sha256": "efddaf944cef31fc98174dc16c7a1de91a4d043e50a25aa8e882a08b2558ddc9",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"5356780ed38f15411e126ea776881442-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb13.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb13.png",
+      "bytes": 42264,
+      "sha256": "fb42507ef449f0385b08a3af5b75e4dcf45af4d9d41f68471e198e0639702089",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"c51d27fd77a9f29249fa6c5c795e6eb8-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb14.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb14.png",
+      "bytes": 46943,
+      "sha256": "200d9f2bcc6da396089e0bf23538a29b4205fb3f78eea9750ebf08727c108d02",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"096c57b33c87b2a0b41e406258c7c274-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb15.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb15.png",
+      "bytes": 41734,
+      "sha256": "e07444f8b6abe1b9e5279500d38b87f9b9ece0f3365c3ff14ffc3ee5d1c7b16a",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"c077f582589fa4ae489a2b254da48a8e-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb16.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb16.png",
+      "bytes": 43564,
+      "sha256": "67da3e29192db3e206ffe8d79a0fb4c33f93197d017c064d8e8f6c5a6dfa53a2",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"db4ae387ab9597856ff74354904f7988-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb17.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb17.png",
+      "bytes": 37818,
+      "sha256": "999056d9409755b511ff08a42348cfe399ffc3fa3c55a8792222cac9e826577a",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"181df8730e89f4ffc7aa2b3d40650dd0-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb18.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb18.png",
+      "bytes": 45689,
+      "sha256": "89cfe60adf3707af954b56b8cd0f3d3041a4acdc1a8ea0e089697a6e77fa1954",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"7be6b1b7681a1364a75cf122d81b293e-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb19.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb19.png",
+      "bytes": 27950,
+      "sha256": "4d92e1e5a876c656fc5c10d40e43524dca175e77fcda64e6e86f33674e42d49d",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"b1e67034d60d410ecb98053e87658c58-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb2.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb2.png",
+      "bytes": 44599,
+      "sha256": "aaa22ebc83f6ca38dd93603209c84e303eccc24b73dbc5a46a03e2c6f87eec98",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"85b2b877f28b5f211dcf4595c2ac24e5-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb20.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb20.png",
+      "bytes": 46722,
+      "sha256": "6c15ab62622af16a594404d8dd783eee3a01249f2f27d5eaddb328a2c4cb1626",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"d45d6ae98cc62584be6653d8f8050e0f-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb21.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb21.png",
+      "bytes": 47246,
+      "sha256": "17c285b8747906887d95052b58e85d346ff3370ff2534d175bc02542ca688967",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"0b16ba0690bcbc11cda48378a34ff9fa-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb22.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb22.png",
+      "bytes": 38529,
+      "sha256": "99e06767d9effe4cdc8f71e6a58dfb2aa104f0930e9f93a113a7f7d1a43539ce",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"31fc6e072a4aad93066362f150a321ec-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb23.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb23.png",
+      "bytes": 40600,
+      "sha256": "5c5472b8c8756b7a473e9df844dfaa233c48eb51b166985792e8d88885f8f56d",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"d4fa4e8cdf580f8fb2d1db5229f4e577-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb24.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb24.png",
+      "bytes": 42256,
+      "sha256": "8b8a7c543673f628c95ba201e5aec861cfddd7ae1cf41dd35c032c1603680e31",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"dbda0666aa716186c73f325a74564c6c-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb25.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb25.png",
+      "bytes": 38050,
+      "sha256": "a35d6654dbfa95bd2e21bd9de68a926386f563727d5af9e6f6c95fdaea2c3506",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"b0a0ac705e83add8c30f1e43c9e11c35-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb26.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb26.png",
+      "bytes": 45493,
+      "sha256": "1f674777eeeddbbe9e2d8be2a8809ffa191a6aef1e83fae5ae444f88426e5cd5",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"2bee850f19322e2c26ae34e4ad56fd9a-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb27.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb27.png",
+      "bytes": 40593,
+      "sha256": "a10e45962f0eff1936915040a14dc024edfb194b8bdf12408a10a1dc4e8ccbcb",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"0fddee038f6f504fe1054568584f626c-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb28.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb28.png",
+      "bytes": 40502,
+      "sha256": "ac16734bdb8e69a28e66efece9cfa40eb9884a808265f99b331abb8b26e78412",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"db9ef2d4e413c6b7bab5d45dc2d0cceb-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb29.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb29.png",
+      "bytes": 35750,
+      "sha256": "1ef43c0396e7b65f31846021337df9e13317ca7b7e424a9c61bf4433b02673f5",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"17397af0d76e3ce01954e88ebbe50b99-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb3.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb3.png",
+      "bytes": 43268,
+      "sha256": "4f9052d9e964b62fa58dcee5fc5fc7ef6e6853f7d3e1cd729118724b0d8a893d",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"89dfae1d880e5a49a2a3065d7f419638-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb30.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb30.png",
+      "bytes": 42614,
+      "sha256": "4d72b8a134107ae3334a3d9f6556a3c197c688d3e5c87c1384d121c45d70b8f6",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"cd37276d43f56f843a68efdcae746772-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb31.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb31.png",
+      "bytes": 43755,
+      "sha256": "2b4788a31235d6d5010cf54da16467ec161249a7b1b18c38ff4096270fa6ea67",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"bd2cff37ef4fffb04c16de2468d77533-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb32.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb32.png",
+      "bytes": 45972,
+      "sha256": "c883ee42201048cc95115248ccfc7abab82f6118f96ddf491ff0e6fe762e87ea",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"2b793fd8ffbe33d844d5078fe23b5a49-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb33.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb33.png",
+      "bytes": 40519,
+      "sha256": "ce1fdba268e2b89ab2dc8c5d077b562e9ac01e36a7599db7018e7b5008562ecf",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"b772f3ba8950b487c612bc426d46ee3b-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb34.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb34.png",
+      "bytes": 34263,
+      "sha256": "41aa9aee620e606a3eb7288c5bddd252869f524672a9a717691ba821492f34ca",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"84f4955960732b3ee313c4dc61276c25-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb35.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb35.png",
+      "bytes": 44444,
+      "sha256": "4696d6eda30316ca02b352924299113e8a295a35da065c06fc0c750adb6fc012",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"ba82dab89c8b84ae5179b5857594bb49-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb36.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb36.png",
+      "bytes": 39892,
+      "sha256": "df43758ce807626deac376fee44d2cb791114b44160f730c6daf874a42a5f192",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"bca5363c6345261fca68ddba3634d99d-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb37.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb37.png",
+      "bytes": 40710,
+      "sha256": "dbcf92f28d731eb0690963cee6329785029ca451fddac8c1579645b668607fb1",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"32adc504ba1a6fa833538a4431592db4-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb38.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb38.png",
+      "bytes": 35780,
+      "sha256": "3139e729316da349cc26179a0398633e59f9c4241d8ebc735bedeb774096f153",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"2d525983b3f595ab9671dc8657c578f7-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb39.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb39.png",
+      "bytes": 45482,
+      "sha256": "4f691b5c52905ea41aad7db522909fe434af19daf8702fbc565572cfe7a8d52d",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"5542dbb3016519fac200ff5cb78f99bc-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb4.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb4.png",
+      "bytes": 39286,
+      "sha256": "4e53b685d1cb7d5761a0836d4cd5eb54fb7e7baa1c9933d6a283ee036562c8d4",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"e1b329db056b8ba84db7c2e6c5375a7e-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb40.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb40.png",
+      "bytes": 37207,
+      "sha256": "6b54e20a9e8f926b491d3b7b677c70e39c637a00e287d6f4d76ae045713b0020",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"2b4bc80b4a957b8baf6264bed59f4862-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb41.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb41.png",
+      "bytes": 33743,
+      "sha256": "d4fe1373011875ac936b6258efc7e4831dcadb87e26fcbbf357bd61cc694b38e",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"26818325f1398234f0f6271aa8df40ab-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb42.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb42.png",
+      "bytes": 45154,
+      "sha256": "4ca834750778b7669f646123903843a54f5533f94cf64629481601ff43f824b0",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"0eea236f820752b90577a83023366f88-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb43.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb43.png",
+      "bytes": 38092,
+      "sha256": "83c415c470c0b91759dfbe8090f059b70c209ae8315ec4a62cad73b0960dd8b8",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"619be28f802f98e455e5dab22122153b-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb44.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb44.png",
+      "bytes": 48105,
+      "sha256": "779bce58e9c8e2341e0c00211e6ecef7f70cc587e132ed6f379f9e67ff845ce2",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"8e7935b200e70d6af37a916973327825-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb45.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb45.png",
+      "bytes": 37937,
+      "sha256": "d98a94b24b8e52db148106d5ed608a43f6c9422ec4fd3361df201be82d96eb13",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"526bee8a69d91032beb77dbd41caca7a-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb46.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb46.png",
+      "bytes": 35442,
+      "sha256": "4681cb1b191b2ff8596d01215e43b68f6e1f29632dac44f224041289daf15816",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"c18f7af542524c63b2df845bb5bd8353-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb47.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb47.png",
+      "bytes": 43775,
+      "sha256": "adf13fc5959159c7365bb8147e3fdc6752b95872a144720dcde1a015995690a6",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"aeff8ebc05da64588ee2083856cef547-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb48.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb48.png",
+      "bytes": 38571,
+      "sha256": "d18d0a3f08854c5c3f0715c22dae82530eb9f6d7c9d6663d49df7b698fbd3ca0",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"255d7cb21fd835ff6d22f2e9cc3c9c61-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb49.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb49.png",
+      "bytes": 38283,
+      "sha256": "325de2cdd38f89e5cbfbedaf2ca8b9da05d3d4a9de74a3fb9b110a0a60c96cd1",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"3af0f6636a4be72d4c41ddf086394889-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb5.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb5.png",
+      "bytes": 33694,
+      "sha256": "b9816305a46df0f6595429adc935639629b6d3cd033f6c3cc90b2d0cb2e33e5c",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"c9b6efdef8035b9f144f49a71756c298-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb50.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb50.png",
+      "bytes": 44237,
+      "sha256": "4266bb260c5dbc8d2ea082f8900626597b78e76e46610617b2d5275cb41a7720",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"17db09e8a254856241be9ce1bff57b82-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb51.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb51.png",
+      "bytes": 37335,
+      "sha256": "2b28efdb08f658d021c08a34faa29b78e7de633499ca780d3b06ce719274274b",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"a6ba14f961f40e1d753c63c27ea61cc1-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb52.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb52.png",
+      "bytes": 45435,
+      "sha256": "12981cd1adfa6e62f93897d14f0d0d9ab80d8e400d0c5b84f20f2f61c310f4e6",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"a57ea3628ef70f4f8b8ce6592d002c8c-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb53.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb53.png",
+      "bytes": 40662,
+      "sha256": "a4329a31a28cb64105476e5105977d6c901586844e3bfcdefba020142e17a836",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"e1c4695af1e8503e74cabb71665955b9-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb54.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb54.png",
+      "bytes": 40523,
+      "sha256": "825a496906dedfecc9dfddefe2ada2e15591a799fcc542b34c82b6fb76fb97ba",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"0e5f3e822e2df790050fbbee71d4b193-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb55.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb55.png",
+      "bytes": 46060,
+      "sha256": "7c964ecad0390310ce4b5ab734b51003bf1f1c8281f86dbbaa2b10f5a1e54f2b",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"c33f01f828ffe175c7f8a46af3883e1b-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb56.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb56.png",
+      "bytes": 41102,
+      "sha256": "42fc75fbad9c3090cc5fb3d494f4324bd5ba40ea3e6262dae2e927677ee204d2",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"cbdd5b4c5b56bab8f39918ab45e84b95-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb57.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb57.png",
+      "bytes": 45718,
+      "sha256": "33577241cbc393a0d642a1c93a3d753cd2de10bc4a768024253b24fa66a21e8a",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"1f04da38197cdc3ac77d316e8afe12e2-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb58.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb58.png",
+      "bytes": 43212,
+      "sha256": "b3e4ffbfbbd85759f34502522b5380da719bbca50ea618e159b855da08083082",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"aee03064b7547720f75ed04b426f0851-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb59.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb59.png",
+      "bytes": 33372,
+      "sha256": "87ee76db447c158e3cd8c40e61c66049677fc4335410577bfad76b5e45a49806",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"28694d39f61ad3c2bb0e3e7a1658dcf2-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb6.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb6.png",
+      "bytes": 38901,
+      "sha256": "2f6ee8d33f6dedfd03e96f780eb8f6a0bceb8fa4cba1c4e7131ae87b0a5c6233",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"da391ce139274198c8bee94e0f8179f8-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb60.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb60.png",
+      "bytes": 45383,
+      "sha256": "e44ecd5c72fbaa25d0ea48628ccbc5f59615303686f5f12ef95c96ea3dd89e7c",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"53a3c1dd1dc2489d71531fa07c9e55aa-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb61.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb61.png",
+      "bytes": 44184,
+      "sha256": "3bfe03e0d31b0f44ab33569920742132df619732078ca54fdb513a17e6bcec84",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"08fbe0909970e53fdb7816319d3a9a8d-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb62.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb62.png",
+      "bytes": 24906,
+      "sha256": "3757f82a3a1f73acfcd984a829c1e156a6cec1db415882b17c0d555d03f47258",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"22eab71feef8534f1a12b877977e9314-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb63.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb63.png",
+      "bytes": 37684,
+      "sha256": "9aab9262e84bbf4879839e54a7d916421e21529393823d9588146fd3151f10c8",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"1dce225555c6f5c247f676b6d5a0dca0-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb64.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb64.png",
+      "bytes": 25030,
+      "sha256": "0fec692bbe4a8541414ce5824ee38ce44f6d41ed1cb9dcc8e6f6007bbca79d24",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"f56a49ef1d3fff3d1fc4fd91e32a9545-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb65.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb65.png",
+      "bytes": 44984,
+      "sha256": "7eea5b15398bd72e9b39e968d5d56a99c766abc95945d2ac1ba6092407d2c595",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"eb1e022f02d4870b9d282d44be1bef29-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb66.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb66.png",
+      "bytes": 36983,
+      "sha256": "c50cd84b19dc9178f5ad61c08833619509d156843a2dc0a4a2ba79743133e425",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"5a03e6a8e99602d9257da92ad3f9218d-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb67.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb67.png",
+      "bytes": 36799,
+      "sha256": "d4f9cb68c87679992481c73e15c7aee5bce9b86421d1d84dd00224b54463ec87",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"56667c2007c4e02487db2295fe2f7531-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb67_5.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb67_5.png",
+      "bytes": 26059,
+      "sha256": "3d0902b1e141fd013ee9deb49e382edb71bd52d4e7197b1729e36fe4b37a2648",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"08022c5cba5bfc893a492930f5428d65-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb68.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb68.png",
+      "bytes": 79553,
+      "sha256": "0b5a30d6f547a4b4579d0737e6495d9a1168570b61798a121eae9a95681c2d52",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"e1eae471672772261014c0d9d1d60daf-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb69.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb69.png",
+      "bytes": 40094,
+      "sha256": "a9fc0fb475cc224188d1933875b1b1e0f1a336fa29897a466fe95685ad5a9050",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"e9b5e07a1bcbf9ab3acc299110366e3e-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb7.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb7.png",
+      "bytes": 40264,
+      "sha256": "bee81166f523dbaf79513af7af19e77d60b8060315da2cb591867eb29a5af14f",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"c1fa28275aaf22d0fe3ce287edc3adda-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb70.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb70.png",
+      "bytes": 31283,
+      "sha256": "2577d631632ed0a0fb6d1995ee21ef9bd88c9694be6e4256ad44863170cd1b36",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"a47e32b3ee8a6e0131c00a208dcc8d8e-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb71.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb71.png",
+      "bytes": 38092,
+      "sha256": "cd092f09e610ef08ac3a5452d4f4d27bd4253fbbbd678e7bc6b660fb3eda9154",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"7b6a3522b119f2eec91f79434fefb6d1-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb72.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb72.png",
+      "bytes": 38259,
+      "sha256": "9d5453a406981dfc3456fcb8ab1a5a6f7328427931e1ce2ca400314851790b5c",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"3cfb20a44d9c99d10bd88bf6db19eeaa-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb73.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb73.png",
+      "bytes": 50329,
+      "sha256": "18651d25c9f7708ea90e514239fac000215846a35bb7ceac9adab1cd64be325e",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"fe8556917f1082de564acfd9d39c512d-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb74.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb74.png",
+      "bytes": 46614,
+      "sha256": "07e8432ae8a12fd8a387599197f7900afaea9feb838859f1d53921af9a7582c6",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"53076a47a38af772201403a3bc200bc9-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb75.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb75.png",
+      "bytes": 42895,
+      "sha256": "b965f942545e504b3b3eb59a9148eb58364a57f4d17d74bb3d1776cc114829fd",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"c2ca785b434d608cb9dc0c70fc0b4b23-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb76.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb76.png",
+      "bytes": 41239,
+      "sha256": "020477f04a2c3632ed29927f759736bf59e7e53ebf359d76ce444897eb14ea41",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"aa4223f90dc51a647a5938584ea6b5a0-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb77.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb77.png",
+      "bytes": 41141,
+      "sha256": "c3cc7042b8c7beec7a334f2c6c53ecde66171fa1e5e94288caf52dece8dd159a",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"0d6c45b42fabb47f722565bec8dd3ef7-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb78.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb78.png",
+      "bytes": 37851,
+      "sha256": "156ea5892a6b88b515bfa68c5d053b2e07e69cda87946c9432631ec247f935c8",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"016a20e1537c138e9212b43dd0a6512b-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb79.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb79.png",
+      "bytes": 33626,
+      "sha256": "5bc2cd57b4afb927d3c269e813a24161f5cc13b4263052688ac41da3c151e878",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"fd7ca63b49782fb88721380d3c2bbc5d-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb8.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb8.png",
+      "bytes": 48801,
+      "sha256": "b4070ceff4c12e7c3824522e10c78c4dc40fca2a83f22d1c46e6d0d7cfc2d1b3",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"c7084dccf0ecf37a142448a65127d181-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb80.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb80.png",
+      "bytes": 46710,
+      "sha256": "be1fc8978857a7bc2434b01ee9695b45e108ace1193e75fe05a94a75236cad7d",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"eb220d493b0bd69ec14dc1e53319af1b-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb81.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb81.png",
+      "bytes": 46310,
+      "sha256": "3116b03b9cf37809f680e068b4e6d74f872532ac33baceb770118de70359aade",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"233a47107de608f172abb9f759ec5471-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb82.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb82.png",
+      "bytes": 41155,
+      "sha256": "584c76739447ba48714a62de596bf9d5f454f8507e4ac845978f472ab226d065",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"3f2c92e37872b076e40d689e8c5a6cac-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb83.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb83.png",
+      "bytes": 36794,
+      "sha256": "633e4b350ed2ce08167bcf3500041ff927c9becd3e2a40054f6d1e1ec333f8ea",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"e1ca3f6fb73383881987172d90498696-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb84.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb84.png",
+      "bytes": 37558,
+      "sha256": "c197639ff049029fd28661303b8f2c04689bac64e95ccd913ad72d4f1cda6e59",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"014b1c0cf86b3040225399936b091544-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb85.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb85.png",
+      "bytes": 44049,
+      "sha256": "ce78ddda4888e12f7ef042b8234c36060b0850c74efd27edcccede9202a3f112",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"3fbe20fe47cfa62b895006daa521e4a9-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb86.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb86.png",
+      "bytes": 40330,
+      "sha256": "6858efce651bdfcd15193cc59ece09d3101e716fc371c30c9a1900ec5a234933",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"82c8151c8199b0ff705da8e08d111726-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb87.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb87.png",
+      "bytes": 42915,
+      "sha256": "469d55195ceade3e6a2bdf18fee153f6884433db8f91bd9c87c3a4140a02b4f9",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"51eed27ca0ba36db962a60607e7c2a15-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb88.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb88.png",
+      "bytes": 37273,
+      "sha256": "d9ee0121b9ad37a221e33357e23e6b7943423c199fdad94cca90c09e0f73f5c8",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"20cda87513c70737195389778c75c398-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb89.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb89.png",
+      "bytes": 33490,
+      "sha256": "722d2b5d9a875635c1717bb01fcb4c6fc67dda990fcdb41ff336d2491ad9623e",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"07d6a8d0fc1343fd831b72998780ace9-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb9.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb9.png",
+      "bytes": 46514,
+      "sha256": "e4ebfadbe47df9c0ed75ee1342288aed6408c2bd4b247acc4ae4db642effbdf1",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"a68eea54225e227f05cb58b8334a3bdc-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb90.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb90.png",
+      "bytes": 45463,
+      "sha256": "df91207c2107618f063bce351f097d0721b10e061b33125b55098cdab8790de5",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"516ec5f7b84ed98a1d59f2ac706f66d9-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb91.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb91.png",
+      "bytes": 43373,
+      "sha256": "679ccfd1bf0d93994e3b240dd011c92f8c8d422e7337bc4b31948364a37b6a94",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"a72bed056f65fc09d0714415bccb94a5-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb92.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb92.png",
+      "bytes": 32676,
+      "sha256": "a56d43b1b902217808d5f05e2748181e83a115c52b9e6c8ef56bde2010d4e928",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"ea7058a211e5faaf9c79effed2d31af6-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb93.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb93.png",
+      "bytes": 44529,
+      "sha256": "5e8e14c08bc1af9c2d09f38d7ea195784bd84d4f64a2f3e2a06c75e988c4bd60",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"7fdf55956da59c042074c56a09f198f8-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb93_5.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb93_5.png",
+      "bytes": 24027,
+      "sha256": "1f78fe21398616faa4f1c0a015b31d12854b94e2c1b32d7b53d61e3949d2b195",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"4eeff54674871fd2e4d60898ecc0a12c-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb94.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb94.png",
+      "bytes": 36601,
+      "sha256": "1dd4a6e19bdce0214f7fa08e2c1701436ae9637347e64fa973f68a76775c6ff8",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"373ef5b0f3ff62c5ee7f817170ee3ead-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb95.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb95.png",
+      "bytes": 42653,
+      "sha256": "ef2da07eaa1ed5ef9fdf5c869f0cf142c2ff8449578ee21ef26d877d1462a557",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"847e67cf36c97999a756e5cf61460139-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb95_5.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb95_5.png",
+      "bytes": 22732,
+      "sha256": "18421bb28a53c672c0a623e6d6807848835eebe0b0f8f3b76e5e9d0654c25aef",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"f3662c0e5a57e8e4e31e404a1154c39d-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb96.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb96.png",
+      "bytes": 44785,
+      "sha256": "ec36feb56c911abf9c8f73bc1abdd5bbbd63c3b9b3b38ecb800a3fbe389f36df",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"00d8b8bfc2e62e308dbc2428284d9dd2-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb97.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb97.png",
+      "bytes": 31187,
+      "sha256": "79b178b797ea227945141b21bd631dbf6daaf801527982fe9ee5c38b837f2a27",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"4d38b9001ca85b24d6f75629ece80685-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb98.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb98.png",
+      "bytes": 34146,
+      "sha256": "160ac0efcde285e8807060072e0485ded8b230defe32e81356c4ee71baa799f1",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"c9960427a09726747a39934e50741dc2-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensart_Thumbs/lens_thumb99.png",
+      "path": "assets/images/lensart_Thumbs/lens_thumb99.png",
+      "bytes": 38517,
+      "sha256": "19984d47d237a483a37dd6b324aef1257f0152c1e3efa65126762efac21b82d6",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"845062bc13c5579b5ed478ec1e300976-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/list_suit_designer@2x.png",
+      "path": "assets/images/list_suit_designer@2x.png",
+      "bytes": 1035,
+      "sha256": "24ad2b952d98781c1dcf2ae216d31cb45df0ba179d894d80bd38f3d546c976d0",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"3c5142b4f00b347a9ecca8156c46716b-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/list_suit_experience@2x.png",
+      "path": "assets/images/list_suit_experience@2x.png",
+      "bytes": 1050,
+      "sha256": "c0319633b83c5ab31c28d842a9afd7648bb87cf73d1ad92759610c5050b14c64",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"a619c893b26b8d9cf71a95d187b836f7-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/list_suit_game@2x.png",
+      "path": "assets/images/list_suit_game@2x.png",
+      "bytes": 1651,
+      "sha256": "747b9e38c0463bffe7531c5f419a2e148b12762bf071af6203dfe966b4dbe618",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"d2f7724b6789a3b18718e63301e3eb51-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/list_suit_player@2x.png",
+      "path": "assets/images/list_suit_player@2x.png",
+      "bytes": 775,
+      "sha256": "2cd661ff63464d57e2afde710673b6b14cbf59a6a01d9e0eb89354281e16bf39",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"7398cb07270b9d62a53c665f2cc683e3-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/list_suit_process@2x.png",
+      "path": "assets/images/list_suit_process@2x.png",
+      "bytes": 973,
+      "sha256": "475741ab032bff94c8b762842298e581b3300e5dcd407bbe24599a97c84a34ac",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"041ddc7a794fba01d046a686ea5a789e-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/menu_divination.png",
+      "path": "assets/images/menu_divination.png",
+      "bytes": 3065,
+      "sha256": "48132fc24e23bca33faff247cf473cefae7641f81154ea4eb87bad72ca82dece",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"3e5fd9db23f83e52bd2f25d5e8336fd0-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/menu_feedback.png",
+      "path": "assets/images/menu_feedback.png",
+      "bytes": 4008,
+      "sha256": "4fd10027d18c31daf4a89a8be08a503bd02ffed9798c5855fc415ffd14625a76",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"6bcf4c58d05e9ef6b2f02495cd62baf8-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/menu_getBooks.png",
+      "path": "assets/images/menu_getBooks.png",
+      "bytes": 3321,
+      "sha256": "d1b26a736955ac1fed7f1c9abde88d58f733153cf2b69a45957e908caaf4c8d0",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"e19707c784d215f4e9b9b8242e934fea-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/menu_getCards.png",
+      "path": "assets/images/menu_getCards.png",
+      "bytes": 4883,
+      "sha256": "ccca706aeb7cf696f02073598ba9239ed7825c804b95855cac59078c84746f97",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"513f4c458e99fc4e1f81d3605c44861c-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/menu_howto.png",
+      "path": "assets/images/menu_howto.png",
+      "bytes": 3229,
+      "sha256": "9975ddb4aeac7a28b2542107a8fe67bd85b569d89442890ac1494670413affd7",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"737cc4b3b327c007c23089bf4351d2f5-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/menu_list.png",
+      "path": "assets/images/menu_list.png",
+      "bytes": 4207,
+      "sha256": "110e857466a69ca1a62629278c9c355ec267e157df6272009d0ae896ea358051",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"4983d4a67324e84cd92161b262662704-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/menu_schellsite.png",
+      "path": "assets/images/menu_schellsite.png",
+      "bytes": 3853,
+      "sha256": "bbd4d6ff76de04e601d5409cea1fe466deb20955b3c28f4943ea7ab9cfa36772",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"4ee40995c444d47477e78f10b7013570-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/menu_sgsite.png",
+      "path": "assets/images/menu_sgsite.png",
+      "bytes": 3150,
+      "sha256": "599d80cd9c56077ae43572a88ea16beb606f23772fedbf5540103f8a5dfbf9ec",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"38ac5c2eb70dcdc4e849f3c0672bfe8c-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/newset.png",
+      "path": "assets/images/newset.png",
+      "bytes": 3903,
+      "sha256": "9389f69a0f1d3690017d67f49846a346240dcd800ac94d96d0f4f8fae68bba42",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"dd9c6dd256836c49bb8ea888fa5d7e16-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/paginator-active.png",
+      "path": "assets/images/paginator-active.png",
+      "bytes": 3778,
+      "sha256": "fcbb97830d412b7ffc477c7768898390ed9e6c99f83842c50f4f26fada3f9f39",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"a1c937529dc4f8931a01ff03cfeaf656-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/paginator-inactive.png",
+      "path": "assets/images/paginator-inactive.png",
+      "bytes": 3807,
+      "sha256": "9c1e347bbf8b4259105f8f88362f04785b7f3dd14eb631dc161a2f65eee20471",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"7c990219c9160493eed942e3425c352e-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/pixel-bar-vert.png",
+      "path": "assets/images/pixel-bar-vert.png",
+      "bytes": 81298,
+      "sha256": "1d7ec2325969cf895bb8a1e3bd9787e19fdb8dcd7d8385b671325ad1986b2ed4",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"0e96141162aa33d94f23df9abbfd6f6e-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/pixel-bar.png",
+      "path": "assets/images/pixel-bar.png",
+      "bytes": 78429,
+      "sha256": "9c63779a8318bb75733e3b468f754063897c383b0b9f05a66fc780b4fc171281",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"f302bc79555eb0282d926d4767b24835-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/slider.png",
+      "path": "assets/images/slider.png",
+      "bytes": 15249,
+      "sha256": "97a63e13d33797477765010a8d34ff65ae4efa968372a96974cdc29139d32c27",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"b8ed725d0f9b8abf67eb4bfcec2505be-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/sort-alpha.png",
+      "path": "assets/images/sort-alpha.png",
+      "bytes": 4698,
+      "sha256": "9bfb7a4de26b1180363400d31d3a98182dba56f6bcf9b509a81f25af3c73232d",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"368c3bde62a5d28812a1783121f1170e-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/sort-numerical.png",
+      "path": "assets/images/sort-numerical.png",
+      "bytes": 4723,
+      "sha256": "97b2b16dedfe11ac6a348b3a59fe405e4c7af72d531ab5778d6ed991a3861175",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"aa8ccc6fd35039f2337b004bf5db9d96-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/sort-shuffle.png",
+      "path": "assets/images/sort-shuffle.png",
+      "bytes": 4934,
+      "sha256": "c44d861dde17536ce8db42f09ee25c72c949a925b4ceadd5c5b6f9ac043705e0",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"6b1d4e4173177ea8c09386cb74458ff3-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/sortoptions_alphabetical@2x.png",
+      "path": "assets/images/sortoptions_alphabetical@2x.png",
+      "bytes": 1971,
+      "sha256": "967e46df7243f2a041ef94c8c049870840c250843366ad6ca81777a030c5d59d",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"eae3b39fa3fb42c7d5cd260237c17b72-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/sortoptions_alphabetical_s@2x.png",
+      "path": "assets/images/sortoptions_alphabetical_s@2x.png",
+      "bytes": 1906,
+      "sha256": "ac8317314e859f229709b3f40172cc147046ada9e7fb5f3bdd49e73d00cb7d57",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"48aa35ddacf9a0aa2b1cd30d4e74434c-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/sortoptions_numerical@2x.png",
+      "path": "assets/images/sortoptions_numerical@2x.png",
+      "bytes": 2025,
+      "sha256": "bfa3b7e44f26dd93e54948378c8fa597f4e17874d65e7231d59f1ab422ce8423",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"cb62ba363a4316b8b35f0e4ec4fd1786-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/sortoptions_numerical_s@2x.png",
+      "path": "assets/images/sortoptions_numerical_s@2x.png",
+      "bytes": 1922,
+      "sha256": "94e4ea0d59e6efe83687a8634173a09357a2e9bce83e7f09b4e0b51ffc40ca13",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"c697846d5226800dc622fdc74f1991f1-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/sortoptions_shuffle@2x.png",
+      "path": "assets/images/sortoptions_shuffle@2x.png",
+      "bytes": 2094,
+      "sha256": "c420d2bb60c36d133569cae467828b851475b718825a736b6771d2094407f6f5",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"96e16eec29f74392d59b459689662d97-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/sortoptions_shuffle_s@2x.png",
+      "path": "assets/images/sortoptions_shuffle_s@2x.png",
+      "bytes": 2007,
+      "sha256": "0a1624d44f50dbae836af956b40864dfc4b9b766d455deb21e97eb643c75267f",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"8023d73796f92a0f5d51653f5ca896ad-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/top_nav_back.png",
+      "path": "assets/images/top_nav_back.png",
+      "bytes": 3659,
+      "sha256": "90516aa2756955fd777eed308dca4934c5ff4aa83125313610f4fc0079e626c9",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"b5a891bea45b76c174b9856240a2bb3d-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/top_nav_more.png",
+      "path": "assets/images/top_nav_more.png",
+      "bytes": 3174,
+      "sha256": "fc5f60ecf3d54657954712a0425f2607da4fddaa8d78a44022b5e0f4374e4c3a",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"03834931d4880ac7a2943f1eb8e45496-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/top_nav_random.png",
+      "path": "assets/images/top_nav_random.png",
+      "bytes": 3469,
+      "sha256": "6874840e265e60d60e07984e3a543acc0d29f5824736ed1718b70661403ec8d9",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"156cd1ca520538219aa1de04f8ba447c-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/json/languages.json",
+      "path": "assets/json/languages.json",
+      "bytes": 153,
+      "sha256": "65244320053d8433f1583f734ce064b30b6e190c80817519d78a3ca6ceb951d2",
+      "content_type": "application/json",
+      "headers": {
+        "ETag": "\"de25626ba2d4a0f9d0a54b1644b2c88b-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/strings/en.json",
+      "path": "assets/strings/en.json",
+      "bytes": 88580,
+      "sha256": "d57b031b54563e1cf48fa7cf91b2a4e4c0d8ed0bf6a2d40dd10b6e7f5bff7af8",
+      "content_type": "application/json",
+      "headers": {
+        "ETag": "\"3c1acd2d92aa5d1754f00f1d2cddca24-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/assets/strings/jp.json",
+      "path": "assets/strings/jp.json",
+      "bytes": 123765,
+      "sha256": "81a432074f23c0c02e1842601a4d196299d27fbec35ed06649a997d735b2b7d5",
+      "content_type": "application/json",
+      "headers": {
+        "ETag": "\"74f8d6a91930421829572dea789a5bf9-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/css/app.4b9546c8.css",
+      "path": "css/app.4b9546c8.css",
+      "bytes": 42862,
+      "sha256": "08e224545f5333f496b640b3a47c062e8aa93561bc8e832ffdb1945427a260d3",
+      "content_type": "text/css; charset=UTF-8",
+      "headers": {
+        "ETag": "\"77418c8bc552a9b2680b6941b98c4504-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/favicon.ico",
+      "path": "favicon.ico",
+      "bytes": 1150,
+      "sha256": "c1209882f16bd48bb22a16e4bbeb25ff5d642718db72487080a263c5755d070d",
+      "content_type": "image/vnd.microsoft.icon",
+      "headers": {
+        "ETag": "\"6ed5731368d14f135b888581ea9363c0-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/fonts/DistProTh.ab329c6c.otf",
+      "path": "fonts/DistProTh.ab329c6c.otf",
+      "bytes": 103760,
+      "sha256": "e0e2c891081499dca0ad0b23913ce3520dd44ee00435cd31041d6767c6f2ba62",
+      "content_type": "font/otf",
+      "headers": {
+        "ETag": "\"dc24a681f1f97f85b0d0b9c5923c32a9-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/fonts/DistrictPro-Demi.44a53d61.otf",
+      "path": "fonts/DistrictPro-Demi.44a53d61.otf",
+      "bytes": 101260,
+      "sha256": "dc962a2eb6e1f99d79f08e7bb6dc763a13274c7e5a86f52a09bee74b93e71b45",
+      "content_type": "font/otf",
+      "headers": {
+        "ETag": "\"e82f7f7e80ae9e70e9f65aedca65a175-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/fonts/NotoSansCJKkr-DemiLight.82967d53.otf",
+      "path": "fonts/NotoSansCJKkr-DemiLight.82967d53.otf",
+      "bytes": 16397784,
+      "sha256": "6913976f7c49070ca536c2f0a9e2e33dacd904311e38b1d8770996a0520e25b7",
+      "content_type": "font/otf",
+      "headers": {
+        "ETag": "\"1be46f1b921fc4ff3cb23c3c785b1b68-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/fonts/NotoSansCJKkr-Thin.6a45f53f.otf",
+      "path": "fonts/NotoSansCJKkr-Thin.6a45f53f.otf",
+      "bytes": 15184072,
+      "sha256": "2cd8ed727c39181c9b2c3948ae56ea55d014290b14de6d3534e1e2c456d6dde3",
+      "content_type": "font/otf",
+      "headers": {
+        "ETag": "\"bee6767a2279490658f02d932cbd8a27-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/fonts/OpenSans-LightItalic.6943fb6f.ttf",
+      "path": "fonts/OpenSans-LightItalic.6943fb6f.ttf",
+      "bytes": 213128,
+      "sha256": "4482d18b30c4534b5481d594b7c0bc7a9913a7c4c261985e452010a89ab755fc",
+      "content_type": "font/ttf",
+      "headers": {
+        "ETag": "\"5d11c971384a4cde8af364315fb57962-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/fonts/SourceSansPro-Semibold.240f2e87.otf",
+      "path": "fonts/SourceSansPro-Semibold.240f2e87.otf",
+      "bytes": 102460,
+      "sha256": "fcab4121355cb759955c3b79ea2ff45d1a2d7e370a4bef1b6af71a7c0ab31b98",
+      "content_type": "font/otf",
+      "headers": {
+        "ETag": "\"4abe5f9238caecc793b751000635affa-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/fonts/ariali.4872f1c7.ttf",
+      "path": "fonts/ariali.4872f1c7.ttf",
+      "bytes": 555588,
+      "sha256": "f40e4fa3c247433f317f5103175ad4164032dfb09b72d1c5374d25fabb71e249",
+      "content_type": "font/ttf",
+      "headers": {
+        "ETag": "\"c3b69cf2c2d1b11798590d940c230147-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/img/bg_texture.d543ee73.png",
+      "path": "img/bg_texture.d543ee73.png",
+      "bytes": 17601,
+      "sha256": "92ab4265751cfd61f2380603990788c7cbc13077636676083625e28ac244f1fb",
+      "content_type": "image/png",
+      "headers": {
+        "ETag": "\"c6ce567aab3529e69967a8c4c2eec6d7-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/",
+      "path": "index.html",
+      "bytes": 1039,
+      "sha256": "f173dfd32db57b9d913d85631eb2d89487eb7c59e6ee53ab9d6f9011ec5cae8e",
+      "content_type": "text/html; charset=UTF-8",
+      "headers": {
+        "ETag": "\"03f5cd896ac7a21cb2e66d906841b6bf-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/js/app.95e37080.js",
+      "path": "js/app.95e37080.js",
+      "bytes": 194892,
+      "sha256": "444135d99967716b99927709d82c30136c6cd3f3825a9c3834e1eb133cf10a92",
+      "content_type": "application/javascript; charset=UTF-8",
+      "headers": {
+        "ETag": "\"71a9dcf11cab55114e3c287c2498c6a3-ssl\""
+      }
+    },
+    {
+      "url": "https://deck.artofgamedesign.com/js/chunk-vendors.282214e7.js",
+      "path": "js/chunk-vendors.282214e7.js",
+      "bytes": 334718,
+      "sha256": "aa14fa0c5025dab1c9fd2eee935cb3cf0295bc8251ac08580c6dbf18e4fa14b8",
+      "content_type": "application/javascript; charset=UTF-8",
+      "headers": {
+        "ETag": "\"7925ffe5c310c36a78da6135c40bf89a-ssl\""
+      }
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://deck.artofgamedesign.com/assets/images/lensArt/PLACEHOLDER.png",
+      "path": "assets/images/lensArt/PLACEHOLDER.png",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ]
+}

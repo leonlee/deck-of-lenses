@@ -1,0 +1,2 @@
+# Preserve every archived byte, including BOMs and CRLF, across Git checkouts.
+archive/** -text
