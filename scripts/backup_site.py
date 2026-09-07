@@ -10,6 +10,7 @@ import re
 import time
 from urllib.parse import urljoin, urlsplit, unquote
 from urllib.request import Request, urlopen
+from urllib.error import HTTPError
 
 from deck import ROOT, digest, read, source, write
 
@@ -58,33 +59,104 @@ def discover(path, raw):
     return {url for url in found if urlsplit(url).netloc == urlsplit(BASE).netloc}
 
 
+PLACEHOLDER = BASE + 'assets/images/lensArt/PLACEHOLDER.png'
+
+
+def known_gap(item):
+    status_is_404 = (item['http_status'] == 404 if 'http_status' in item
+                     else item.get('error') == 'HTTP Error 404: Not Found')
+    return item.get('url') == PLACEHOLDER and status_is_404
+
+
+def required_urls(localization):
+    urls = {BASE, BASE + 'assets/json/languages.json', BASE + 'assets/strings/en.json'}
+    for lens in localization['LensList']:
+        urls.add(BASE + f"assets/images/lensArt/{lens['imageID']}.png")
+        urls.add(BASE + 'assets/images/lensart_Thumbs/lens_thumb' + str(lens['index']).replace('.', '_') + '.png')
+    return urls
+
+
+def dependencies(path, raw):
+    urls = discover(path, raw)
+    if path == 'assets/json/languages.json':
+        for language in json.loads(raw.decode('utf-8-sig'))['languages']:
+            urls.add(BASE + 'assets/strings/' + language['code'] + '.json')
+    return urls
+
+
+def checked_bytes(destination, item):
+    path = safe_path(item['url'])
+    if path != item['path']:
+        raise ValueError(f'Manifest path mismatch: {path}')
+    raw = (destination / path).read_bytes()
+    if digest(raw) != item['sha256'] or len(raw) != item['bytes']:
+        raise ValueError(f'Checksum mismatch: {path}')
+    return raw
+
+
+def verify(destination, manifest):
+    required = required_urls(source())
+    saved = set()
+    for item in manifest['files']:
+        raw = checked_bytes(destination, item)
+        saved.add(item['url'])
+        required.update(dependencies(item['path'], raw))
+    failures = manifest['failures']
+    unexpected = [item for item in failures if not known_gap(item)]
+    if unexpected:
+        raise ValueError(f'Archive has {len(unexpected)} unresolved failures: {unexpected[0]}')
+    allowed = {item['url'] for item in failures if known_gap(item)}
+    missing = required - saved - allowed
+    if missing:
+        raise ValueError(f'Missing required resources: {", ".join(sorted(missing))}')
+    english = destination / 'assets/strings/en.json'
+    if english.read_bytes() != (ROOT / 'archive/en.json').read_bytes():
+        raise ValueError('Snapshot English localization differs from translation source')
+    if allowed:
+        print('Known upstream gap: PLACEHOLDER.png returned HTTP 404')
+    print(f'Verified {len(saved)} archived resources and required dependency coverage')
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--verify', action='store_true', help='Check saved checksums without network access')
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument('--verify', action='store_true', help='Check checksums and required dependency coverage offline')
+    mode.add_argument('--resume', action='store_true', help='Reuse checksum-verified downloads and retry missing or damaged files')
     args = parser.parse_args()
     destination = ROOT / 'archive/site'
     manifest_path = ROOT / 'archive/site-manifest.json'
     if args.verify:
-        manifest = read(manifest_path)
-        for item in manifest['files']:
-            raw = (destination / safe_path(item['url'])).read_bytes()
-            if digest(raw) != item['sha256'] or len(raw) != item['bytes']:
-                raise ValueError(f"Checksum mismatch: {item['path']}")
-        if manifest['failures']:
-            print(f"Archive gap: {len(manifest['failures'])} resources were not saved; see manifest failures")
-        print(f"Verified {len(manifest['files'])} archived resources")
+        verify(destination, read(manifest_path))
         return
-    if destination.exists() or manifest_path.exists():
-        parser.error('Snapshot already exists; refusing to overwrite it')
+    if not args.resume and (destination.exists() or manifest_path.exists()):
+        parser.error('Snapshot already exists; use --resume to recover it')
     localization = source()
-    pending = {BASE, BASE + 'assets/json/languages.json'}
-    for lens in localization['LensList']:
-        pending.add(BASE + f"assets/images/lensArt/{lens['imageID']}.png")
-        pending.add(BASE + 'assets/images/lensart_Thumbs/lens_thumb' + str(lens['index']).replace('.', '_') + '.png')
-    seen, records, failures = set(), [], []
+    previous = read(manifest_path) if args.resume and manifest_path.exists() else {}
+    records = {item['url']: item for item in previous.get('files', [])}
+    cache = dict(records)
+    failures = {item['url']: item for item in previous.get('failures', []) if 'url' in item}
+    pending = required_urls(localization) | set(records) | set(failures)
+    seen = set()
+    manifest = {
+        'source_url': BASE,
+        'captured_at': previous.get('captured_at', datetime.now(timezone.utc).isoformat()),
+        'rights_note': read(ROOT / 'archive/manifest.json')['rights_note'],
+        'scope': 'HTML entry point, runtime JS/CSS/font dependencies, declared locales, lens art and thumbnails; excludes external linked sites and source maps'
+    }
+
+    def checkpoint():
+        manifest['updated_at'] = datetime.now(timezone.utc).isoformat()
+        manifest['files'] = sorted(records.values(), key=lambda x: x['path'])
+        manifest['failures'] = list(failures.values())
+        write(manifest_path, manifest)
 
     def fetch(url):
         path = safe_path(url)
+        if url in cache:
+            try:
+                return cache[url], checked_bytes(destination, cache[url])
+            except (OSError, ValueError):
+                pass  # Refetch missing or damaged files, never trust their bytes.
         for attempt in range(3):
             try:
                 request = Request(url, headers={'User-Agent': 'DeckOfLenses-AuthorizedArchive/1.0'})
@@ -95,16 +167,27 @@ def main():
                     if not path.endswith('.html') and 'text/html' in content_type:
                         raise ValueError('Unexpected HTML instead of asset')
                     headers = {k: response.headers[k] for k in ('ETag', 'Last-Modified') if k in response.headers}
+                if path == 'assets/strings/en.json' and raw != (ROOT / 'archive/en.json').read_bytes():
+                    raise ValueError('Live English localization differs from translation source; use a new workspace for a new snapshot')
                 target = destination / path
                 target.parent.mkdir(parents=True, exist_ok=True)
-                target.write_bytes(raw)
+                temporary = target.with_name(target.name + '.part')
+                temporary.write_bytes(raw)
+                temporary.replace(target)
                 return {'url': url, 'path': path, 'bytes': len(raw), 'sha256': digest(raw),
-                        'content_type': content_type, 'headers': headers}, raw
+                        'content_type': content_type, 'headers': headers,
+                        'downloaded_at': datetime.now(timezone.utc).isoformat()}, raw
             except Exception as exc:
-                if attempt == 2:
-                    return {'url': url, 'path': path, 'error': str(exc)}, None
+                if isinstance(exc, HTTPError):
+                    exc.close()
+                if attempt == 2 or isinstance(exc, HTTPError) and exc.code == 404:
+                    failure = {'url': url, 'path': path, 'error': str(exc)}
+                    if isinstance(exc, HTTPError):
+                        failure['http_status'] = exc.code
+                    return failure, None
                 time.sleep(attempt + 1)
 
+    checkpoint()
     while pending:
         batch = sorted(pending - seen)
         if not batch:
@@ -113,27 +196,22 @@ def main():
         pending = set()
         with ThreadPoolExecutor(max_workers=4) as pool:
             for item, raw in pool.map(fetch, batch):
+                url = item['url']
                 if raw is None:
-                    failures.append(item)
+                    records.pop(url, None)
+                    failures[url] = item
+                    checkpoint()
                     continue
-                records.append(item)
-                pending.update(discover(item['path'], raw))
-                if item['path'] == 'assets/json/languages.json':
-                    for language in json.loads(raw.decode('utf-8-sig'))['languages']:
-                        pending.add(BASE + 'assets/strings/' + language['code'] + '.json')
-        print(f'Archived {len(records)} resources; {len(failures)} failures', flush=True)
-    english = destination / 'assets/strings/en.json'
-    if not english.exists() or digest(english.read_bytes()) != digest((ROOT / 'archive/en.json').read_bytes()):
-        failures.append({'error': 'Snapshot English localization differs from translation source'})
-    write(manifest_path, {
-        'source_url': BASE, 'captured_at': datetime.now(timezone.utc).isoformat(),
-        'rights_note': read(ROOT / 'archive/manifest.json')['rights_note'],
-        'scope': 'HTML entry point, runtime JS/CSS/font dependencies, declared locales, lens art and thumbnails; excludes external linked sites and source maps',
-        'files': sorted(records, key=lambda x: x['path']), 'failures': failures
-    })
-    if failures:
-        raise SystemExit(f'Snapshot incomplete: see {manifest_path}')
+                records[url] = item
+                failures.pop(url, None)
+                checkpoint()
+                pending.update(dependencies(item['path'], raw))
+        print(f'Archived {len(records)} resources; {len(failures)} unavailable', flush=True)
+    verify(destination, manifest)
 
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except (ValueError, KeyError, OSError) as exc:
+        raise SystemExit(f'Error: {exc}') from exc

@@ -4,6 +4,10 @@ An authorized snapshot of the [Deck of Lenses](https://deck.artofgamedesign.com/
 
 **内容：116 张透镜卡牌、全部问题和界面文字，共 850 个翻译字段。简体中文由 Codex 翻译，当前均为未经人工审校的 AI 草稿，并非官方译文。**
 
+**在线阅读：[English](https://leonlee.github.io/deck-of-lenses/en/) · [简体中文](https://leonlee.github.io/deck-of-lenses/zh/)**
+
+The GitHub Pages reader includes an illustrated catalog, bilingual title search, category filters, and a reading page for every lens. Language links keep you on the same card. The complete text is available without JavaScript; JavaScript enhances catalog search and filtering.
+
 - [阅读中英对照卡牌](docs/lenses.zh-CN.md)
 - [简体中文本地化文件](locales/zh-CN.json) — preserves the original localization schema and non-text metadata.
 - [逐条翻译与审校状态](translations/zh-CN.json) — English source, Chinese translation, source hash, and review status for every field.
@@ -12,7 +16,7 @@ An authorized snapshot of the [Deck of Lenses](https://deck.artofgamedesign.com/
 
 The source was captured on 2026-09-07. Its 116 entries include fractional indices `67.5`, `93.5`, and `95.5`; these are preserved exactly. External linked websites and source maps are outside the snapshot scope.
 
-**Known source gap:** `assets/images/lensArt/PLACEHOLDER.png` is referenced by the original script but returned HTTP 404. The manifest records this unavailable resource. All 116 actual card illustrations and all 116 thumbnails were saved. Verification checks the 294 saved files and reports the known gap.
+**Known source gap:** `assets/images/lensArt/PLACEHOLDER.png` is referenced by the original script but returned HTTP 404. The manifest records this unavailable resource. All 116 actual card illustrations and all 116 thumbnails were saved. Verification checks the 294 saved files and required dependency coverage. Only this exact placeholder with an HTTP 404 is allowed as a known gap; missing required resources and other download failures fail verification.
 
 ## Source and rights
 
@@ -81,4 +85,21 @@ python3 -m unittest discover -s tests -v
 
 GitHub repository: [leonlee/deck-of-lenses](https://github.com/leonlee/deck-of-lenses).
 
-The archive is a dated snapshot, not an automatic synchronization job. `scripts/backup_site.py` discovers and downloads same-origin runtime dependencies with four concurrent requests, writes a checksum manifest, and refuses to overwrite an existing snapshot. Original application bugs, external shopping links, and feedback links remain as supplied by the source site.
+The archive is a dated snapshot, not an automatic synchronization job. `scripts/backup_site.py` discovers and downloads same-origin runtime dependencies with four concurrent requests. It checkpoints its manifest after each processed result and writes downloaded files atomically. By default it refuses to overwrite an existing snapshot. To recover a failed or interrupted download:
+
+```sh
+python3 scripts/backup_site.py --resume
+```
+
+Resume reuses only files whose bytes match their manifest checksums, retries unavailable resources, and refetches missing or damaged files. Existing files with no manifest record are downloaded again. Newly discovered dependencies are included. If the live English localization differs from the imported translation source, recovery fails instead of silently replacing that source. Use a separate workspace for a new source revision. Original application bugs, external shopping links, and feedback links remain as supplied by the source site.
+
+## Build the reading site
+
+```sh
+python3 scripts/build_site.py
+python3 -m http.server 8000 --bind 127.0.0.1 --directory _site
+```
+
+Open `http://127.0.0.1:8000/`. The build generates 235 static pages: the entry page, two catalogs, and 232 lens pages. All navigation and image paths are relative, including under the GitHub project path `/deck-of-lenses/`. Only the reader assets and card illustrations/thumbnails are deployed; the original archive stays in the repository.
+
+The [Pages workflow](.github/workflows/pages.yml) runs tests and validates the archive and translations before building. Pushes to `main` deploy through GitHub Actions to the `github-pages` environment; pull requests run validation and build without publishing. Pages must be configured to use GitHub Actions as its publishing source.

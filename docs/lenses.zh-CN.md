@@ -43,12 +43,12 @@ Jesse Schell · Unofficial AI translation. 未经人工审校的 AI 翻译草稿
 - [33 · 规则](#lens-33)
 - [34 · 技能](#lens-34)
 - [35 · 期望值](#lens-35)
-- [36 · 机遇](#lens-36)
+- [36 · 运气](#lens-36)
 - [37 · 公平](#lens-37)
 - [38 · 挑战](#lens-38)
 - [39 · 有意义的选择](#lens-39)
 - [40 · 三角性](#lens-40)
-- [41 · 技能与机遇](#lens-41)
+- [41 · 技能与运气](#lens-41)
 - [42 · 头脑与双手](#lens-42)
 - [43 · 竞争](#lens-43)
 - [44 · 合作](#lens-44)
@@ -1333,7 +1333,7 @@ Artist credit: Nick Daniel
 
 <a id="lens-36"></a>
 
-## 36 · 机遇
+## 36 · 运气
 
 Review: ai-draft
 
@@ -1341,7 +1341,7 @@ Review: ai-draft
 
 The Lens of Chance
 
-机遇透镜
+运气透镜
 
 To use this lens, focus on the parts of your game that involve randomness and risk, keeping in mind that those two things are not the same.  Ask yourself these questions:
 
@@ -1365,7 +1365,7 @@ To use this lens, focus on the parts of your game that involve randomness and ri
 
 5. What is the relationship between chance and skill in my game?
 
-我的游戏中，机遇与技能是什么关系？
+我的游戏中，运气与技能是什么关系？
 
 Artist credit: Joshua Seaver
 
@@ -1507,7 +1507,7 @@ Artist credit: Nick Daniel
 
 <a id="lens-41"></a>
 
-## 41 · 技能与机遇
+## 41 · 技能与运气
 
 Review: ai-draft
 
@@ -1515,27 +1515,27 @@ Review: ai-draft
 
 The Lens of Skill vs Chance
 
-技能与机遇透镜
+技能与运气透镜
 
 To help determine how to balance skill and chance in your game, ask yourself these questions:
 
-为了帮助确定如何平衡游戏中的技能与机遇，请问自己以下问题：
+为了帮助确定如何平衡游戏中的技能与运气，请问自己以下问题：
 
 1. Are my players here to be judged (skill), or to take risks (chance)?
 
-玩家来这里是为了接受评判（技能），还是承担风险（机遇）？
+玩家来这里是为了接受评判（技能），还是承担风险（运气）？
 
 2. Skill tends to be more serious that chance: Is my game serious or casual?
 
-技能通常比机遇更严肃：我的游戏是严肃型还是休闲型？
+依靠技能通常比依靠运气更严肃：我的游戏是严肃型还是休闲型？
 
 3. Are parts of my game tedious?  If so, will adding elements of chance enliven them?
 
-游戏中是否有枯燥的部分？如果有，加入机遇要素能否让它们活跃起来？
+游戏中是否有枯燥的部分？如果有，加入随机要素能否让它们活跃起来？
 
 4. Do parts of my game feel too random?  If so, will replacing elements of chance with elements of skill and strategy make the players feel more in control?
 
-游戏中的某些部分是否让人觉得太随机？如果是，用技能与策略要素替换机遇要素，能否让玩家更有掌控感？
+游戏中的某些部分是否让人觉得太随机？如果是，用技能与策略要素替换随机要素，能否让玩家更有掌控感？
 
 Artist credit: Nathan Mazur
 

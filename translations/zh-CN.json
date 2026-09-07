@@ -1768,13 +1768,13 @@
     "lenses/36/title": {
       "source": "Chance",
       "source_sha256": "7f5d74a693681eb46f76a13ec13c12ae52285d26dc8509bd4647a54cd76761d8",
-      "target": "机遇",
+      "target": "运气",
       "status": "ai-draft"
     },
     "lenses/36/cardTitle": {
       "source": "The Lens of Chance",
       "source_sha256": "9a22e7b54c6d802d2e89846df7a8b7f69983bbb37f1c6e3ccfd7269aa4ceeed7",
-      "target": "机遇透镜",
+      "target": "运气透镜",
       "status": "ai-draft"
     },
     "lenses/36/description": {
@@ -1810,7 +1810,7 @@
     "lenses/36/questionlist/4": {
       "source": "What is the relationship between chance and skill in my game?",
       "source_sha256": "f6a1ab57bc97e171ec38df9f146712732f76e278c933647b4f0009086c70f2ce",
-      "target": "我的游戏中，机遇与技能是什么关系？",
+      "target": "我的游戏中，运气与技能是什么关系？",
       "status": "ai-draft"
     },
     "lenses/37/title": {
@@ -1984,43 +1984,43 @@
     "lenses/41/title": {
       "source": "Skill vs Chance",
       "source_sha256": "a9e167c9ea3e2e46ff5db627a098ef72535bb936d83049333c3d09ad122e42cd",
-      "target": "技能与机遇",
+      "target": "技能与运气",
       "status": "ai-draft"
     },
     "lenses/41/cardTitle": {
       "source": "The Lens of Skill vs Chance",
       "source_sha256": "af8d80ea3c00f94d19af89e8e26c034b18333260f52f74c3a17b59e66b1ed991",
-      "target": "技能与机遇透镜",
+      "target": "技能与运气透镜",
       "status": "ai-draft"
     },
     "lenses/41/description": {
       "source": "To help determine how to balance skill and chance in your game, ask yourself these questions:",
       "source_sha256": "0acdd6639910c8b9ed7545d9b812d512fb28fe3259e8628267aa79b25dc79972",
-      "target": "为了帮助确定如何平衡游戏中的技能与机遇，请问自己以下问题：",
+      "target": "为了帮助确定如何平衡游戏中的技能与运气，请问自己以下问题：",
       "status": "ai-draft"
     },
     "lenses/41/questionlist/0": {
       "source": "Are my players here to be judged (skill), or to take risks (chance)?",
       "source_sha256": "53a8162c267ecdd8916b81698c3a2c1d5c92445ead025e60cd455bbc8e9eef1e",
-      "target": "玩家来这里是为了接受评判（技能），还是承担风险（机遇）？",
+      "target": "玩家来这里是为了接受评判（技能），还是承担风险（运气）？",
       "status": "ai-draft"
     },
     "lenses/41/questionlist/1": {
       "source": "Skill tends to be more serious that chance: Is my game serious or casual?",
       "source_sha256": "2c16f8a9529a6a5c8b17a1a7f672f59978f621c698a10bd0c9f8375825e3020a",
-      "target": "技能通常比机遇更严肃：我的游戏是严肃型还是休闲型？",
+      "target": "依靠技能通常比依靠运气更严肃：我的游戏是严肃型还是休闲型？",
       "status": "ai-draft"
     },
     "lenses/41/questionlist/2": {
       "source": "Are parts of my game tedious?  If so, will adding elements of chance enliven them?",
       "source_sha256": "b7f9059e148d4c4c19fbca42900ad23632dfc490d1c057ddd5d92d682f514ac9",
-      "target": "游戏中是否有枯燥的部分？如果有，加入机遇要素能否让它们活跃起来？",
+      "target": "游戏中是否有枯燥的部分？如果有，加入随机要素能否让它们活跃起来？",
       "status": "ai-draft"
     },
     "lenses/41/questionlist/3": {
       "source": "Do parts of my game feel too random?  If so, will replacing elements of chance with elements of skill and strategy make the players feel more in control?",
       "source_sha256": "b461cc967b21e343448dc59ef9cdc5adfd1c682621ed43c4fcdb990da28a82ea",
-      "target": "游戏中的某些部分是否让人觉得太随机？如果是，用技能与策略要素替换机遇要素，能否让玩家更有掌控感？",
+      "target": "游戏中的某些部分是否让人觉得太随机？如果是，用技能与策略要素替换随机要素，能否让玩家更有掌控感？",
       "status": "ai-draft"
     },
     "lenses/42/title": {
