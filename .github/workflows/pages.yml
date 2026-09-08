@@ -22,6 +22,7 @@ jobs:
         run: |
           python3 scripts/backup_site.py --verify
           python3 scripts/deck.py validate --complete
+          python3 scripts/book.py validate
           python3 -m unittest discover -s tests -v
           node --test tests/test_web.mjs
       - name: Build bilingual site

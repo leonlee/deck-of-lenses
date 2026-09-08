@@ -7,12 +7,17 @@ import shutil
 from pathlib import Path
 
 from deck import ROOT, source, validate
+from book import load_book
 
 OUT = ROOT / '_site'
 REPO = 'https://github.com/leonlee/deck-of-lenses'
 COPY = {
     'en': {
         'lang': 'en', 'title': 'A Deck of Lenses', 'subtitle': '116 perspectives on game design',
+        'guide': 'Book guide', 'chapter': 'Chapter', 'exercise': 'Try it · Original exercise',
+        'book_note': 'AI-authored chapter summaries and original exercises, awaiting human review. A companion to Jesse Schell’s The Art of Game Design, 3rd Edition (A K Peters/CRC Press, 2019).',
+        'reference': 'EPUB source reference', 'book_lens': 'Lens number in the book',
+        'contents': 'Explore 35 chapters', 'context': 'Book context · AI draft',
         'all': 'All lenses', 'search': 'Find a lens', 'placeholder': 'Search a title in English or Chinese…',
         'results': 'lenses', 'empty': 'No lenses match your search.', 'clear': 'Clear search',
         'catalog': 'The deck', 'questions': 'Questions to ask yourself', 'illustration': 'Illustration',
@@ -24,6 +29,10 @@ COPY = {
     },
     'zh': {
         'lang': 'zh-CN', 'title': '游戏设计透镜', 'subtitle': '从 116 个视角思考游戏设计',
+        'guide': '阅读指南', 'chapter': '章节', 'exercise': '试一试 · 原创练习',
+        'book_note': 'AI 撰写的章节摘要与原创练习，尚待人工审校。配合 Jesse Schell《The Art of Game Design》第三版（A K Peters/CRC Press，2019）阅读。',
+        'reference': 'EPUB 来源定位', 'book_lens': '原书透镜编号',
+        'contents': '浏览 35 个章节', 'context': '原书背景 · AI 草稿',
         'all': '全部透镜', 'search': '寻找透镜', 'placeholder': '用中文或英文搜索标题…',
         'results': '张透镜', 'empty': '没有找到匹配的透镜。', 'clear': '清除搜索',
         'catalog': '卡牌目录', 'questions': '问问自己', 'illustration': '插画',
@@ -75,6 +84,7 @@ def shell(locale, title, content, base, alternate, catalog=False):
 <a class="skip" href="#content">{t['skip']}</a>
 <header class="topbar"><div class="topbar-inner">
   <a class="brand" href="{base}{locale}/"><span class="brand-mark" aria-hidden="true">◈</span> DECK OF LENSES</a>
+  <a class="guide-link" href="{base}{locale}/book/">{t['guide']}</a>
   <nav class="language" aria-label="Language / 语言">{switch}</nav>
 </div></header>
 <main id="content" class="{'catalog' if catalog else 'reader'}">{content}</main>
@@ -110,7 +120,7 @@ def catalog(locale, lenses, english, chinese, base='../'):
     return shell(locale, t['title'], content, base, f'{base}{other}/', catalog=True)
 
 
-def reader(locale, lenses, index):
+def reader(locale, lenses, index, book_data):
     lens = lenses[index]
     t = COPY[locale]
     base = '../../../'
@@ -119,17 +129,53 @@ def reader(locale, lenses, index):
     suits = ' · '.join(t[s] for s in lens['suitlist'])
     previous = (f'<a href="../{slug(lenses[index - 1])}/"><span>← {t["previous"]}</span><strong>{esc(lenses[index - 1]["title"])}</strong></a>' if index else '<span></span>')
     following = (f'<a href="../{slug(lenses[index + 1])}/"><span>{t["next"]} →</span><strong>{esc(lenses[index + 1]["title"])}</strong></a>' if index + 1 < len(lenses) else '<span></span>')
+    book_index, notes = book_data
+    ref = book_index['lenses'][str(lens['index'])]
+    note = notes[ref['chapter']]
+    context = f'''<section class="book-context"><p class="eyebrow">{t['context']}</p>
+<h2><a href="{base}{locale}/book/#chapter-{ref['chapter']}">{t['chapter']} {ref['chapter']}: {esc(note['title'][locale])}</a></h2>
+<p>{esc(note['summary'][locale])}</p><p class="source-ref">{t['book_lens']}: {esc(ref['book_number'])}</p>
+<details><summary>{t['reference']}</summary><code>{esc(ref['epub_href'])}</code></details></section>'''
     content = f'''<a class="back" href="../../">← {t['catalog']}</a>
 <div class="reading-layout"><aside class="illustration"><div class="art-frame"><img src="{base}assets/art/{esc(lens['imageID'])}.png" alt="{esc(lens['title'])}" width="560" height="480"></div><p>{t['illustration']}: {esc(lens['artist'])}</p></aside>
 <article><p class="eyebrow">{t['lens']} {esc(lens['name'])} <span>· {suits}</span></p>
 <h1>{esc(lens['title'])}</h1>{'<p class="draft">'+t['draft']+'</p>' if locale == 'zh' else ''}
 <div class="description">{paragraphs(lens['description'])}</div>
 <h2 class="question-heading">{t['questions']}</h2><ol class="questions">{questions}</ol>
+{context}
 </article></div><nav class="reader-nav" aria-label="{t['catalog']}">{previous}{following}</nav>'''
     return shell(locale, lens['cardTitle'], content, base, f'{base}{other}/lenses/{slug(lens)}/')
 
 
+def book_guide(locale, lenses, book_data):
+    t = COPY[locale]
+    index, notes = book_data
+    lens_by_id = {str(lens['index']): lens for lens in lenses}
+    contents, sections = [], []
+    for number, note in sorted(notes.items()):
+        title = esc(note['title'][locale])
+        contents.append(f'<li><a href="#chapter-{number}">{number}. {title}</a></li>')
+        takeaways = ''.join(f'<li>{esc(point[locale])}</li>' for point in note['takeaways'])
+        links = ''.join(f'<li><a href="../lenses/{slug(lens_by_id[key])}/">{esc(ref["book_number"])} · {esc(lens_by_id[key]["title"])}</a></li>'
+                        for key, ref in index['lenses'].items() if ref['chapter'] == number)
+        references = '<br>'.join(f'<code>{esc(ref)}</code>' for ref in note['references'])
+        sections.append(f'''<section class="chapter" id="chapter-{number}">
+<p class="eyebrow">{t['chapter']} {number:02}</p><h2>{title}</h2>
+<p>{esc(note['summary'][locale])}</p><ul>{takeaways}</ul>
+<div class="exercise"><h3>{t['exercise']}</h3><p>{esc(note['exercise'][locale])}</p></div>
+{'<h3>'+t['all']+'</h3><ul class="chapter-lenses">'+links+'</ul>' if links else ''}
+<details><summary>{t['reference']}</summary>{references}</details>
+</section>''')
+    content = f'''<a class="back" href="../">← {t['catalog']}</a>
+<section class="intro"><div><p class="eyebrow">JESSE SCHELL · THIRD EDITION</p><h1>{t['guide']}</h1><p class="guide-note">{t['book_note']}</p></div></section>
+<div class="guide-layout"><nav class="chapter-index" aria-label="{t['contents']}"><details><summary>{t['contents']}</summary><ol>{''.join(contents)}</ol></details></nav>
+<div>{''.join(sections)}</div></div>'''
+    other = 'zh' if locale == 'en' else 'en'
+    return shell(locale, t['guide'], content, '../../', f'../../{other}/book/')
+
+
 def build():
+    book_data = load_book()
     original = source()
     translated = copy.deepcopy(original)
     entries = validate('zh-CN', complete=True)['entries']
@@ -151,13 +197,15 @@ def build():
         directory = OUT / locale
         directory.mkdir()
         (directory / 'index.html').write_text(catalog(locale, lenses, english, chinese), encoding='utf-8')
+        (directory / 'book').mkdir()
+        (directory / 'book/index.html').write_text(book_guide(locale, lenses, book_data), encoding='utf-8')
         for i, lens in enumerate(lenses):
             target = directory / 'lenses' / slug(lens)
             target.mkdir(parents=True)
-            (target / 'index.html').write_text(reader(locale, lenses, i), encoding='utf-8')
+            (target / 'index.html').write_text(reader(locale, lenses, i, book_data), encoding='utf-8')
     (OUT / 'index.html').write_text(catalog('en', english, english, chinese, base='./'), encoding='utf-8')
     (OUT / '.nojekyll').touch()
-    print(f'Built {2 * len(english) + 3} pages in {OUT}')
+    print(f'Built {2 * len(english) + 5} pages in {OUT}')
 
 
 if __name__ == '__main__':

@@ -1,0 +1,2942 @@
+{
+  "schema_version": 1,
+  "book": {
+    "title": "The Art of Game Design, 3rd Edition",
+    "creator": "Jesse Schell",
+    "publisher": "A K Peters/CRC Press",
+    "date": "2019-07-31",
+    "identifier": "9781351803632",
+    "language": "en-US"
+  },
+  "provenance": {
+    "source": "User-supplied EPUB",
+    "sha256": "ff3a53dbb1ef56e0e29be6b139188e225d40aadf9126361c414191d7fe99a580",
+    "index_method": "EPUB navigation and Table of Lenses; every lens anchor verified",
+    "numbering_note": "Book ∞ maps to deck 113; book half numbers map to .5. Original deck IDs are unchanged."
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "In the Beginning, There Is the Designer",
+      "epub_href": "OEBPS/C04_chapter1.xhtml#chapter1",
+      "sections": [
+        {
+          "title": "Magic Words",
+          "epub_href": "OEBPS/C04_chapter1.xhtml#sec1_1"
+        },
+        {
+          "title": "What Skills Does a Game Designer Need?",
+          "epub_href": "OEBPS/C04_chapter1.xhtml#sec1_2"
+        },
+        {
+          "title": "The Most Important Skill",
+          "epub_href": "OEBPS/C04_chapter1.xhtml#sec1_3"
+        },
+        {
+          "title": "The Five Kinds of Listening",
+          "epub_href": "OEBPS/C04_chapter1.xhtml#sec1_4"
+        },
+        {
+          "title": "The Secret of the Gifted",
+          "epub_href": "OEBPS/C04_chapter1.xhtml#sec1_5"
+        },
+        {
+          "title": "Other Reading to Consider",
+          "epub_href": "OEBPS/C04_chapter1.xhtml#sec1_6"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "The Designer Creates an Experience",
+      "epub_href": "OEBPS/C05_chapter2.xhtml#chapter2",
+      "sections": [
+        {
+          "title": "The Game Is Not the Experience",
+          "epub_href": "OEBPS/C05_chapter2.xhtml#sec2_1"
+        },
+        {
+          "title": "Is This Unique to Games?",
+          "epub_href": "OEBPS/C05_chapter2.xhtml#sec2_2"
+        },
+        {
+          "title": "Three Practical Approaches to Chasing Rainbows",
+          "epub_href": "OEBPS/C05_chapter2.xhtml#sec2_3"
+        },
+        {
+          "title": "Psychology",
+          "epub_href": "OEBPS/C05_chapter2.xhtml#sec2_3_1"
+        },
+        {
+          "title": "Anthropology",
+          "epub_href": "OEBPS/C05_chapter2.xhtml#sec2_3_2"
+        },
+        {
+          "title": "Design",
+          "epub_href": "OEBPS/C05_chapter2.xhtml#sec2_3_3"
+        },
+        {
+          "title": "Introspection: Powers, Perils, and Practice",
+          "epub_href": "OEBPS/C05_chapter2.xhtml#sec2_4"
+        },
+        {
+          "title": "Peril #1: Introspection Can Lead to False Conclusions about Reality",
+          "epub_href": "OEBPS/C05_chapter2.xhtml#sec2_4_1"
+        },
+        {
+          "title": "Peril #2: What Is True of My Experiences May Not Be True for Others",
+          "epub_href": "OEBPS/C05_chapter2.xhtml#sec2_4_2"
+        },
+        {
+          "title": "Dissect Your Feelings",
+          "epub_href": "OEBPS/C05_chapter2.xhtml#sec2_5"
+        },
+        {
+          "title": "Defeating Heisenberg",
+          "epub_href": "OEBPS/C05_chapter2.xhtml#sec2_6"
+        },
+        {
+          "title": "Analyze Memories",
+          "epub_href": "OEBPS/C05_chapter2.xhtml#sec2_6_1"
+        },
+        {
+          "title": "Two Passes",
+          "epub_href": "OEBPS/C05_chapter2.xhtml#sec2_6_2"
+        },
+        {
+          "title": "Sneak Glances",
+          "epub_href": "OEBPS/C05_chapter2.xhtml#sec2_6_3"
+        },
+        {
+          "title": "Observe Silently",
+          "epub_href": "OEBPS/C05_chapter2.xhtml#sec2_6_4"
+        },
+        {
+          "title": "Essential Experience",
+          "epub_href": "OEBPS/C05_chapter2.xhtml#sec2_7"
+        },
+        {
+          "title": "All That’s Real Is What You Feel",
+          "epub_href": "OEBPS/C05_chapter2.xhtml#sec2_8"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "The Experience Takes Place in a Venue",
+      "epub_href": "OEBPS/C06_chapter3.xhtml#chapter3",
+      "sections": [
+        {
+          "title": "The Shifting Sands of Platform",
+          "epub_href": "OEBPS/C06_chapter3.xhtml#sec3_1"
+        },
+        {
+          "title": "Private Venues",
+          "epub_href": "OEBPS/C06_chapter3.xhtml#sec3_2"
+        },
+        {
+          "title": "The Hearth",
+          "epub_href": "OEBPS/C06_chapter3.xhtml#sec3_2_1"
+        },
+        {
+          "title": "The Workbench",
+          "epub_href": "OEBPS/C06_chapter3.xhtml#sec3_2_2"
+        },
+        {
+          "title": "The Reading Nook",
+          "epub_href": "OEBPS/C06_chapter3.xhtml#sec3_2_3"
+        },
+        {
+          "title": "Public Venues",
+          "epub_href": "OEBPS/C06_chapter3.xhtml#sec3_3"
+        },
+        {
+          "title": "The Theater",
+          "epub_href": "OEBPS/C06_chapter3.xhtml#sec3_3_1"
+        },
+        {
+          "title": "The Arena",
+          "epub_href": "OEBPS/C06_chapter3.xhtml#sec3_3_2"
+        },
+        {
+          "title": "The Museum",
+          "epub_href": "OEBPS/C06_chapter3.xhtml#sec3_3_3"
+        },
+        {
+          "title": "Half Private/Half Public Venues",
+          "epub_href": "OEBPS/C06_chapter3.xhtml#sec3_4"
+        },
+        {
+          "title": "The Gaming Table",
+          "epub_href": "OEBPS/C06_chapter3.xhtml#sec3_4_1"
+        },
+        {
+          "title": "The Playground",
+          "epub_href": "OEBPS/C06_chapter3.xhtml#sec3_4_2"
+        },
+        {
+          "title": "Anywhere",
+          "epub_href": "OEBPS/C06_chapter3.xhtml#sec3_4_3"
+        },
+        {
+          "title": "Venues Mixed and Matched",
+          "epub_href": "OEBPS/C06_chapter3.xhtml#sec3_5"
+        },
+        {
+          "title": "Other Reading to Consider",
+          "epub_href": "OEBPS/C06_chapter3.xhtml#sec3_6"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "The Experience Rises Out of a Game",
+      "epub_href": "OEBPS/C07_chapter4.xhtml#chapter4",
+      "sections": [
+        {
+          "title": "A Rant about Definitions",
+          "epub_href": "OEBPS/C07_chapter4.xhtml#sec4_1"
+        },
+        {
+          "title": "So What Is a Game?",
+          "epub_href": "OEBPS/C07_chapter4.xhtml#sec4_2"
+        },
+        {
+          "title": "No, Seriously, What Is a Game?",
+          "epub_href": "OEBPS/C07_chapter4.xhtml#sec4_3"
+        },
+        {
+          "title": "Problem Solving 101",
+          "epub_href": "OEBPS/C07_chapter4.xhtml#sec4_4"
+        },
+        {
+          "title": "The Fruits of Our Labor",
+          "epub_href": "OEBPS/C07_chapter4.xhtml#sec4_5"
+        },
+        {
+          "title": "Other Reading to Consider",
+          "epub_href": "OEBPS/C07_chapter4.xhtml#sec4_6"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "The Game Consists of Elements",
+      "epub_href": "OEBPS/C08_chapter5.xhtml#chapter5",
+      "sections": [
+        {
+          "title": "What Are Little Games Made Of?",
+          "epub_href": "OEBPS/C08_chapter5.xhtml#sec5_1"
+        },
+        {
+          "title": "The Four Basic Elements",
+          "epub_href": "OEBPS/C08_chapter5.xhtml#sec5_2"
+        },
+        {
+          "title": "Skin and Skeleton",
+          "epub_href": "OEBPS/C08_chapter5.xhtml#sec5_3"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "The Elements Support a Theme",
+      "epub_href": "OEBPS/C09_chapter6.xhtml#chapter6",
+      "sections": [
+        {
+          "title": "Mere Games",
+          "epub_href": "OEBPS/C09_chapter6.xhtml#sec6_1"
+        },
+        {
+          "title": "Unifying Themes",
+          "epub_href": "OEBPS/C09_chapter6.xhtml#sec6_2"
+        },
+        {
+          "title": "Resonance",
+          "epub_href": "OEBPS/C09_chapter6.xhtml#sec6_3"
+        },
+        {
+          "title": "Back to Reality",
+          "epub_href": "OEBPS/C09_chapter6.xhtml#sec6_4"
+        },
+        {
+          "title": "Other Reading to Consider",
+          "epub_href": "OEBPS/C09_chapter6.xhtml#sec6_5"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "The Game Begins with an Idea",
+      "epub_href": "OEBPS/C10_chapter7.xhtml#chapter7",
+      "sections": [
+        {
+          "title": "Inspiration",
+          "epub_href": "OEBPS/C10_chapter7.xhtml#sec7_1"
+        },
+        {
+          "title": "State the Problem",
+          "epub_href": "OEBPS/C10_chapter7.xhtml#sec7_2"
+        },
+        {
+          "title": "How to Sleep",
+          "epub_href": "OEBPS/C10_chapter7.xhtml#sec7_3"
+        },
+        {
+          "title": "Your Silent Partner",
+          "epub_href": "OEBPS/C10_chapter7.xhtml#sec7_4"
+        },
+        {
+          "title": "Subconscious Tip #1: Pay Attention",
+          "epub_href": "OEBPS/C10_chapter7.xhtml#sec7_4_1"
+        },
+        {
+          "title": "Subconscious Tip #2: Record Your Ideas",
+          "epub_href": "OEBPS/C10_chapter7.xhtml#sec7_4_2"
+        },
+        {
+          "title": "Subconscious Tip #3: Manage Its Appetites (Judiciously)",
+          "epub_href": "OEBPS/C10_chapter7.xhtml#sec7_4_3"
+        },
+        {
+          "title": "Subconscious Tip #4: Sleep",
+          "epub_href": "OEBPS/C10_chapter7.xhtml#sec7_4_4"
+        },
+        {
+          "title": "Subconscious Tip #5: Don’t Push Too Hard",
+          "epub_href": "OEBPS/C10_chapter7.xhtml#sec7_4_5"
+        },
+        {
+          "title": "A Personal Relationship",
+          "epub_href": "OEBPS/C10_chapter7.xhtml#sec7_4_6"
+        },
+        {
+          "title": "Sixteen Nitty-Gritty Brainstorming Tips",
+          "epub_href": "OEBPS/C10_chapter7.xhtml#sec7_5"
+        },
+        {
+          "title": "Brainstorm Tip #1: The Write Answer",
+          "epub_href": "OEBPS/C10_chapter7.xhtml#sec7_5_1"
+        },
+        {
+          "title": "Brainstorm Tip #2: Write or Type?",
+          "epub_href": "OEBPS/C10_chapter7.xhtml#sec7_5_2"
+        },
+        {
+          "title": "Brainstorm Tip #3: Sketch",
+          "epub_href": "OEBPS/C10_chapter7.xhtml#sec7_5_3"
+        },
+        {
+          "title": "Brainstorm Tip #4: Toys",
+          "epub_href": "OEBPS/C10_chapter7.xhtml#sec7_5_4"
+        },
+        {
+          "title": "Brainstorm Tip #5: Change Your Perspective",
+          "epub_href": "OEBPS/C10_chapter7.xhtml#sec7_5_5"
+        },
+        {
+          "title": "Brainstorm Tip #6: Immerse Yourself",
+          "epub_href": "OEBPS/C10_chapter7.xhtml#sec7_5_6"
+        },
+        {
+          "title": "Brainstorm Tip #7: Crack Jokes",
+          "epub_href": "OEBPS/C10_chapter7.xhtml#sec7_5_7"
+        },
+        {
+          "title": "Brainstorm Tip #8: Spare No Expense",
+          "epub_href": "OEBPS/C10_chapter7.xhtml#sec7_5_8"
+        },
+        {
+          "title": "Brainstorm Tip #9: The Writing on the Wall",
+          "epub_href": "OEBPS/C10_chapter7.xhtml#sec7_5_9"
+        },
+        {
+          "title": "Brainstorm Tip #10: The Space Remembers",
+          "epub_href": "OEBPS/C10_chapter7.xhtml#sec7_5_10"
+        },
+        {
+          "title": "Brainstorm Tip #11: Write Everything",
+          "epub_href": "OEBPS/C10_chapter7.xhtml#sec7_5_11"
+        },
+        {
+          "title": "Brainstorm Tip #12: Number Your Lists",
+          "epub_href": "OEBPS/C10_chapter7.xhtml#sec7_5_12"
+        },
+        {
+          "title": "Brainstorm Tip #13: Destroy Your Assumptions",
+          "epub_href": "OEBPS/C10_chapter7.xhtml#sec7_5_13"
+        },
+        {
+          "title": "Brainstorm Tip #14: Mix and Match Categories",
+          "epub_href": "OEBPS/C10_chapter7.xhtml#sec7_5_14"
+        },
+        {
+          "title": "Brainstorm Tip #15: Talk to Yourself",
+          "epub_href": "OEBPS/C10_chapter7.xhtml#sec7_5_15"
+        },
+        {
+          "title": "Brainstorm Tip #16: Find a Partner",
+          "epub_href": "OEBPS/C10_chapter7.xhtml#sec7_5_16"
+        },
+        {
+          "title": "Look At All These Ideas! Now What?",
+          "epub_href": "OEBPS/C10_chapter7.xhtml#sec7_6"
+        },
+        {
+          "title": "Other Reading to Consider",
+          "epub_href": "OEBPS/C10_chapter7.xhtml#sec7_7"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "The Game Improves through Iteration",
+      "epub_href": "OEBPS/C11_chapter8.xhtml#chapter8",
+      "sections": [
+        {
+          "title": "Choosing an Idea",
+          "epub_href": "OEBPS/C11_chapter8.xhtml#sec8_1"
+        },
+        {
+          "title": "The Eight Filters",
+          "epub_href": "OEBPS/C11_chapter8.xhtml#sec8_2"
+        },
+        {
+          "title": "The Rule of the Loop",
+          "epub_href": "OEBPS/C11_chapter8.xhtml#sec8_3"
+        },
+        {
+          "title": "A Short History of Software Engineering",
+          "epub_href": "OEBPS/C11_chapter8.xhtml#sec8_4"
+        },
+        {
+          "title": "Danger—Waterfall—Keep Back",
+          "epub_href": "OEBPS/C11_chapter8.xhtml#sec8_4_1"
+        },
+        {
+          "title": "Barry Boehm Loves You",
+          "epub_href": "OEBPS/C11_chapter8.xhtml#sec8_4_2"
+        },
+        {
+          "title": "The Agile Manifesto",
+          "epub_href": "OEBPS/C11_chapter8.xhtml#sec8_5"
+        },
+        {
+          "title": "Risk Assessment and Prototyping",
+          "epub_href": "OEBPS/C11_chapter8.xhtml#sec8_6"
+        },
+        {
+          "title": "Example: Prisoners of Bubbleville",
+          "epub_href": "OEBPS/C11_chapter8.xhtml#sec8_6_1"
+        },
+        {
+          "title": "Prisoners of Bubbleville: Design Brief",
+          "epub_href": "OEBPS/C11_chapter8.xhtml#sec8_6_1_1"
+        },
+        {
+          "title": "Prisoners of Bubbleville: Risk List",
+          "epub_href": "OEBPS/C11_chapter8.xhtml#sec8_6_1_2"
+        },
+        {
+          "title": "Prisoners of Bubbleville: Risk Mitigation",
+          "epub_href": "OEBPS/C11_chapter8.xhtml#sec8_6_1_3"
+        },
+        {
+          "title": "Ten Tips for Productive Prototyping",
+          "epub_href": "OEBPS/C11_chapter8.xhtml#sec8_7"
+        },
+        {
+          "title": "Prototyping Tip #1: Answer a Question",
+          "epub_href": "OEBPS/C11_chapter8.xhtml#sec8_7_1"
+        },
+        {
+          "title": "Prototyping Tip #2: Forget Quality",
+          "epub_href": "OEBPS/C11_chapter8.xhtml#sec8_7_2"
+        },
+        {
+          "title": "Prototyping Tip #3: Don’t Get Attached",
+          "epub_href": "OEBPS/C11_chapter8.xhtml#sec8_7_3"
+        },
+        {
+          "title": "Prototyping Tip #4: Prioritize Your Prototypes",
+          "epub_href": "OEBPS/C11_chapter8.xhtml#sec8_7_4"
+        },
+        {
+          "title": "Prototyping Tip #5: Parallelize Prototypes Productively",
+          "epub_href": "OEBPS/C11_chapter8.xhtml#sec8_7_5"
+        },
+        {
+          "title": "Prototyping Tip #6: It Doesn’t Have to Be Digital",
+          "epub_href": "OEBPS/C11_chapter8.xhtml#sec8_7_6"
+        },
+        {
+          "title": "Tetris: A Paper Prototype",
+          "epub_href": "OEBPS/C11_chapter8.xhtml#sec8_8"
+        },
+        {
+          "title": "Halo: A Paper Prototype",
+          "epub_href": "OEBPS/C11_chapter8.xhtml#sec8_9"
+        },
+        {
+          "title": "Prototyping Tip #7: It Doesn’t Have to Be Interactive",
+          "epub_href": "OEBPS/C11_chapter8.xhtml#sec8_9_1"
+        },
+        {
+          "title": "Prototyping Tip #8: Pick a “Fast Loop” Game Engine",
+          "epub_href": "OEBPS/C11_chapter8.xhtml#sec8_9_2"
+        },
+        {
+          "title": "Prototyping Tip #9: Build the Toy First",
+          "epub_href": "OEBPS/C11_chapter8.xhtml#sec8_9_3"
+        },
+        {
+          "title": "Prototyping Tip #10: Seize Opportunities for More Loops",
+          "epub_href": "OEBPS/C11_chapter8.xhtml#sec8_9_4"
+        },
+        {
+          "title": "Closing the Loop",
+          "epub_href": "OEBPS/C11_chapter8.xhtml#sec8_10"
+        },
+        {
+          "title": "Loop 1: “New Racing” Game",
+          "epub_href": "OEBPS/C11_chapter8.xhtml#sec8_10_1"
+        },
+        {
+          "title": "Loop 2: “Racing Subs” Game",
+          "epub_href": "OEBPS/C11_chapter8.xhtml#sec8_10_2"
+        },
+        {
+          "title": "Loop 3: “Flying Dinos” Game",
+          "epub_href": "OEBPS/C11_chapter8.xhtml#sec8_10_3"
+        },
+        {
+          "title": "How Much Is Enough?",
+          "epub_href": "OEBPS/C11_chapter8.xhtml#sec8_11"
+        },
+        {
+          "title": "Your Secret Fuel",
+          "epub_href": "OEBPS/C11_chapter8.xhtml#sec8_12"
+        },
+        {
+          "title": "Other Reading to Consider",
+          "epub_href": "OEBPS/C11_chapter8.xhtml#sec8_13"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "The Game Is Made for a Player",
+      "epub_href": "OEBPS/C12_chapter9.xhtml#chapter9",
+      "sections": [
+        {
+          "title": "Einstein’s Violin",
+          "epub_href": "OEBPS/C12_chapter9.xhtml#sec9_1"
+        },
+        {
+          "title": "Project Yourself",
+          "epub_href": "OEBPS/C12_chapter9.xhtml#sec9_2"
+        },
+        {
+          "title": "Demographics",
+          "epub_href": "OEBPS/C12_chapter9.xhtml#sec9_3"
+        },
+        {
+          "title": "The Medium Is the Misogynist?",
+          "epub_href": "OEBPS/C12_chapter9.xhtml#sec9_4"
+        },
+        {
+          "title": "Five Stereotypes about What Males Like to See in Games",
+          "epub_href": "OEBPS/C12_chapter9.xhtml#sec9_4_1"
+        },
+        {
+          "title": "Five Stereotypes about What Females Like to See in Games",
+          "epub_href": "OEBPS/C12_chapter9.xhtml#sec9_4_2"
+        },
+        {
+          "title": "Psychographics",
+          "epub_href": "OEBPS/C12_chapter9.xhtml#sec9_5"
+        },
+        {
+          "title": "LeBlanc’s Taxonomy of Game Pleasures",
+          "epub_href": "OEBPS/C12_chapter9.xhtml#sec9_5_1"
+        },
+        {
+          "title": "Bartle’s Taxonomy of Player Types",
+          "epub_href": "OEBPS/C12_chapter9.xhtml#sec9_5_2"
+        },
+        {
+          "title": "More Pleasure: MORE!",
+          "epub_href": "OEBPS/C12_chapter9.xhtml#sec9_5_3"
+        },
+        {
+          "title": "Other Reading to Consider",
+          "epub_href": "OEBPS/C12_chapter9.xhtml#sec9_6"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "The Experience Is in the Player’s Mind",
+      "epub_href": "OEBPS/C13_chapter10.xhtml#chapter10",
+      "sections": [
+        {
+          "title": "Modeling",
+          "epub_href": "OEBPS/C13_chapter10.xhtml#sec10_1"
+        },
+        {
+          "title": "Focus",
+          "epub_href": "OEBPS/C13_chapter10.xhtml#sec10_2"
+        },
+        {
+          "title": "Empathy",
+          "epub_href": "OEBPS/C13_chapter10.xhtml#sec10_3"
+        },
+        {
+          "title": "Imagination",
+          "epub_href": "OEBPS/C13_chapter10.xhtml#sec10_4"
+        },
+        {
+          "title": "Other Reading to Consider",
+          "epub_href": "OEBPS/C13_chapter10.xhtml#sec10_5"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "The Player’s Mind Is Driven by the Player’s Motivation",
+      "epub_href": "OEBPS/C14_chapter11.xhtml#chapter11",
+      "sections": [
+        {
+          "title": "Needs…",
+          "epub_href": "OEBPS/C14_chapter11.xhtml#sec11_1"
+        },
+        {
+          "title": "…And More Needs",
+          "epub_href": "OEBPS/C14_chapter11.xhtml#sec11_2"
+        },
+        {
+          "title": "Intrinsic vs. Extrinsic Motivation",
+          "epub_href": "OEBPS/C14_chapter11.xhtml#sec11_3"
+        },
+        {
+          "title": "Wanna vs. Hafta",
+          "epub_href": "OEBPS/C14_chapter11.xhtml#sec11_4"
+        },
+        {
+          "title": "Novelty",
+          "epub_href": "OEBPS/C14_chapter11.xhtml#sec11_5"
+        },
+        {
+          "title": "Judgment",
+          "epub_href": "OEBPS/C14_chapter11.xhtml#sec11_6"
+        },
+        {
+          "title": "Other Reading to Consider",
+          "epub_href": "OEBPS/C14_chapter11.xhtml#sec11_7"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Some Elements Are Game Mechanics",
+      "epub_href": "OEBPS/C15_chapter12.xhtml#chapter12",
+      "sections": [
+        {
+          "title": "Mechanic 1: Space",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_1"
+        },
+        {
+          "title": "Nested Spaces",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_1_1"
+        },
+        {
+          "title": "Zero Dimensions",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_1_2"
+        },
+        {
+          "title": "Mechanic 2: Time",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_2"
+        },
+        {
+          "title": "Discrete and Continuous Time",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_2_1"
+        },
+        {
+          "title": "Clocks and Races",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_2_2"
+        },
+        {
+          "title": "Controlling Time",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_2_3"
+        },
+        {
+          "title": "Mechanic 3: Objects",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_3"
+        },
+        {
+          "title": "Secrets",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_3_1"
+        },
+        {
+          "title": "Mechanic 4: Actions",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_4"
+        },
+        {
+          "title": "Emergent Gameplay",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_4_1"
+        },
+        {
+          "title": "Mechanic 5: Rules",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_5"
+        },
+        {
+          "title": "Parlett’s Rule Analysis",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_5_1"
+        },
+        {
+          "title": "Modes",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_5_2"
+        },
+        {
+          "title": "Enforcer",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_5_3"
+        },
+        {
+          "title": "Cheatability",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_5_4"
+        },
+        {
+          "title": "The Most Important Rule",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_5_5"
+        },
+        {
+          "title": "Wrapping Up Rules",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_5_6"
+        },
+        {
+          "title": "Mechanic 6: Skill",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_6"
+        },
+        {
+          "title": "Real vs. Virtual Skills",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_6_1"
+        },
+        {
+          "title": "Enumerating Skills",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_6_2"
+        },
+        {
+          "title": "Mechanic 7: Chance",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_7"
+        },
+        {
+          "title": "Invention of Probability",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_7_1"
+        },
+        {
+          "title": "Ten Rules of Probability Every Game Designer Should Know",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_7_2"
+        },
+        {
+          "title": "Rule #1: Fractions Are Decimals Are Percents",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_7_2_1"
+        },
+        {
+          "title": "Rule #2: Zero to One—and That’s It!",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_7_2_2"
+        },
+        {
+          "title": "Rule #3: “Looked For” Divided By “Possible Outcomes” Equals Probability",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_7_2_3"
+        },
+        {
+          "title": "Rule #4: Enumerate!",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_7_2_4"
+        },
+        {
+          "title": "Rule #5: In Certain Cases, OR Means Add",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_7_2_5"
+        },
+        {
+          "title": "Rule #6: In Certain Cases, AND Means Multiply",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_7_2_6"
+        },
+        {
+          "title": "Rule #7: One Minus “Does” = “Doesn’t”",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_7_2_7"
+        },
+        {
+          "title": "Rule #8: The Sum of Multiple Linear Random Selections Is NOT a Linear Random Selection!",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_7_2_8"
+        },
+        {
+          "title": "Rule #9: Roll the Dice",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_7_2_9"
+        },
+        {
+          "title": "Rule #10: Geeks Love Showing Off (Gombaud’s Law)",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_7_2_10"
+        },
+        {
+          "title": "Expected Value",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_7_3"
+        },
+        {
+          "title": "Consider Values Carefully",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_7_4"
+        },
+        {
+          "title": "The Human Element",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_7_5"
+        },
+        {
+          "title": "Skill and Chance Get Tangled",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_7_6"
+        },
+        {
+          "title": "Other Reading to Consider",
+          "epub_href": "OEBPS/C15_chapter12.xhtml#sec12_8"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Game Mechanics Must Be in Balance",
+      "epub_href": "OEBPS/C16_chapter13.xhtml#chapter13",
+      "sections": [
+        {
+          "title": "The Twelve Most Common Types of Game Balance",
+          "epub_href": "OEBPS/C16_chapter13.xhtml#sec13_1"
+        },
+        {
+          "title": "Balance Type #1: Fairness",
+          "epub_href": "OEBPS/C16_chapter13.xhtml#sec13_1_1"
+        },
+        {
+          "title": "Symmetrical Games",
+          "epub_href": "OEBPS/C16_chapter13.xhtml#sec13_1_1_1"
+        },
+        {
+          "title": "Asymmetrical Games",
+          "epub_href": "OEBPS/C16_chapter13.xhtml#sec13_1_1_2"
+        },
+        {
+          "title": "Biplane Battle",
+          "epub_href": "OEBPS/C16_chapter13.xhtml#sec13_1_1_3"
+        },
+        {
+          "title": "Rock, Paper, Scissors",
+          "epub_href": "OEBPS/C16_chapter13.xhtml#sec13_1_1_4"
+        },
+        {
+          "title": "Balance Type #2: Challenge vs. Success",
+          "epub_href": "OEBPS/C16_chapter13.xhtml#sec13_1_2"
+        },
+        {
+          "title": "Balance Type #3: Meaningful Choices",
+          "epub_href": "OEBPS/C16_chapter13.xhtml#sec13_1_3"
+        },
+        {
+          "title": "Triangularity",
+          "epub_href": "OEBPS/C16_chapter13.xhtml#sec13_1_3_1"
+        },
+        {
+          "title": "Balancing Type #4: Skill vs. Chance",
+          "epub_href": "OEBPS/C16_chapter13.xhtml#sec13_1_4"
+        },
+        {
+          "title": "Balancing Type #5: Head vs. Hands",
+          "epub_href": "OEBPS/C16_chapter13.xhtml#sec13_1_5"
+        },
+        {
+          "title": "Balance Type #6: Competition vs. Cooperation",
+          "epub_href": "OEBPS/C16_chapter13.xhtml#sec13_1_6"
+        },
+        {
+          "title": "Balance Type #7: Short vs. Long",
+          "epub_href": "OEBPS/C16_chapter13.xhtml#sec13_1_7"
+        },
+        {
+          "title": "Balance Type #8: Rewards",
+          "epub_href": "OEBPS/C16_chapter13.xhtml#sec13_1_8"
+        },
+        {
+          "title": "Balance Type #9: Punishment",
+          "epub_href": "OEBPS/C16_chapter13.xhtml#sec13_1_9"
+        },
+        {
+          "title": "Balance Type #10: Freedom vs. Controlled Experience",
+          "epub_href": "OEBPS/C16_chapter13.xhtml#sec13_1_10"
+        },
+        {
+          "title": "Balance Type #11: Simple vs. Complex",
+          "epub_href": "OEBPS/C16_chapter13.xhtml#sec13_1_11"
+        },
+        {
+          "title": "Natural vs. Artificial Balancing",
+          "epub_href": "OEBPS/C16_chapter13.xhtml#sec13_1_11_1"
+        },
+        {
+          "title": "Elegance",
+          "epub_href": "OEBPS/C16_chapter13.xhtml#sec13_1_11_2"
+        },
+        {
+          "title": "Character",
+          "epub_href": "OEBPS/C16_chapter13.xhtml#sec13_1_11_3"
+        },
+        {
+          "title": "Balance Type #12: Detail vs. Imagination",
+          "epub_href": "OEBPS/C16_chapter13.xhtml#sec13_1_12"
+        },
+        {
+          "title": "Game Balancing Methodologies",
+          "epub_href": "OEBPS/C16_chapter13.xhtml#sec13_2"
+        },
+        {
+          "title": "Balancing Game Economies",
+          "epub_href": "OEBPS/C16_chapter13.xhtml#sec13_3"
+        },
+        {
+          "title": "Dynamic Game Balancing",
+          "epub_href": "OEBPS/C16_chapter13.xhtml#sec13_4"
+        },
+        {
+          "title": "The Big Picture",
+          "epub_href": "OEBPS/C16_chapter13.xhtml#sec13_5"
+        },
+        {
+          "title": "Other Reading to Consider",
+          "epub_href": "OEBPS/C16_chapter13.xhtml#sec13_6"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Game Mechanics Support Puzzles",
+      "epub_href": "OEBPS/C17_chapter14.xhtml#chapter14",
+      "sections": [
+        {
+          "title": "The Puzzle of Puzzles",
+          "epub_href": "OEBPS/C17_chapter14.xhtml#sec14_1"
+        },
+        {
+          "title": "Aren’t Puzzles Dead?",
+          "epub_href": "OEBPS/C17_chapter14.xhtml#sec14_2"
+        },
+        {
+          "title": "Good Puzzles",
+          "epub_href": "OEBPS/C17_chapter14.xhtml#sec14_3"
+        },
+        {
+          "title": "Puzzle Principle #1: Make the Goal Easily Understood",
+          "epub_href": "OEBPS/C17_chapter14.xhtml#sec14_3_1"
+        },
+        {
+          "title": "Puzzle Principle #2: Make It Easy to Get Started",
+          "epub_href": "OEBPS/C17_chapter14.xhtml#sec14_3_2"
+        },
+        {
+          "title": "Puzzle Principle #3: Give a Sense of Progress",
+          "epub_href": "OEBPS/C17_chapter14.xhtml#sec14_3_3"
+        },
+        {
+          "title": "Puzzle Principle #4: Give a Sense of Solvability",
+          "epub_href": "OEBPS/C17_chapter14.xhtml#sec14_3_4"
+        },
+        {
+          "title": "Puzzle Principle #5: Increase Difficulty Gradually",
+          "epub_href": "OEBPS/C17_chapter14.xhtml#sec14_3_5"
+        },
+        {
+          "title": "Puzzle Principle #6: Parallelism Lets the Player Rest",
+          "epub_href": "OEBPS/C17_chapter14.xhtml#sec14_3_6"
+        },
+        {
+          "title": "Puzzle Principle #7: Pyramid Structure Extends Interest",
+          "epub_href": "OEBPS/C17_chapter14.xhtml#sec14_3_7"
+        },
+        {
+          "title": "Puzzle Principle #8: Hints Extend Interest",
+          "epub_href": "OEBPS/C17_chapter14.xhtml#sec14_3_8"
+        },
+        {
+          "title": "Puzzle Principle #9: Give the Answer!",
+          "epub_href": "OEBPS/C17_chapter14.xhtml#sec14_3_9"
+        },
+        {
+          "title": "Puzzle Principle #10: Perceptual Shifts Are a Double-Edged Sword",
+          "epub_href": "OEBPS/C17_chapter14.xhtml#sec14_3_10"
+        },
+        {
+          "title": "A Final Piece",
+          "epub_href": "OEBPS/C17_chapter14.xhtml#sec14_4"
+        },
+        {
+          "title": "Other Reading to Consider",
+          "epub_href": "OEBPS/C17_chapter14.xhtml#sec14_5"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Players Play Games through an Interface",
+      "epub_href": "OEBPS/C18_chapter15.xhtml#chapter15",
+      "sections": [
+        {
+          "title": "Between Yin and Yang",
+          "epub_href": "OEBPS/C18_chapter15.xhtml#sec15_1"
+        },
+        {
+          "title": "Breaking It Down",
+          "epub_href": "OEBPS/C18_chapter15.xhtml#sec15_2"
+        },
+        {
+          "title": "The Loop of Interaction",
+          "epub_href": "OEBPS/C18_chapter15.xhtml#sec15_3"
+        },
+        {
+          "title": "Juiciness",
+          "epub_href": "OEBPS/C18_chapter15.xhtml#sec15_4"
+        },
+        {
+          "title": "Primality",
+          "epub_href": "OEBPS/C18_chapter15.xhtml#sec15_5"
+        },
+        {
+          "title": "Channels of Information",
+          "epub_href": "OEBPS/C18_chapter15.xhtml#sec15_6"
+        },
+        {
+          "title": "Step 1: List and Prioritize Information",
+          "epub_href": "OEBPS/C18_chapter15.xhtml#sec15_6_1"
+        },
+        {
+          "title": "Step 2: List Channels",
+          "epub_href": "OEBPS/C18_chapter15.xhtml#sec15_6_2"
+        },
+        {
+          "title": "Step 3: Map Information to Channels",
+          "epub_href": "OEBPS/C18_chapter15.xhtml#sec15_6_3"
+        },
+        {
+          "title": "Step 4: Review Use of Dimensions",
+          "epub_href": "OEBPS/C18_chapter15.xhtml#sec15_6_4"
+        },
+        {
+          "title": "Modes",
+          "epub_href": "OEBPS/C18_chapter15.xhtml#sec15_6_5"
+        },
+        {
+          "title": "Mode Tip #1: Use as Few Modes as Possible",
+          "epub_href": "OEBPS/C18_chapter15.xhtml#sec15_6_5_1"
+        },
+        {
+          "title": "Mode Tip #2: Avoid Overlapping Modes",
+          "epub_href": "OEBPS/C18_chapter15.xhtml#sec15_6_5_2"
+        },
+        {
+          "title": "Mode Tip #3: Make Different Modes Look as Different as Possible",
+          "epub_href": "OEBPS/C18_chapter15.xhtml#sec15_6_5_3"
+        },
+        {
+          "title": "Other Interface Tips",
+          "epub_href": "OEBPS/C18_chapter15.xhtml#sec15_6_6"
+        },
+        {
+          "title": "Interface Tip #1: Steal",
+          "epub_href": "OEBPS/C18_chapter15.xhtml#sec15_6_6_1"
+        },
+        {
+          "title": "Interface Tip #2: Customize",
+          "epub_href": "OEBPS/C18_chapter15.xhtml#sec15_6_6_2"
+        },
+        {
+          "title": "Interface Tip #3: Design around Your Physical Interface",
+          "epub_href": "OEBPS/C18_chapter15.xhtml#sec15_6_6_3"
+        },
+        {
+          "title": "Interface Tip #4: Theme Your Interface",
+          "epub_href": "OEBPS/C18_chapter15.xhtml#sec15_6_6_4"
+        },
+        {
+          "title": "Interface Tip #5: Sound Maps to Touch",
+          "epub_href": "OEBPS/C18_chapter15.xhtml#sec15_6_6_5"
+        },
+        {
+          "title": "Interface Tip #6: Balance Options and Simplicity with Layers",
+          "epub_href": "OEBPS/C18_chapter15.xhtml#sec15_6_6_6"
+        },
+        {
+          "title": "Interface Tip #7: Use Metaphors",
+          "epub_href": "OEBPS/C18_chapter15.xhtml#sec15_6_6_7"
+        },
+        {
+          "title": "Interface Tip #8: If It Looks Different, It Should Act Different",
+          "epub_href": "OEBPS/C18_chapter15.xhtml#sec15_6_6_8"
+        },
+        {
+          "title": "Interface Tip #9: Test, Test, Test!",
+          "epub_href": "OEBPS/C18_chapter15.xhtml#sec15_6_6_9"
+        },
+        {
+          "title": "Interface Tip #10: Break the Rules to Help Your Player",
+          "epub_href": "OEBPS/C18_chapter15.xhtml#sec15_6_6_10"
+        },
+        {
+          "title": "Other Reading to Consider",
+          "epub_href": "OEBPS/C18_chapter15.xhtml#sec15_7"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Experiences Can Be Judged by Their Interest Curves",
+      "epub_href": "OEBPS/C19_chapter16.xhtml#chapter16",
+      "sections": [
+        {
+          "title": "My First Lens",
+          "epub_href": "OEBPS/C19_chapter16.xhtml#sec16_1"
+        },
+        {
+          "title": "Interest Curves",
+          "epub_href": "OEBPS/C19_chapter16.xhtml#sec16_2"
+        },
+        {
+          "title": "Patterns inside Patterns",
+          "epub_href": "OEBPS/C19_chapter16.xhtml#sec16_3"
+        },
+        {
+          "title": "What Comprises Interest?",
+          "epub_href": "OEBPS/C19_chapter16.xhtml#sec16_4"
+        },
+        {
+          "title": "Factor 1: Inherent Interest",
+          "epub_href": "OEBPS/C19_chapter16.xhtml#sec16_4_1"
+        },
+        {
+          "title": "Factor 2: Poetry of Presentation",
+          "epub_href": "OEBPS/C19_chapter16.xhtml#sec16_4_2"
+        },
+        {
+          "title": "Factor 3: Projection",
+          "epub_href": "OEBPS/C19_chapter16.xhtml#sec16_4_3"
+        },
+        {
+          "title": "Interest Factor Examples",
+          "epub_href": "OEBPS/C19_chapter16.xhtml#sec16_5"
+        },
+        {
+          "title": "Putting It All Together",
+          "epub_href": "OEBPS/C19_chapter16.xhtml#sec16_6"
+        },
+        {
+          "title": "Other Reading to Consider",
+          "epub_href": "OEBPS/C19_chapter16.xhtml#sec16_7"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "title": "One Kind of Experience Is the Story",
+      "epub_href": "OEBPS/C20_chapter17.xhtml#chapter17",
+      "sections": [
+        {
+          "title": "Story/Game Duality",
+          "epub_href": "OEBPS/C20_chapter17.xhtml#sec17_1"
+        },
+        {
+          "title": "The Myth of Passive Entertainment",
+          "epub_href": "OEBPS/C20_chapter17.xhtml#sec17_2"
+        },
+        {
+          "title": "The Dream",
+          "epub_href": "OEBPS/C20_chapter17.xhtml#sec17_3"
+        },
+        {
+          "title": "The Reality",
+          "epub_href": "OEBPS/C20_chapter17.xhtml#sec17_4"
+        },
+        {
+          "title": "Real-World Method 1: The String of Pearls",
+          "epub_href": "OEBPS/C20_chapter17.xhtml#sec17_4_1"
+        },
+        {
+          "title": "Real-World Method 2: The Story Machine",
+          "epub_href": "OEBPS/C20_chapter17.xhtml#sec17_4_2"
+        },
+        {
+          "title": "The Problems",
+          "epub_href": "OEBPS/C20_chapter17.xhtml#sec17_5"
+        },
+        {
+          "title": "Problem #1: Good Stories Have Unity",
+          "epub_href": "OEBPS/C20_chapter17.xhtml#sec17_5_1"
+        },
+        {
+          "title": "Problem #2: The Combinatorial Explosion",
+          "epub_href": "OEBPS/C20_chapter17.xhtml#sec17_5_2"
+        },
+        {
+          "title": "Problem #4: Not Enough Verbs",
+          "epub_href": "OEBPS/C20_chapter17.xhtml#sec17_5_3"
+        },
+        {
+          "title": "Problem #5: Time Travel Makes Tragedy Obsolete",
+          "epub_href": "OEBPS/C20_chapter17.xhtml#sec17_5_4"
+        },
+        {
+          "title": "The Dream Reborn",
+          "epub_href": "OEBPS/C20_chapter17.xhtml#sec17_6"
+        },
+        {
+          "title": "Ten Story Tips for Game Designers",
+          "epub_href": "OEBPS/C20_chapter17.xhtml#sec17_7"
+        },
+        {
+          "title": "Story Tip #1: Respect the Story Stack",
+          "epub_href": "OEBPS/C20_chapter17.xhtml#sec17_7_1"
+        },
+        {
+          "title": "Story Tip #2: Put Your Story to Work!",
+          "epub_href": "OEBPS/C20_chapter17.xhtml#sec17_7_2"
+        },
+        {
+          "title": "Story Tip #3: Goals, Obstacles, and Conflicts",
+          "epub_href": "OEBPS/C20_chapter17.xhtml#sec17_7_3"
+        },
+        {
+          "title": "Story Tip #4: Make It Real",
+          "epub_href": "OEBPS/C20_chapter17.xhtml#sec17_7_4"
+        },
+        {
+          "title": "Story Tip #5: Provide Simplicity and Transcendence",
+          "epub_href": "OEBPS/C20_chapter17.xhtml#sec17_7_5"
+        },
+        {
+          "title": "Story Tip #6: Consider the Hero’s Journey",
+          "epub_href": "OEBPS/C20_chapter17.xhtml#sec17_7_6"
+        },
+        {
+          "title": "Vogler’s Synopsis of the Hero’s Journey",
+          "epub_href": "OEBPS/C20_chapter17.xhtml#sec17_7_6_1"
+        },
+        {
+          "title": "Story Tip #7: Keep Your Story World Consistent",
+          "epub_href": "OEBPS/C20_chapter17.xhtml#sec17_7_7"
+        },
+        {
+          "title": "Story Tip #8: Make Your Story World Accessible",
+          "epub_href": "OEBPS/C20_chapter17.xhtml#sec17_7_8"
+        },
+        {
+          "title": "Story Tip #9: Use Clichés Judiciously",
+          "epub_href": "OEBPS/C20_chapter17.xhtml#sec17_7_9"
+        },
+        {
+          "title": "Story Tip #10: Sometimes a Map Brings a Story to Life",
+          "epub_href": "OEBPS/C20_chapter17.xhtml#sec17_7_10"
+        },
+        {
+          "title": "Story Tip #11: Surprise and Emotion",
+          "epub_href": "OEBPS/C20_chapter17.xhtml#sec17_7_11"
+        },
+        {
+          "title": "Other Reading to Consider",
+          "epub_href": "OEBPS/C20_chapter17.xhtml#sec17_8"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Story and Game Structures Can Be Artfully Merged with Indirect Control",
+      "epub_href": "OEBPS/C21_chapter18.xhtml#chapter18",
+      "sections": [
+        {
+          "title": "The Feeling of Freedom",
+          "epub_href": "OEBPS/C21_chapter18.xhtml#sec18_1"
+        },
+        {
+          "title": "Indirect Control Method #1: Constraints",
+          "epub_href": "OEBPS/C21_chapter18.xhtml#sec18_2"
+        },
+        {
+          "title": "Indirect Control Method #2: Goals",
+          "epub_href": "OEBPS/C21_chapter18.xhtml#sec18_3"
+        },
+        {
+          "title": "Indirect Control Method #3: Interface",
+          "epub_href": "OEBPS/C21_chapter18.xhtml#sec18_4"
+        },
+        {
+          "title": "Indirect Control Method #4: Visual Design",
+          "epub_href": "OEBPS/C21_chapter18.xhtml#sec18_5"
+        },
+        {
+          "title": "Indirect Control Method #5: Characters",
+          "epub_href": "OEBPS/C21_chapter18.xhtml#sec18_6"
+        },
+        {
+          "title": "Indirect Control Method #6: Music",
+          "epub_href": "OEBPS/C21_chapter18.xhtml#sec18_7"
+        },
+        {
+          "title": "Collusion",
+          "epub_href": "OEBPS/C21_chapter18.xhtml#sec18_8"
+        },
+        {
+          "title": "Other Reading to Consider",
+          "epub_href": "OEBPS/C21_chapter18.xhtml#sec18_9"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Stories and Games Take Place in Worlds",
+      "epub_href": "OEBPS/C22_chapter19.xhtml#chapter19",
+      "sections": [
+        {
+          "title": "Transmedia Worlds",
+          "epub_href": "OEBPS/C22_chapter19.xhtml#sec19_1"
+        },
+        {
+          "title": "The Power of Pokémon",
+          "epub_href": "OEBPS/C22_chapter19.xhtml#sec19_2"
+        },
+        {
+          "title": "Properties of Transmedia Worlds",
+          "epub_href": "OEBPS/C22_chapter19.xhtml#sec19_3"
+        },
+        {
+          "title": "Transmedia Worlds Are Powerful",
+          "epub_href": "OEBPS/C22_chapter19.xhtml#sec19_3_1"
+        },
+        {
+          "title": "Transmedia Worlds Are Long Lived",
+          "epub_href": "OEBPS/C22_chapter19.xhtml#sec19_3_2"
+        },
+        {
+          "title": "Transmedia Worlds Evolve over Time",
+          "epub_href": "OEBPS/C22_chapter19.xhtml#sec19_3_3"
+        },
+        {
+          "title": "What Successful Transmedia Worlds Have in Common",
+          "epub_href": "OEBPS/C22_chapter19.xhtml#sec19_4"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Worlds Contain Characters",
+      "epub_href": "OEBPS/C23_chapter20.xhtml#chapter20",
+      "sections": [
+        {
+          "title": "The Nature of Game Characters",
+          "epub_href": "OEBPS/C23_chapter20.xhtml#sec20_1"
+        },
+        {
+          "title": "Novel Characters",
+          "epub_href": "OEBPS/C23_chapter20.xhtml#sec20_1_1"
+        },
+        {
+          "title": "Movie Characters",
+          "epub_href": "OEBPS/C23_chapter20.xhtml#sec20_1_2"
+        },
+        {
+          "title": "Game Characters",
+          "epub_href": "OEBPS/C23_chapter20.xhtml#sec20_1_3"
+        },
+        {
+          "title": "Avatars",
+          "epub_href": "OEBPS/C23_chapter20.xhtml#sec20_2"
+        },
+        {
+          "title": "The Ideal Form",
+          "epub_href": "OEBPS/C23_chapter20.xhtml#sec20_2_1"
+        },
+        {
+          "title": "The Blank Slate",
+          "epub_href": "OEBPS/C23_chapter20.xhtml#sec20_2_2"
+        },
+        {
+          "title": "Creating Compelling Game Characters",
+          "epub_href": "OEBPS/C23_chapter20.xhtml#sec20_3"
+        },
+        {
+          "title": "Character Tip #1: List Character Functions",
+          "epub_href": "OEBPS/C23_chapter20.xhtml#sec20_3_1"
+        },
+        {
+          "title": "Character Tip #2: Define and Use Character Traits",
+          "epub_href": "OEBPS/C23_chapter20.xhtml#sec20_3_2"
+        },
+        {
+          "title": "Character Tip #3: Use the Interpersonal Circumplex",
+          "epub_href": "OEBPS/C23_chapter20.xhtml#sec20_3_3"
+        },
+        {
+          "title": "Character Tip #4: Make a Character Web",
+          "epub_href": "OEBPS/C23_chapter20.xhtml#sec20_3_4"
+        },
+        {
+          "title": "Archie",
+          "epub_href": "OEBPS/C23_chapter20.xhtml#sec20_3_4_1"
+        },
+        {
+          "title": "Veronica",
+          "epub_href": "OEBPS/C23_chapter20.xhtml#sec20_3_4_2"
+        },
+        {
+          "title": "Betty",
+          "epub_href": "OEBPS/C23_chapter20.xhtml#sec20_3_4_3"
+        },
+        {
+          "title": "Reggie",
+          "epub_href": "OEBPS/C23_chapter20.xhtml#sec20_3_4_4"
+        },
+        {
+          "title": "Jughead",
+          "epub_href": "OEBPS/C23_chapter20.xhtml#sec20_3_4_5"
+        },
+        {
+          "title": "Character Tip #5: Use Status",
+          "epub_href": "OEBPS/C23_chapter20.xhtml#sec20_3_5"
+        },
+        {
+          "title": "Character Tip #6: Use the Power of the Voice",
+          "epub_href": "OEBPS/C23_chapter20.xhtml#sec20_3_6"
+        },
+        {
+          "title": "Character Tip #7: Use the Power of the Face",
+          "epub_href": "OEBPS/C23_chapter20.xhtml#sec20_3_7"
+        },
+        {
+          "title": "Character Tip #8: Powerful Stories Transform Characters",
+          "epub_href": "OEBPS/C23_chapter20.xhtml#sec20_3_8"
+        },
+        {
+          "title": "Character Tip #9: Let Your Characters Surprise Us",
+          "epub_href": "OEBPS/C23_chapter20.xhtml#sec20_3_9"
+        },
+        {
+          "title": "Character Tip #10: Avoid the Uncanny Valley",
+          "epub_href": "OEBPS/C23_chapter20.xhtml#sec20_3_10"
+        },
+        {
+          "title": "Other Reading to Consider",
+          "epub_href": "OEBPS/C23_chapter20.xhtml#sec20_4"
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "title": "Worlds Contain Spaces",
+      "epub_href": "OEBPS/C24_chapter21.xhtml#chapter21",
+      "sections": [
+        {
+          "title": "The Purpose of Architecture",
+          "epub_href": "OEBPS/C24_chapter21.xhtml#sec21_1"
+        },
+        {
+          "title": "Organizing Your Game Space",
+          "epub_href": "OEBPS/C24_chapter21.xhtml#sec21_2"
+        },
+        {
+          "title": "A Word about Landmarks",
+          "epub_href": "OEBPS/C24_chapter21.xhtml#sec21_2_1"
+        },
+        {
+          "title": "Christopher Alexander Is a Genius",
+          "epub_href": "OEBPS/C24_chapter21.xhtml#sec21_3"
+        },
+        {
+          "title": "Alexander’s Fifteen Properties of Living Structures",
+          "epub_href": "OEBPS/C24_chapter21.xhtml#sec21_3_1"
+        },
+        {
+          "title": "Real vs. Virtual Architecture",
+          "epub_href": "OEBPS/C24_chapter21.xhtml#sec21_4"
+        },
+        {
+          "title": "Know How Big",
+          "epub_href": "OEBPS/C24_chapter21.xhtml#sec21_4_1"
+        },
+        {
+          "title": "Third-Person Distortion",
+          "epub_href": "OEBPS/C24_chapter21.xhtml#sec21_4_2"
+        },
+        {
+          "title": "Level Design",
+          "epub_href": "OEBPS/C24_chapter21.xhtml#sec21_5"
+        },
+        {
+          "title": "Other Reading to Consider",
+          "epub_href": "OEBPS/C24_chapter21.xhtml#sec21_6"
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "title": "Some Interfaces Create a Feeling of Presence",
+      "epub_href": "OEBPS/C25_chapter22.xhtml#chapter22",
+      "sections": [
+        {
+          "title": "The Power of Presence",
+          "epub_href": "OEBPS/C25_chapter22.xhtml#sec22_1"
+        },
+        {
+          "title": "Six Presence Breakers",
+          "epub_href": "OEBPS/C25_chapter22.xhtml#sec22_2"
+        },
+        {
+          "title": "Presence Breaker #1: Motion Sickness",
+          "epub_href": "OEBPS/C25_chapter22.xhtml#sec22_2_1"
+        },
+        {
+          "title": "Presence Breaker #2: Counter-Intuitive Interactions",
+          "epub_href": "OEBPS/C25_chapter22.xhtml#sec22_2_2"
+        },
+        {
+          "title": "Presence Breaker #3: Intensity Overload",
+          "epub_href": "OEBPS/C25_chapter22.xhtml#sec22_2_3"
+        },
+        {
+          "title": "Presence Breaker #4: Unrealistic Audio",
+          "epub_href": "OEBPS/C25_chapter22.xhtml#sec22_2_4"
+        },
+        {
+          "title": "Presence Breaker #5: Proprioceptive Disconnect",
+          "epub_href": "OEBPS/C25_chapter22.xhtml#sec22_2_5"
+        },
+        {
+          "title": "Presence Breaker #6: Lack of Identity",
+          "epub_href": "OEBPS/C25_chapter22.xhtml#sec22_2_6"
+        },
+        {
+          "title": "Six Presence Builders",
+          "epub_href": "OEBPS/C25_chapter22.xhtml#sec22_3"
+        },
+        {
+          "title": "Presence Builder #1: Hand Presence",
+          "epub_href": "OEBPS/C25_chapter22.xhtml#sec22_3_1"
+        },
+        {
+          "title": "Presence Builder #2: Social Presence",
+          "epub_href": "OEBPS/C25_chapter22.xhtml#sec22_3_2"
+        },
+        {
+          "title": "Presence Builder #3: Familiarity",
+          "epub_href": "OEBPS/C25_chapter22.xhtml#sec22_3_3"
+        },
+        {
+          "title": "Presence Builder #4: Realistic Audio",
+          "epub_href": "OEBPS/C25_chapter22.xhtml#sec22_3_4"
+        },
+        {
+          "title": "Presence Builder #5: Proprioceptive Alignment",
+          "epub_href": "OEBPS/C25_chapter22.xhtml#sec22_3_5"
+        },
+        {
+          "title": "Presence Builder #6: Comedy",
+          "epub_href": "OEBPS/C25_chapter22.xhtml#sec22_3_6"
+        },
+        {
+          "title": "Encourage Looking Around",
+          "epub_href": "OEBPS/C25_chapter22.xhtml#sec22_4"
+        },
+        {
+          "title": "Consider Brownboxing",
+          "epub_href": "OEBPS/C25_chapter22.xhtml#sec22_5"
+        },
+        {
+          "title": "Different Hardware Enables Different Experiences",
+          "epub_href": "OEBPS/C25_chapter22.xhtml#sec22_6"
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "title": "The Look and Feel of a World Is Defined by Its Aesthetics",
+      "epub_href": "OEBPS/C26_chapter23.xhtml#chapter23",
+      "sections": [
+        {
+          "title": "Monet Refuses the Operation",
+          "epub_href": "OEBPS/C26_chapter23.xhtml#sec23_1"
+        },
+        {
+          "title": "The Value of Aesthetics",
+          "epub_href": "OEBPS/C26_chapter23.xhtml#sec23_2"
+        },
+        {
+          "title": "Learning to See",
+          "epub_href": "OEBPS/C26_chapter23.xhtml#sec23_3"
+        },
+        {
+          "title": "How to Let Aesthetics Guide Your Design",
+          "epub_href": "OEBPS/C26_chapter23.xhtml#sec23_4"
+        },
+        {
+          "title": "How Much Is Enough?",
+          "epub_href": "OEBPS/C26_chapter23.xhtml#sec23_5"
+        },
+        {
+          "title": "Use Audio",
+          "epub_href": "OEBPS/C26_chapter23.xhtml#sec23_6"
+        },
+        {
+          "title": "Balancing Art and Technology",
+          "epub_href": "OEBPS/C26_chapter23.xhtml#sec23_7"
+        },
+        {
+          "title": "Other Reading to Consider",
+          "epub_href": "OEBPS/C26_chapter23.xhtml#sec23_8"
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "title": "Some Games Are Played with Other Players",
+      "epub_href": "OEBPS/C27_chapter24.xhtml#chapter24",
+      "sections": [
+        {
+          "title": "We Are Not Alone",
+          "epub_href": "OEBPS/C27_chapter24.xhtml#sec24_1"
+        },
+        {
+          "title": "Why We Play with Others",
+          "epub_href": "OEBPS/C27_chapter24.xhtml#sec24_2"
+        },
+        {
+          "title": "Other Reading to Consider",
+          "epub_href": "OEBPS/C27_chapter24.xhtml#sec24_3"
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "title": "Other Players Sometimes Form Communities",
+      "epub_href": "OEBPS/C28_chapter25.xhtml#chapter25",
+      "sections": [
+        {
+          "title": "More than Just Other Players",
+          "epub_href": "OEBPS/C28_chapter25.xhtml#sec25_1"
+        },
+        {
+          "title": "Ten Tips for Strong Communities",
+          "epub_href": "OEBPS/C28_chapter25.xhtml#sec25_2"
+        },
+        {
+          "title": "Community Tip #1: Foster Friendships",
+          "epub_href": "OEBPS/C28_chapter25.xhtml#sec25_2_1"
+        },
+        {
+          "title": "Community Tip #2: Put Conflict at the Heart",
+          "epub_href": "OEBPS/C28_chapter25.xhtml#sec25_2_2"
+        },
+        {
+          "title": "Community Tip #3: Use Architecture to Shape Your Community",
+          "epub_href": "OEBPS/C28_chapter25.xhtml#sec25_2_3"
+        },
+        {
+          "title": "Community Tip #4: Create Community Property",
+          "epub_href": "OEBPS/C28_chapter25.xhtml#sec25_2_4"
+        },
+        {
+          "title": "Community Tip #5: Let Players Express Themselves",
+          "epub_href": "OEBPS/C28_chapter25.xhtml#sec25_2_5"
+        },
+        {
+          "title": "Community Tip #6: Support Three Levels",
+          "epub_href": "OEBPS/C28_chapter25.xhtml#sec25_2_6"
+        },
+        {
+          "title": "Community Tip #7: Force Players to Depend on Each Other",
+          "epub_href": "OEBPS/C28_chapter25.xhtml#sec25_2_7"
+        },
+        {
+          "title": "Community Tip #8: Manage Your Community",
+          "epub_href": "OEBPS/C28_chapter25.xhtml#sec25_2_8"
+        },
+        {
+          "title": "Community Tip #9: Obligation to Others Is Powerful",
+          "epub_href": "OEBPS/C28_chapter25.xhtml#sec25_2_9"
+        },
+        {
+          "title": "Community Tip #10: Create Community Events",
+          "epub_href": "OEBPS/C28_chapter25.xhtml#sec25_2_10"
+        },
+        {
+          "title": "The Challenge of Griefing",
+          "epub_href": "OEBPS/C28_chapter25.xhtml#sec25_3"
+        },
+        {
+          "title": "The Future of Game Communities",
+          "epub_href": "OEBPS/C28_chapter25.xhtml#sec25_4"
+        },
+        {
+          "title": "Other Reading to Consider",
+          "epub_href": "OEBPS/C28_chapter25.xhtml#sec25_5"
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "title": "The Designer Usually Works with a Team",
+      "epub_href": "OEBPS/C29_chapter26.xhtml#chapter26",
+      "sections": [
+        {
+          "title": "The Secret of Successful Teamwork",
+          "epub_href": "OEBPS/C29_chapter26.xhtml#sec26_1"
+        },
+        {
+          "title": "If You Can’t Love the Game, Love the Audience",
+          "epub_href": "OEBPS/C29_chapter26.xhtml#sec26_1_1"
+        },
+        {
+          "title": "Designing Together",
+          "epub_href": "OEBPS/C29_chapter26.xhtml#sec26_2"
+        },
+        {
+          "title": "Team Communication",
+          "epub_href": "OEBPS/C29_chapter26.xhtml#sec26_3"
+        },
+        {
+          "title": "Other Reading to Consider",
+          "epub_href": "OEBPS/C29_chapter26.xhtml#sec26_4"
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "title": "The Team Sometimes Communicates through Documents",
+      "epub_href": "OEBPS/C30_chapter27.xhtml#chapter27",
+      "sections": [
+        {
+          "title": "The Myth of the Game Design Document",
+          "epub_href": "OEBPS/C30_chapter27.xhtml#sec27_1"
+        },
+        {
+          "title": "The Purpose of Documents",
+          "epub_href": "OEBPS/C30_chapter27.xhtml#sec27_2"
+        },
+        {
+          "title": "Memory",
+          "epub_href": "OEBPS/C30_chapter27.xhtml#sec27_2_1"
+        },
+        {
+          "title": "Communication",
+          "epub_href": "OEBPS/C30_chapter27.xhtml#sec27_2_2"
+        },
+        {
+          "title": "Types of Game Documents",
+          "epub_href": "OEBPS/C30_chapter27.xhtml#sec27_3"
+        },
+        {
+          "title": "Design",
+          "epub_href": "OEBPS/C30_chapter27.xhtml#sec27_3_1"
+        },
+        {
+          "title": "Engineering",
+          "epub_href": "OEBPS/C30_chapter27.xhtml#sec27_3_2"
+        },
+        {
+          "title": "Art",
+          "epub_href": "OEBPS/C30_chapter27.xhtml#sec27_3_3"
+        },
+        {
+          "title": "Production",
+          "epub_href": "OEBPS/C30_chapter27.xhtml#sec27_3_4"
+        },
+        {
+          "title": "Writing",
+          "epub_href": "OEBPS/C30_chapter27.xhtml#sec27_3_5"
+        },
+        {
+          "title": "Players",
+          "epub_href": "OEBPS/C30_chapter27.xhtml#sec27_3_6"
+        },
+        {
+          "title": "So, Where Do I Start?",
+          "epub_href": "OEBPS/C30_chapter27.xhtml#sec27_4"
+        },
+        {
+          "title": "Other Reading to Consider",
+          "epub_href": "OEBPS/C30_chapter27.xhtml#sec27_5"
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "title": "Good Games Are Created through Playtesting",
+      "epub_href": "OEBPS/C31_chapter28.xhtml#chapter28",
+      "sections": [
+        {
+          "title": "Playtesting",
+          "epub_href": "OEBPS/C31_chapter28.xhtml#sec28_1"
+        },
+        {
+          "title": "My Terrible Secret",
+          "epub_href": "OEBPS/C31_chapter28.xhtml#sec28_2"
+        },
+        {
+          "title": "Playtest Question the First: Why?",
+          "epub_href": "OEBPS/C31_chapter28.xhtml#sec28_3"
+        },
+        {
+          "title": "Playtest Question the Second: Who?",
+          "epub_href": "OEBPS/C31_chapter28.xhtml#sec28_4"
+        },
+        {
+          "title": "Playtest Question the Third: When?",
+          "epub_href": "OEBPS/C31_chapter28.xhtml#sec28_5"
+        },
+        {
+          "title": "Playtest Question the Fourth: Where?",
+          "epub_href": "OEBPS/C31_chapter28.xhtml#sec28_6"
+        },
+        {
+          "title": "Playtest Question the Fifth: What?",
+          "epub_href": "OEBPS/C31_chapter28.xhtml#sec28_7"
+        },
+        {
+          "title": "The First What: Things You Know You Are Looking For",
+          "epub_href": "OEBPS/C31_chapter28.xhtml#sec28_7_1"
+        },
+        {
+          "title": "The Second What: Things You Don’t Know You Are Looking For",
+          "epub_href": "OEBPS/C31_chapter28.xhtml#sec28_7_2"
+        },
+        {
+          "title": "Playtest Question the Sixth: How?",
+          "epub_href": "OEBPS/C31_chapter28.xhtml#sec28_8"
+        },
+        {
+          "title": "Should You Even Be There?",
+          "epub_href": "OEBPS/C31_chapter28.xhtml#sec28_8_1"
+        },
+        {
+          "title": "What Do You Tell Them Up Front?",
+          "epub_href": "OEBPS/C31_chapter28.xhtml#sec28_8_2"
+        },
+        {
+          "title": "Where Do You Look?",
+          "epub_href": "OEBPS/C31_chapter28.xhtml#sec28_8_3"
+        },
+        {
+          "title": "What Other Data Should You Collect During Play?",
+          "epub_href": "OEBPS/C31_chapter28.xhtml#sec28_8_4"
+        },
+        {
+          "title": "Will I Disturb the Players Midgame?",
+          "epub_href": "OEBPS/C31_chapter28.xhtml#sec28_8_5"
+        },
+        {
+          "title": "What Data Will I Collect after the Play Session?",
+          "epub_href": "OEBPS/C31_chapter28.xhtml#sec28_9"
+        },
+        {
+          "title": "Surveys",
+          "epub_href": "OEBPS/C31_chapter28.xhtml#sec28_9_1"
+        },
+        {
+          "title": "Interviews",
+          "epub_href": "OEBPS/C31_chapter28.xhtml#sec28_9_2"
+        },
+        {
+          "title": "FFWWDD",
+          "epub_href": "OEBPS/C31_chapter28.xhtml#sec28_9_3"
+        },
+        {
+          "title": "Other Reading to Consider",
+          "epub_href": "OEBPS/C31_chapter28.xhtml#sec28_10"
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "title": "The Team Builds a Game with Technology",
+      "epub_href": "OEBPS/C32_chapter29.xhtml#chapter29",
+      "sections": [
+        {
+          "title": "Technology, At Last",
+          "epub_href": "OEBPS/C32_chapter29.xhtml#sec29_1"
+        },
+        {
+          "title": "Foundational vs. Decorational",
+          "epub_href": "OEBPS/C32_chapter29.xhtml#sec29_2"
+        },
+        {
+          "title": "Mickey’s First Cartoon",
+          "epub_href": "OEBPS/C32_chapter29.xhtml#sec29_2_1"
+        },
+        {
+          "title": "Abalone",
+          "epub_href": "OEBPS/C32_chapter29.xhtml#sec29_2_2"
+        },
+        {
+          "title": "Sonic the Hedgehog",
+          "epub_href": "OEBPS/C32_chapter29.xhtml#sec29_2_3"
+        },
+        {
+          "title": "Myst",
+          "epub_href": "OEBPS/C32_chapter29.xhtml#sec29_2_4"
+        },
+        {
+          "title": "Journey",
+          "epub_href": "OEBPS/C32_chapter29.xhtml#sec29_2_5"
+        },
+        {
+          "title": "Ragdoll Physics",
+          "epub_href": "OEBPS/C32_chapter29.xhtml#sec29_2_6"
+        },
+        {
+          "title": "The Touch Revolution",
+          "epub_href": "OEBPS/C32_chapter29.xhtml#sec29_3"
+        },
+        {
+          "title": "The Hype Cycle",
+          "epub_href": "OEBPS/C32_chapter29.xhtml#sec29_4"
+        },
+        {
+          "title": "The Innovator’s Dilemma",
+          "epub_href": "OEBPS/C32_chapter29.xhtml#sec29_5"
+        },
+        {
+          "title": "The Law of Divergence",
+          "epub_href": "OEBPS/C32_chapter29.xhtml#sec29_6"
+        },
+        {
+          "title": "The Singularity",
+          "epub_href": "OEBPS/C32_chapter29.xhtml#sec29_7"
+        },
+        {
+          "title": "Look into Your Crystal Ball",
+          "epub_href": "OEBPS/C32_chapter29.xhtml#sec29_8"
+        },
+        {
+          "title": "Other Reading to Consider",
+          "epub_href": "OEBPS/C32_chapter29.xhtml#sec29_9"
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "title": "Your Game Will Probably Have a Client",
+      "epub_href": "OEBPS/C33_chapter30.xhtml#chapter30",
+      "sections": [
+        {
+          "title": "Who Cares What the Client Thinks?",
+          "epub_href": "OEBPS/C33_chapter30.xhtml#sec30_1"
+        },
+        {
+          "title": "Coping with Bad Suggestions",
+          "epub_href": "OEBPS/C33_chapter30.xhtml#sec30_2"
+        },
+        {
+          "title": "Not That Rock",
+          "epub_href": "OEBPS/C33_chapter30.xhtml#sec30_3"
+        },
+        {
+          "title": "The Three Layers of Desire",
+          "epub_href": "OEBPS/C33_chapter30.xhtml#sec30_4"
+        },
+        {
+          "title": "Firenze, 1498",
+          "epub_href": "OEBPS/C33_chapter30.xhtml#sec30_5"
+        },
+        {
+          "title": "Other Reading to Consider",
+          "epub_href": "OEBPS/C33_chapter30.xhtml#sec30_6"
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "title": "The Designer Gives the Client a Pitch",
+      "epub_href": "OEBPS/C34_chapter31.xhtml#chapter31",
+      "sections": [
+        {
+          "title": "Why Me?",
+          "epub_href": "OEBPS/C34_chapter31.xhtml#sec31_1"
+        },
+        {
+          "title": "A Negotiation of Power",
+          "epub_href": "OEBPS/C34_chapter31.xhtml#sec31_2"
+        },
+        {
+          "title": "The Hierarchy of Ideas",
+          "epub_href": "OEBPS/C34_chapter31.xhtml#sec31_3"
+        },
+        {
+          "title": "Twelve Tips for a Successful Pitch",
+          "epub_href": "OEBPS/C34_chapter31.xhtml#sec31_4"
+        },
+        {
+          "title": "Pitch Tip #1: Get in the Door",
+          "epub_href": "OEBPS/C34_chapter31.xhtml#sec31_4_1"
+        },
+        {
+          "title": "Pitch Tip #2: Show You Are Serious",
+          "epub_href": "OEBPS/C34_chapter31.xhtml#sec31_4_2"
+        },
+        {
+          "title": "Pitch Tip #3: Be Organized",
+          "epub_href": "OEBPS/C34_chapter31.xhtml#sec31_4_3"
+        },
+        {
+          "title": "Pitch Tip #4: Be Passionate!!!!!",
+          "epub_href": "OEBPS/C34_chapter31.xhtml#sec31_4_4"
+        },
+        {
+          "title": "Pitch Tip #5: Assume Their Point of View",
+          "epub_href": "OEBPS/C34_chapter31.xhtml#sec31_4_5"
+        },
+        {
+          "title": "Pitch Tip #6: Design the Pitch",
+          "epub_href": "OEBPS/C34_chapter31.xhtml#sec31_4_6"
+        },
+        {
+          "title": "Pitch Tip #7: Know All the Details",
+          "epub_href": "OEBPS/C34_chapter31.xhtml#sec31_4_7"
+        },
+        {
+          "title": "Pitch Tip #8: Exude Confidence",
+          "epub_href": "OEBPS/C34_chapter31.xhtml#sec31_4_8"
+        },
+        {
+          "title": "Pitch Tip #9: Be Flexible",
+          "epub_href": "OEBPS/C34_chapter31.xhtml#sec31_4_9"
+        },
+        {
+          "title": "Pitch Tip #10: Rehearse",
+          "epub_href": "OEBPS/C34_chapter31.xhtml#sec31_4_10"
+        },
+        {
+          "title": "Pitch Tip #11: Get Them to Own It",
+          "epub_href": "OEBPS/C34_chapter31.xhtml#sec31_4_11"
+        },
+        {
+          "title": "Pitch Tip #12: Follow Up",
+          "epub_href": "OEBPS/C34_chapter31.xhtml#sec31_4_12"
+        },
+        {
+          "title": "Hey, What about Kickstarter?",
+          "epub_href": "OEBPS/C34_chapter31.xhtml#sec31_5"
+        },
+        {
+          "title": "Other Reading to Consider",
+          "epub_href": "OEBPS/C34_chapter31.xhtml#sec31_6"
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "title": "The Designer and Client Want the Game to Make a Profit",
+      "epub_href": "OEBPS/C35_chapter32.xhtml#chapter32",
+      "sections": [
+        {
+          "title": "Love and Money",
+          "epub_href": "OEBPS/C35_chapter32.xhtml#sec32_1"
+        },
+        {
+          "title": "Know Your Business Model",
+          "epub_href": "OEBPS/C35_chapter32.xhtml#sec32_2"
+        },
+        {
+          "title": "Retail",
+          "epub_href": "OEBPS/C35_chapter32.xhtml#sec32_2_1"
+        },
+        {
+          "title": "Direct Download",
+          "epub_href": "OEBPS/C35_chapter32.xhtml#sec32_2_2"
+        },
+        {
+          "title": "Free-to-Play",
+          "epub_href": "OEBPS/C35_chapter32.xhtml#sec32_2_3"
+        },
+        {
+          "title": "Know Your Competition",
+          "epub_href": "OEBPS/C35_chapter32.xhtml#sec32_3"
+        },
+        {
+          "title": "Know Your Audience",
+          "epub_href": "OEBPS/C35_chapter32.xhtml#sec32_4"
+        },
+        {
+          "title": "Learn the Language",
+          "epub_href": "OEBPS/C35_chapter32.xhtml#sec32_5"
+        },
+        {
+          "title": "General Game Business Terms",
+          "epub_href": "OEBPS/C35_chapter32.xhtml#sec32_5_1"
+        },
+        {
+          "title": "Free-to-Play Business Terms",
+          "epub_href": "OEBPS/C35_chapter32.xhtml#sec32_5_2"
+        },
+        {
+          "title": "Know the Top Sellers",
+          "epub_href": "OEBPS/C35_chapter32.xhtml#sec32_6"
+        },
+        {
+          "title": "The Importance of Barriers",
+          "epub_href": "OEBPS/C35_chapter32.xhtml#sec32_7"
+        },
+        {
+          "title": "Other Reading to Consider",
+          "epub_href": "OEBPS/C35_chapter32.xhtml#sec32_8"
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "title": "Games Transform Their Players",
+      "epub_href": "OEBPS/C36_chapter33.xhtml#chapter33",
+      "sections": [
+        {
+          "title": "How Do Games Change Us?",
+          "epub_href": "OEBPS/C36_chapter33.xhtml#sec33_1"
+        },
+        {
+          "title": "Can Games Be Good for You?",
+          "epub_href": "OEBPS/C36_chapter33.xhtml#sec33_2"
+        },
+        {
+          "title": "Emotional Maintenance",
+          "epub_href": "OEBPS/C36_chapter33.xhtml#sec33_2_1"
+        },
+        {
+          "title": "Connecting",
+          "epub_href": "OEBPS/C36_chapter33.xhtml#sec33_2_2"
+        },
+        {
+          "title": "Exercise",
+          "epub_href": "OEBPS/C36_chapter33.xhtml#sec33_2_3"
+        },
+        {
+          "title": "Education",
+          "epub_href": "OEBPS/C36_chapter33.xhtml#sec33_2_4"
+        },
+        {
+          "title": "Giving the Brain What It Wants",
+          "epub_href": "OEBPS/C36_chapter33.xhtml#sec33_2_4_1"
+        },
+        {
+          "title": "Facts",
+          "epub_href": "OEBPS/C36_chapter33.xhtml#sec33_2_4_2"
+        },
+        {
+          "title": "Problem Solving",
+          "epub_href": "OEBPS/C36_chapter33.xhtml#sec33_2_4_3"
+        },
+        {
+          "title": "Systems of Relationships",
+          "epub_href": "OEBPS/C36_chapter33.xhtml#sec33_2_4_4"
+        },
+        {
+          "title": "New Insights",
+          "epub_href": "OEBPS/C36_chapter33.xhtml#sec33_2_4_5"
+        },
+        {
+          "title": "Curiosity",
+          "epub_href": "OEBPS/C36_chapter33.xhtml#sec33_2_4_6"
+        },
+        {
+          "title": "Creating Teachable Moments",
+          "epub_href": "OEBPS/C36_chapter33.xhtml#sec33_2_4_7"
+        },
+        {
+          "title": "Transformational Games",
+          "epub_href": "OEBPS/C36_chapter33.xhtml#sec33_3"
+        },
+        {
+          "title": "Transformational Tip #1: Define Your Transformation",
+          "epub_href": "OEBPS/C36_chapter33.xhtml#sec33_3_1"
+        },
+        {
+          "title": "Transformational Tip #2: Find Great Subject Matter Experts",
+          "epub_href": "OEBPS/C36_chapter33.xhtml#sec33_3_2"
+        },
+        {
+          "title": "Transformational Tip #3: What Does the Instructor Need?",
+          "epub_href": "OEBPS/C36_chapter33.xhtml#sec33_3_3"
+        },
+        {
+          "title": "Transformational Tip #4: Don’t Do Too Much",
+          "epub_href": "OEBPS/C36_chapter33.xhtml#sec33_3_4"
+        },
+        {
+          "title": "Transformational Tip #5: Assess Transformation Appropriately",
+          "epub_href": "OEBPS/C36_chapter33.xhtml#sec33_3_5"
+        },
+        {
+          "title": "Transformational Tip #6: Choose the Right Venue",
+          "epub_href": "OEBPS/C36_chapter33.xhtml#sec33_3_6"
+        },
+        {
+          "title": "Transformational Tip #7: Accept the Realities of the Market",
+          "epub_href": "OEBPS/C36_chapter33.xhtml#sec33_3_7"
+        },
+        {
+          "title": "Can Games Be Bad for You?",
+          "epub_href": "OEBPS/C36_chapter33.xhtml#sec33_4"
+        },
+        {
+          "title": "Violence",
+          "epub_href": "OEBPS/C36_chapter33.xhtml#sec33_4_1"
+        },
+        {
+          "title": "Addiction",
+          "epub_href": "OEBPS/C36_chapter33.xhtml#sec33_4_2"
+        },
+        {
+          "title": "Experiences",
+          "epub_href": "OEBPS/C36_chapter33.xhtml#sec33_5"
+        },
+        {
+          "title": "Other Reading to Consider",
+          "epub_href": "OEBPS/C36_chapter33.xhtml#sec33_6"
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "title": "Designers Have Certain Responsibilities",
+      "epub_href": "OEBPS/C37_chapter34.xhtml#chapter34",
+      "sections": [
+        {
+          "title": "The Danger of Obscurity",
+          "epub_href": "OEBPS/C37_chapter34.xhtml#sec34_1"
+        },
+        {
+          "title": "Being Accountable",
+          "epub_href": "OEBPS/C37_chapter34.xhtml#sec34_2"
+        },
+        {
+          "title": "Your Hidden Agenda",
+          "epub_href": "OEBPS/C37_chapter34.xhtml#sec34_3"
+        },
+        {
+          "title": "The Secret Hidden in Plain Sight",
+          "epub_href": "OEBPS/C37_chapter34.xhtml#sec34_4"
+        },
+        {
+          "title": "The Ring",
+          "epub_href": "OEBPS/C37_chapter34.xhtml#sec34_5"
+        },
+        {
+          "title": "Other Reading to Consider",
+          "epub_href": "OEBPS/C37_chapter34.xhtml#sec34_6"
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "title": "Each Designer Has a Purpose",
+      "epub_href": "OEBPS/C38_chapter35.xhtml#chapter35",
+      "sections": [
+        {
+          "title": "The Deepest Theming",
+          "epub_href": "OEBPS/C38_chapter35.xhtml#sec35_1"
+        }
+      ]
+    }
+  ],
+  "lenses": {
+    "1": {
+      "book_number": "1",
+      "book_title": "The Lens of Emotion",
+      "chapter": 2,
+      "epub_href": "OEBPS/C05_chapter2.xhtml#box1"
+    },
+    "2": {
+      "book_number": "2",
+      "book_title": "The Lens of Essential Experience",
+      "chapter": 2,
+      "epub_href": "OEBPS/C05_chapter2.xhtml#box2"
+    },
+    "3": {
+      "book_number": "3",
+      "book_title": "The Lens of the Venue",
+      "chapter": 3,
+      "epub_href": "OEBPS/C06_chapter3.xhtml#box3"
+    },
+    "4": {
+      "book_number": "4",
+      "book_title": "The Lens of Surprise",
+      "chapter": 4,
+      "epub_href": "OEBPS/C07_chapter4.xhtml#box4"
+    },
+    "5": {
+      "book_number": "5",
+      "book_title": "The Lens of Fun",
+      "chapter": 4,
+      "epub_href": "OEBPS/C07_chapter4.xhtml#box5"
+    },
+    "6": {
+      "book_number": "6",
+      "book_title": "The Lens of Curiosity",
+      "chapter": 4,
+      "epub_href": "OEBPS/C07_chapter4.xhtml#box6"
+    },
+    "7": {
+      "book_number": "7",
+      "book_title": "The Lens of Endogenous Value",
+      "chapter": 4,
+      "epub_href": "OEBPS/C07_chapter4.xhtml#box7"
+    },
+    "8": {
+      "book_number": "8",
+      "book_title": "The Lens of Problem Solving",
+      "chapter": 4,
+      "epub_href": "OEBPS/C07_chapter4.xhtml#box8"
+    },
+    "9": {
+      "book_number": "9",
+      "book_title": "The Lens of the Elemental Tetrad",
+      "chapter": 5,
+      "epub_href": "OEBPS/C08_chapter5.xhtml#box9"
+    },
+    "10": {
+      "book_number": "10",
+      "book_title": "The Lens of Holographic Design",
+      "chapter": 5,
+      "epub_href": "OEBPS/C08_chapter5.xhtml#box10"
+    },
+    "11": {
+      "book_number": "11",
+      "book_title": "The Lens of Unification",
+      "chapter": 6,
+      "epub_href": "OEBPS/C09_chapter6.xhtml#box11"
+    },
+    "12": {
+      "book_number": "12",
+      "book_title": "The Lens of Resonance",
+      "chapter": 6,
+      "epub_href": "OEBPS/C09_chapter6.xhtml#box12"
+    },
+    "13": {
+      "book_number": "13",
+      "book_title": "The Lens of Infinite Inspiration",
+      "chapter": 7,
+      "epub_href": "OEBPS/C10_chapter7.xhtml#box13"
+    },
+    "14": {
+      "book_number": "14",
+      "book_title": "The Lens of the Problem Statement",
+      "chapter": 7,
+      "epub_href": "OEBPS/C10_chapter7.xhtml#box14"
+    },
+    "15": {
+      "book_number": "15",
+      "book_title": "The Lens of the Eight Filters",
+      "chapter": 8,
+      "epub_href": "OEBPS/C11_chapter8.xhtml#box15"
+    },
+    "16": {
+      "book_number": "16",
+      "book_title": "The Lens of Risk Mitigation",
+      "chapter": 8,
+      "epub_href": "OEBPS/C11_chapter8.xhtml#box16"
+    },
+    "17": {
+      "book_number": "17",
+      "book_title": "The Lens of the Toy",
+      "chapter": 8,
+      "epub_href": "OEBPS/C11_chapter8.xhtml#box17"
+    },
+    "18": {
+      "book_number": "18",
+      "book_title": "The Lens of Passion",
+      "chapter": 8,
+      "epub_href": "OEBPS/C11_chapter8.xhtml#box18"
+    },
+    "19": {
+      "book_number": "19",
+      "book_title": "The Lens of the Player",
+      "chapter": 9,
+      "epub_href": "OEBPS/C12_chapter9.xhtml#box19"
+    },
+    "20": {
+      "book_number": "20",
+      "book_title": "The Lens of Pleasure",
+      "chapter": 9,
+      "epub_href": "OEBPS/C12_chapter9.xhtml#box20"
+    },
+    "21": {
+      "book_number": "21",
+      "book_title": "The Lens of Flow",
+      "chapter": 10,
+      "epub_href": "OEBPS/C13_chapter10.xhtml#box21"
+    },
+    "22": {
+      "book_number": "22",
+      "book_title": "The Lens of Needs",
+      "chapter": 11,
+      "epub_href": "OEBPS/C14_chapter11.xhtml#box22"
+    },
+    "23": {
+      "book_number": "23",
+      "book_title": "The Lens of Motivation",
+      "chapter": 11,
+      "epub_href": "OEBPS/C14_chapter11.xhtml#box23"
+    },
+    "24": {
+      "book_number": "24",
+      "book_title": "The Lens of Novelty",
+      "chapter": 11,
+      "epub_href": "OEBPS/C14_chapter11.xhtml#box24"
+    },
+    "25": {
+      "book_number": "25",
+      "book_title": "The Lens of Judgment",
+      "chapter": 11,
+      "epub_href": "OEBPS/C14_chapter11.xhtml#box25"
+    },
+    "26": {
+      "book_number": "26",
+      "book_title": "The Lens of Functional Space",
+      "chapter": 12,
+      "epub_href": "OEBPS/C15_chapter12.xhtml#box26"
+    },
+    "27": {
+      "book_number": "27",
+      "book_title": "The Lens of Time",
+      "chapter": 12,
+      "epub_href": "OEBPS/C15_chapter12.xhtml#box27"
+    },
+    "28": {
+      "book_number": "28",
+      "book_title": "The Lens of the State Machine",
+      "chapter": 12,
+      "epub_href": "OEBPS/C15_chapter12.xhtml#box28"
+    },
+    "29": {
+      "book_number": "29",
+      "book_title": "The Lens of Secrets",
+      "chapter": 12,
+      "epub_href": "OEBPS/C15_chapter12.xhtml#box29"
+    },
+    "30": {
+      "book_number": "30",
+      "book_title": "The Lens of Emergence",
+      "chapter": 12,
+      "epub_href": "OEBPS/C15_chapter12.xhtml#box30"
+    },
+    "31": {
+      "book_number": "31",
+      "book_title": "The Lens of Action",
+      "chapter": 12,
+      "epub_href": "OEBPS/C15_chapter12.xhtml#box31"
+    },
+    "32": {
+      "book_number": "32",
+      "book_title": "The Lens of Goals",
+      "chapter": 12,
+      "epub_href": "OEBPS/C15_chapter12.xhtml#box32"
+    },
+    "33": {
+      "book_number": "33",
+      "book_title": "The Lens of Rules",
+      "chapter": 12,
+      "epub_href": "OEBPS/C15_chapter12.xhtml#box33"
+    },
+    "34": {
+      "book_number": "34",
+      "book_title": "The Lens of Skill",
+      "chapter": 12,
+      "epub_href": "OEBPS/C15_chapter12.xhtml#box34"
+    },
+    "35": {
+      "book_number": "35",
+      "book_title": "The Lens of Expected Value",
+      "chapter": 12,
+      "epub_href": "OEBPS/C15_chapter12.xhtml#box35"
+    },
+    "36": {
+      "book_number": "36",
+      "book_title": "The Lens of Chance",
+      "chapter": 12,
+      "epub_href": "OEBPS/C15_chapter12.xhtml#box36"
+    },
+    "37": {
+      "book_number": "37",
+      "book_title": "The Lens of Fairness",
+      "chapter": 13,
+      "epub_href": "OEBPS/C16_chapter13.xhtml#box37"
+    },
+    "38": {
+      "book_number": "38",
+      "book_title": "The Lens of Challenge",
+      "chapter": 13,
+      "epub_href": "OEBPS/C16_chapter13.xhtml#box38"
+    },
+    "39": {
+      "book_number": "39",
+      "book_title": "The Lens of Meaningful Choices",
+      "chapter": 13,
+      "epub_href": "OEBPS/C16_chapter13.xhtml#box39"
+    },
+    "40": {
+      "book_number": "40",
+      "book_title": "The Lens of Triangularity",
+      "chapter": 13,
+      "epub_href": "OEBPS/C16_chapter13.xhtml#box40"
+    },
+    "41": {
+      "book_number": "41",
+      "book_title": "The Lens of Skill vs. Chance",
+      "chapter": 13,
+      "epub_href": "OEBPS/C16_chapter13.xhtml#box41"
+    },
+    "42": {
+      "book_number": "42",
+      "book_title": "The Lens of Head and Hands",
+      "chapter": 13,
+      "epub_href": "OEBPS/C16_chapter13.xhtml#box42"
+    },
+    "43": {
+      "book_number": "43",
+      "book_title": "The Lens of Competition",
+      "chapter": 13,
+      "epub_href": "OEBPS/C16_chapter13.xhtml#box43"
+    },
+    "44": {
+      "book_number": "44",
+      "book_title": "The Lens of Cooperation",
+      "chapter": 13,
+      "epub_href": "OEBPS/C16_chapter13.xhtml#box44"
+    },
+    "45": {
+      "book_number": "45",
+      "book_title": "The Lens of Competition vs. Cooperation",
+      "chapter": 13,
+      "epub_href": "OEBPS/C16_chapter13.xhtml#box45"
+    },
+    "46": {
+      "book_number": "46",
+      "book_title": "The Lens of Reward",
+      "chapter": 13,
+      "epub_href": "OEBPS/C16_chapter13.xhtml#box46"
+    },
+    "47": {
+      "book_number": "47",
+      "book_title": "The Lens of Punishment",
+      "chapter": 13,
+      "epub_href": "OEBPS/C16_chapter13.xhtml#box47"
+    },
+    "48": {
+      "book_number": "48",
+      "book_title": "The Lens of Simplicity/Complexity",
+      "chapter": 13,
+      "epub_href": "OEBPS/C16_chapter13.xhtml#box48"
+    },
+    "49": {
+      "book_number": "49",
+      "book_title": "The Lens of Elegance",
+      "chapter": 13,
+      "epub_href": "OEBPS/C16_chapter13.xhtml#box49"
+    },
+    "50": {
+      "book_number": "50",
+      "book_title": "The Lens of Character",
+      "chapter": 13,
+      "epub_href": "OEBPS/C16_chapter13.xhtml#box50"
+    },
+    "51": {
+      "book_number": "51",
+      "book_title": "The Lens of Imagination",
+      "chapter": 13,
+      "epub_href": "OEBPS/C16_chapter13.xhtml#box51"
+    },
+    "52": {
+      "book_number": "52",
+      "book_title": "The Lens of Economy",
+      "chapter": 13,
+      "epub_href": "OEBPS/C16_chapter13.xhtml#box52"
+    },
+    "53": {
+      "book_number": "53",
+      "book_title": "The Lens of Balance",
+      "chapter": 13,
+      "epub_href": "OEBPS/C16_chapter13.xhtml#box53"
+    },
+    "54": {
+      "book_number": "54",
+      "book_title": "The Lens of Accessibility",
+      "chapter": 14,
+      "epub_href": "OEBPS/C17_chapter14.xhtml#box54"
+    },
+    "55": {
+      "book_number": "55",
+      "book_title": "The Lens of Visible Progress",
+      "chapter": 14,
+      "epub_href": "OEBPS/C17_chapter14.xhtml#box55"
+    },
+    "56": {
+      "book_number": "56",
+      "book_title": "The Lens of Parallelism",
+      "chapter": 14,
+      "epub_href": "OEBPS/C17_chapter14.xhtml#box56"
+    },
+    "57": {
+      "book_number": "57",
+      "book_title": "The Lens of the Pyramid",
+      "chapter": 14,
+      "epub_href": "OEBPS/C17_chapter14.xhtml#box57"
+    },
+    "58": {
+      "book_number": "58",
+      "book_title": "The Lens of the Puzzle",
+      "chapter": 14,
+      "epub_href": "OEBPS/C17_chapter14.xhtml#box58"
+    },
+    "59": {
+      "book_number": "59",
+      "book_title": "The Lens of Control",
+      "chapter": 15,
+      "epub_href": "OEBPS/C18_chapter15.xhtml#box59"
+    },
+    "60": {
+      "book_number": "60",
+      "book_title": "The Lens of Physical Interface",
+      "chapter": 15,
+      "epub_href": "OEBPS/C18_chapter15.xhtml#box60"
+    },
+    "61": {
+      "book_number": "61",
+      "book_title": "The Lens of Virtual Interface",
+      "chapter": 15,
+      "epub_href": "OEBPS/C18_chapter15.xhtml#box61"
+    },
+    "62": {
+      "book_number": "62",
+      "book_title": "The Lens of Transparency",
+      "chapter": 15,
+      "epub_href": "OEBPS/C18_chapter15.xhtml#box62"
+    },
+    "63": {
+      "book_number": "63",
+      "book_title": "The Lens of Feedback",
+      "chapter": 15,
+      "epub_href": "OEBPS/C18_chapter15.xhtml#box63"
+    },
+    "64": {
+      "book_number": "64",
+      "book_title": "The Lens of Juiciness",
+      "chapter": 15,
+      "epub_href": "OEBPS/C18_chapter15.xhtml#box64"
+    },
+    "65": {
+      "book_number": "65",
+      "book_title": "The Lens of Primality",
+      "chapter": 15,
+      "epub_href": "OEBPS/C18_chapter15.xhtml#box65"
+    },
+    "66": {
+      "book_number": "66",
+      "book_title": "The Lens of Channels and Dimensions",
+      "chapter": 15,
+      "epub_href": "OEBPS/C18_chapter15.xhtml#box66"
+    },
+    "67": {
+      "book_number": "67",
+      "book_title": "The Lens of Modes",
+      "chapter": 15,
+      "epub_href": "OEBPS/C18_chapter15.xhtml#box67"
+    },
+    "67.5": {
+      "book_number": "67½",
+      "book_title": "The Lens of Metaphor",
+      "chapter": 15,
+      "epub_href": "OEBPS/C18_chapter15.xhtml#box67a"
+    },
+    "68": {
+      "book_number": "68",
+      "book_title": "The Lens of Moments",
+      "chapter": 16,
+      "epub_href": "OEBPS/C19_chapter16.xhtml#box68"
+    },
+    "69": {
+      "book_number": "69",
+      "book_title": "The Lens of the Interest Curve",
+      "chapter": 16,
+      "epub_href": "OEBPS/C19_chapter16.xhtml#box69"
+    },
+    "70": {
+      "book_number": "70",
+      "book_title": "The Lens of Inherent Interest",
+      "chapter": 16,
+      "epub_href": "OEBPS/C19_chapter16.xhtml#box70"
+    },
+    "71": {
+      "book_number": "71",
+      "book_title": "The Lens of Beauty",
+      "chapter": 16,
+      "epub_href": "OEBPS/C19_chapter16.xhtml#box71"
+    },
+    "72": {
+      "book_number": "72",
+      "book_title": "The Lens of Projection",
+      "chapter": 16,
+      "epub_href": "OEBPS/C19_chapter16.xhtml#box72"
+    },
+    "73": {
+      "book_number": "73",
+      "book_title": "The Lens of the Story Machine",
+      "chapter": 17,
+      "epub_href": "OEBPS/C20_chapter17.xhtml#box73"
+    },
+    "74": {
+      "book_number": "74",
+      "book_title": "The Lens of the Obstacle",
+      "chapter": 17,
+      "epub_href": "OEBPS/C20_chapter17.xhtml#box74"
+    },
+    "75": {
+      "book_number": "75",
+      "book_title": "The Lens of Simplicity and Transcendence",
+      "chapter": 17,
+      "epub_href": "OEBPS/C20_chapter17.xhtml#box75"
+    },
+    "76": {
+      "book_number": "76",
+      "book_title": "The Lens of the Hero’s Journey",
+      "chapter": 17,
+      "epub_href": "OEBPS/C20_chapter17.xhtml#box76"
+    },
+    "77": {
+      "book_number": "77",
+      "book_title": "The Lens of the Weirdest Thing",
+      "chapter": 17,
+      "epub_href": "OEBPS/C20_chapter17.xhtml#box77"
+    },
+    "78": {
+      "book_number": "78",
+      "book_title": "The Lens of Story",
+      "chapter": 17,
+      "epub_href": "OEBPS/C20_chapter17.xhtml#box78"
+    },
+    "79": {
+      "book_number": "79",
+      "book_title": "The Lens of Freedom",
+      "chapter": 18,
+      "epub_href": "OEBPS/C21_chapter18.xhtml#box79"
+    },
+    "80": {
+      "book_number": "80",
+      "book_title": "The Lens of Help",
+      "chapter": 18,
+      "epub_href": "OEBPS/C21_chapter18.xhtml#box80"
+    },
+    "81": {
+      "book_number": "81",
+      "book_title": "The Lens of Indirect Control",
+      "chapter": 18,
+      "epub_href": "OEBPS/C21_chapter18.xhtml#box81"
+    },
+    "82": {
+      "book_number": "82",
+      "book_title": "The Lens of Collusion",
+      "chapter": 18,
+      "epub_href": "OEBPS/C21_chapter18.xhtml#box82"
+    },
+    "83": {
+      "book_number": "83",
+      "book_title": "The Lens of Fantasy",
+      "chapter": 19,
+      "epub_href": "OEBPS/C22_chapter19.xhtml#box83"
+    },
+    "84": {
+      "book_number": "84",
+      "book_title": "The Lens of the World",
+      "chapter": 19,
+      "epub_href": "OEBPS/C22_chapter19.xhtml#box84"
+    },
+    "85": {
+      "book_number": "85",
+      "book_title": "The Lens of the Avatar",
+      "chapter": 20,
+      "epub_href": "OEBPS/C23_chapter20.xhtml#box85"
+    },
+    "86": {
+      "book_number": "86",
+      "book_title": "The Lens of Character Function",
+      "chapter": 20,
+      "epub_href": "OEBPS/C23_chapter20.xhtml#box86"
+    },
+    "87": {
+      "book_number": "87",
+      "book_title": "The Lens of Character Traits",
+      "chapter": 20,
+      "epub_href": "OEBPS/C23_chapter20.xhtml#box87"
+    },
+    "88": {
+      "book_number": "88",
+      "book_title": "The Lens of the Interpersonal Circumplex",
+      "chapter": 20,
+      "epub_href": "OEBPS/C23_chapter20.xhtml#box88"
+    },
+    "89": {
+      "book_number": "89",
+      "book_title": "The Lens of the Character Web",
+      "chapter": 20,
+      "epub_href": "OEBPS/C23_chapter20.xhtml#box89"
+    },
+    "90": {
+      "book_number": "90",
+      "book_title": "The Lens of Status",
+      "chapter": 20,
+      "epub_href": "OEBPS/C23_chapter20.xhtml#box90"
+    },
+    "91": {
+      "book_number": "91",
+      "book_title": "The Lens of Character Transformation",
+      "chapter": 20,
+      "epub_href": "OEBPS/C23_chapter20.xhtml#box91"
+    },
+    "92": {
+      "book_number": "92",
+      "book_title": "The Lens of Inner Contradiction",
+      "chapter": 21,
+      "epub_href": "OEBPS/C24_chapter21.xhtml#box92"
+    },
+    "93": {
+      "book_number": "93",
+      "book_title": "The Lens of The Nameless Quality",
+      "chapter": 21,
+      "epub_href": "OEBPS/C24_chapter21.xhtml#box93"
+    },
+    "93.5": {
+      "book_number": "93½",
+      "book_title": "The Lens of Presence",
+      "chapter": 22,
+      "epub_href": "OEBPS/C25_chapter22.xhtml#box93a"
+    },
+    "94": {
+      "book_number": "94",
+      "book_title": "The Lens of Atmosphere",
+      "chapter": 23,
+      "epub_href": "OEBPS/C26_chapter23.xhtml#box94"
+    },
+    "95": {
+      "book_number": "95",
+      "book_title": "The Lens of Spectation",
+      "chapter": 24,
+      "epub_href": "OEBPS/C27_chapter24.xhtml#box95"
+    },
+    "95.5": {
+      "book_number": "95½",
+      "book_title": "The Lens of Cheatability",
+      "chapter": 24,
+      "epub_href": "OEBPS/C27_chapter24.xhtml#box95a"
+    },
+    "96": {
+      "book_number": "96",
+      "book_title": "The Lens of Friendship",
+      "chapter": 25,
+      "epub_href": "OEBPS/C28_chapter25.xhtml#box96"
+    },
+    "97": {
+      "book_number": "97",
+      "book_title": "The Lens of Expression",
+      "chapter": 25,
+      "epub_href": "OEBPS/C28_chapter25.xhtml#box97"
+    },
+    "98": {
+      "book_number": "98",
+      "book_title": "The Lens of Community",
+      "chapter": 25,
+      "epub_href": "OEBPS/C28_chapter25.xhtml#box98"
+    },
+    "99": {
+      "book_number": "99",
+      "book_title": "The Lens of Griefing",
+      "chapter": 25,
+      "epub_href": "OEBPS/C28_chapter25.xhtml#box99"
+    },
+    "100": {
+      "book_number": "100",
+      "book_title": "The Lens of Love",
+      "chapter": 26,
+      "epub_href": "OEBPS/C29_chapter26.xhtml#box100"
+    },
+    "101": {
+      "book_number": "101",
+      "book_title": "The Lens of the Team",
+      "chapter": 26,
+      "epub_href": "OEBPS/C29_chapter26.xhtml#box101"
+    },
+    "102": {
+      "book_number": "102",
+      "book_title": "The Lens of Documentation",
+      "chapter": 27,
+      "epub_href": "OEBPS/C30_chapter27.xhtml#box102"
+    },
+    "103": {
+      "book_number": "103",
+      "book_title": "The Lens of Playtesting",
+      "chapter": 28,
+      "epub_href": "OEBPS/C31_chapter28.xhtml#box103"
+    },
+    "104": {
+      "book_number": "104",
+      "book_title": "The Lens of Technology",
+      "chapter": 29,
+      "epub_href": "OEBPS/C32_chapter29.xhtml#box104"
+    },
+    "105": {
+      "book_number": "105",
+      "book_title": "The Lens of the Crystal Ball",
+      "chapter": 29,
+      "epub_href": "OEBPS/C32_chapter29.xhtml#box105"
+    },
+    "106": {
+      "book_number": "106",
+      "book_title": "The Lens of Utopia",
+      "chapter": 29,
+      "epub_href": "OEBPS/C32_chapter29.xhtml#box106"
+    },
+    "107": {
+      "book_number": "107",
+      "book_title": "The Lens of the Client",
+      "chapter": 30,
+      "epub_href": "OEBPS/C33_chapter30.xhtml#box107"
+    },
+    "108": {
+      "book_number": "108",
+      "book_title": "The Lens of the Pitch",
+      "chapter": 31,
+      "epub_href": "OEBPS/C34_chapter31.xhtml#box108"
+    },
+    "109": {
+      "book_number": "109",
+      "book_title": "The Lens of Profit",
+      "chapter": 32,
+      "epub_href": "OEBPS/C35_chapter32.xhtml#box109"
+    },
+    "110": {
+      "book_number": "110",
+      "book_title": "The Lens of Transformation",
+      "chapter": 33,
+      "epub_href": "OEBPS/C36_chapter33.xhtml#box110"
+    },
+    "111": {
+      "book_number": "111",
+      "book_title": "The Lens of Responsibility",
+      "chapter": 34,
+      "epub_href": "OEBPS/C37_chapter34.xhtml#box111"
+    },
+    "112": {
+      "book_number": "112",
+      "book_title": "The Lens of the Raven",
+      "chapter": 35,
+      "epub_href": "OEBPS/C38_chapter35.xhtml#box112"
+    },
+    "113": {
+      "book_number": "∞",
+      "book_title": "The Lens of Your Secret Purpose",
+      "chapter": 35,
+      "epub_href": "OEBPS/C38_chapter35.xhtml#box112a"
+    }
+  }
+}

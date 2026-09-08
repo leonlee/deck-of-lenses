@@ -6,8 +6,10 @@ An authorized snapshot of the [Deck of Lenses](https://deck.artofgamedesign.com/
 
 **在线阅读：[English](https://leonlee.github.io/deck-of-lenses/en/) · [简体中文](https://leonlee.github.io/deck-of-lenses/zh/)**
 
-The GitHub Pages reader includes an illustrated catalog, bilingual title search, category filters, and a reading page for every lens. Language links keep you on the same card. The complete text is available without JavaScript; search and filter controls appear only after their behavior has initialized. Restored search text is reapplied when returning to the catalog.
+The GitHub Pages reader includes an illustrated catalog, bilingual title search, category filters, and a reading page for every lens. A third-edition book companion adds 35 bilingual chapter summaries, 70 takeaways, 35 original exercises, and verified EPUB references for all 116 lenses. Language links keep you on the same card. The complete text is available without JavaScript; search and filter controls appear only after their behavior has initialized. Restored search text is reapplied when returning to the catalog.
 
+- [Book guide · English](https://leonlee.github.io/deck-of-lenses/en/book/) · [阅读指南 · 简体中文](https://leonlee.github.io/deck-of-lenses/zh/book/)
+- [Book companion data and provenance](book/README.md) · Markdown: [English](docs/book-guide.en.md) / [中文](docs/book-guide.zh.md). AI-authored notes awaiting human review.
 - [阅读中英对照卡牌](docs/lenses.zh-CN.md)
 - [简体中文本地化文件](locales/zh-CN.json) — preserves the original localization schema and non-text metadata.
 - [逐条翻译与审校状态](translations/zh-CN.json) — English source, Chinese translation, source hash, and review status for every field.
@@ -100,6 +102,6 @@ python3 scripts/build_site.py
 python3 -m http.server 8000 --bind 127.0.0.1 --directory _site
 ```
 
-Open `http://127.0.0.1:8000/`. The build generates 235 static pages: the entry page, two catalogs, and 232 lens pages. All navigation and image paths are relative, including under the GitHub project path `/deck-of-lenses/`. Only the reader assets and card illustrations/thumbnails are deployed; the original archive stays in the repository.
+Open `http://127.0.0.1:8000/`. The build generates 237 static pages: the entry page, two catalogs, two book guides, and 232 lens pages. All navigation and image paths are relative, including under the GitHub project path `/deck-of-lenses/`. The deployment includes reader assets, card illustrations/thumbnails, and rendered companion notes; the original archive stays in the repository. The source EPUB is not included.
 
-The [Pages workflow](.github/workflows/pages.yml) runs tests and validates the archive and translations before building. Pushes to `main` deploy through GitHub Actions to the `github-pages` environment; pull requests run validation and build without publishing. Pages must be configured to use GitHub Actions as its publishing source.
+The [Pages workflow](.github/workflows/pages.yml) runs tests and validates the archive, translations, and book companion before building. Pushes to `main` deploy through GitHub Actions to the `github-pages` environment; pull requests run validation and build without publishing. Pages must be configured to use GitHub Actions as its publishing source.
