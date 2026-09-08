@@ -59,6 +59,20 @@ class BookTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, '35 numbered chapters'):
             self.validate_with(index=index)
 
+    def test_rejects_nonexistent_and_swapped_anchors_without_epub(self):
+        for anchor in ('does-not-exist', 'chapter35'):
+            index = copy.deepcopy(self.index)
+            filename = index['lenses']['113']['epub_href'].split('#')[0]
+            index['lenses']['113']['epub_href'] = filename + '#' + anchor
+            with self.assertRaisesRegex(ValueError, 'integrity check failed'):
+                self.validate_with(index=index)
+
+    def test_index_integrity_allows_reordering_and_note_edits(self):
+        index = dict(reversed(list(self.index.items())))
+        notes = copy.deepcopy(self.notes)
+        notes['chapters'][0]['summary']['en'] += ' Editorial clarification.'
+        self.validate_with(index=index, notes=notes)
+
 
 if __name__ == '__main__':
     unittest.main()

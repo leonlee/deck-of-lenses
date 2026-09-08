@@ -110,6 +110,7 @@ class SiteTests(unittest.TestCase):
         index, notes = build_site.load_book()
         for locale in ('en', 'zh'):
             text = (self.output / locale / 'book/index.html').read_text()
+            self.assertIn('<a data-chapter-switch ', text)
             self.assertEqual(text.count('class="chapter"'), 35)
             for number, note in notes.items():
                 self.assertIn(f'id="chapter-{number}"', text)

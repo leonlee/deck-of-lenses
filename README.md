@@ -6,7 +6,7 @@ An authorized snapshot of the [Deck of Lenses](https://deck.artofgamedesign.com/
 
 **在线阅读：[English](https://leonlee.github.io/deck-of-lenses/en/) · [简体中文](https://leonlee.github.io/deck-of-lenses/zh/)**
 
-The GitHub Pages reader includes an illustrated catalog, bilingual title search, category filters, and a reading page for every lens. A third-edition book companion adds 35 bilingual chapter summaries, 70 takeaways, 35 original exercises, and verified EPUB references for all 116 lenses. Language links keep you on the same card. The complete text is available without JavaScript; search and filter controls appear only after their behavior has initialized. Restored search text is reapplied when returning to the catalog.
+The GitHub Pages reader includes an illustrated catalog, bilingual title search, category filters, and a reading page for every lens. A third-edition book companion adds 35 bilingual chapter summaries, 70 takeaways, 35 original exercises, and verified EPUB references for all 116 lenses. Language links keep you on the same card. With JavaScript enabled, the book guide also preserves chapter anchors when switching languages. The complete text is available without JavaScript; search and filter controls appear only after their behavior has initialized. Restored search text is reapplied when returning to the catalog.
 
 - [Book guide · English](https://leonlee.github.io/deck-of-lenses/en/book/) · [阅读指南 · 简体中文](https://leonlee.github.io/deck-of-lenses/zh/book/)
 - [Book companion data and provenance](book/README.md) · Markdown: [English](docs/book-guide.en.md) / [中文](docs/book-guide.zh.md). AI-authored notes awaiting human review.

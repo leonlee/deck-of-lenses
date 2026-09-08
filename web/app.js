@@ -1,4 +1,16 @@
 (() => {
+  const chapterSwitch = document.querySelector('[data-chapter-switch]');
+  if (chapterSwitch) {
+    const destination = chapterSwitch.getAttribute('href');
+    const updateChapter = () => {
+      const hash = window.location.hash;
+      const valid = /^#chapter-([1-9]|[12][0-9]|3[0-5])$/.test(hash);
+      chapterSwitch.setAttribute('href', destination + (valid ? hash : ''));
+    };
+    window.addEventListener('hashchange', updateChapter);
+    window.addEventListener('pageshow', updateChapter);
+    updateChapter();
+  }
   const input = document.querySelector('#search');
   if (!input) return;
   const cards = [...document.querySelectorAll('[data-lens]')];

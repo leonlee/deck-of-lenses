@@ -64,11 +64,13 @@ def paragraphs(value):
     return prose(value)
 
 
-def shell(locale, title, content, base, alternate, catalog=False):
+def shell(locale, title, content, base, alternate, catalog=False, chapter_switch=False):
     t = COPY[locale]
     switch = (f'<span aria-current="page">English</span><a href="{alternate}" lang="zh-CN" hreflang="zh-CN">简体中文</a>'
               if locale == 'en' else
               f'<a href="{alternate}" lang="en" hreflang="en">English</a><span aria-current="page">简体中文</span>')
+    if chapter_switch:
+        switch = switch.replace('<a ', '<a data-chapter-switch ')
     return f'''<!doctype html>
 <html lang="{t['lang']}">
 <head>
@@ -171,7 +173,7 @@ def book_guide(locale, lenses, book_data):
 <div class="guide-layout"><nav class="chapter-index" aria-label="{t['contents']}"><details><summary>{t['contents']}</summary><ol>{''.join(contents)}</ol></details></nav>
 <div>{''.join(sections)}</div></div>'''
     other = 'zh' if locale == 'en' else 'en'
-    return shell(locale, t['guide'], content, '../../', f'../../{other}/book/')
+    return shell(locale, t['guide'], content, '../../', f'../../{other}/book/', chapter_switch=True)
 
 
 def build():

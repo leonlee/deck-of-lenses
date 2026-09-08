@@ -13,6 +13,16 @@ from deck import ROOT, read, source, write
 NS = {'h': 'http://www.w3.org/1999/xhtml', 'n': 'http://www.daisy.org/z3986/2005/ncx/',
       'p': 'http://www.idpf.org/2007/opf', 'dc': 'http://purl.org/dc/elements/1.1/'}
 
+# Canonical index verified against the supplied third-edition EPUB. Updating this
+# requires reviewing a fresh EPUB extraction, not just accepting edited references.
+INDEX_SHA256 = '8d29821e4e0510d11abea8c12e7641cd71d519d211c2bd3dbe73ce90648b2511'
+
+
+def verify_index(index):
+    canonical = json.dumps(index, ensure_ascii=False, sort_keys=True, separators=(',', ':')).encode('utf-8')
+    if hashlib.sha256(canonical).hexdigest() != INDEX_SHA256:
+        raise ValueError('Book source index integrity check failed; verify against the original EPUB')
+
 
 def extract_index(epub):
     with zipfile.ZipFile(epub) as archive:
@@ -110,6 +120,7 @@ def load_book():
         expected = '∞' if key == '113' else key.replace('.5', '½')
         if lens['book_number'] != expected:
             raise ValueError(f'Lens {key}: incorrect edition numbering')
+    verify_index(index)
     return index, {c['number']: c for c in notes['chapters']}
 
 
@@ -147,7 +158,9 @@ def main():
         target = ROOT / 'book/source-index.json'
         if target.exists():
             parser.error('Book index exists; refusing to overwrite it')
-        write(target, extract_index(args.epub))
+        extracted = extract_index(args.epub)
+        verify_index(extracted)
+        write(target, extracted)
     elif args.command == 'validate':
         index, notes = load_book()
         if args.epub and extract_index(args.epub) != index:

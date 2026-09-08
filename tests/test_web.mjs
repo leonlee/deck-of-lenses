@@ -65,3 +65,32 @@ test('Restored search values agree with results on initialization and pageshow',
   assert.deepEqual(cards.map(card => card.hidden), [true, true, false]);
   assert.equal(nodes['#count'].textContent, 1);
 });
+
+test('Book language switches preserve chapter anchors in both directions', () => {
+  for (const target of ['../../zh/book/', '../../en/book/']) {
+    const attributes = { href: target };
+    const link = {
+      getAttribute: name => attributes[name],
+      setAttribute: (name, value) => { attributes[name] = value; },
+    };
+    const events = {};
+    const window = {
+      location: { hash: '#chapter-35' },
+      addEventListener: (name, callback) => { events[name] = callback; },
+    };
+    const document = { querySelector: selector => selector === '[data-chapter-switch]' ? link : null };
+    runInNewContext(script, { document, window });
+    assert.equal(attributes.href, target + '#chapter-35');
+    window.location.hash = '#chapter-2';
+    events.hashchange();
+    assert.equal(attributes.href, target + '#chapter-2');
+    window.location.hash = '#chapter-12';
+    events.pageshow();
+    assert.equal(attributes.href, target + '#chapter-12');
+    for (const hash of ['', '#content', '#chapter-36', '#chapter-0']) {
+      window.location.hash = hash;
+      events.hashchange();
+      assert.equal(attributes.href, target);
+    }
+  }
+});
