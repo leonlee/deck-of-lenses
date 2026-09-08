@@ -69,6 +69,30 @@ class SiteTests(unittest.TestCase):
                     expected = question if locale == 'en' else entries[f"lenses/{lens['index']}/questionlist/{i}"]['target']
                     self.assertIn(build_site.esc(expected), text)
 
+    def test_quotations_preserve_attribution_without_source_markers(self):
+        entries = build_site.validate('zh-CN', complete=True)['entries']
+        for lens in build_site.source()['LensList']:
+            if not lens['description'].startswith('~'):
+                continue
+            for locale, description in (
+                ('en', lens['description']),
+                ('zh', entries[f"lenses/{lens['index']}/description"]['target']),
+            ):
+                rendered = build_site.paragraphs(description)
+                self.assertIn('<blockquote>', rendered)
+                self.assertNotIn('~', rendered)
+                self.assertIn('</blockquote><p>', rendered)
+                for line in description.splitlines():
+                    if line.strip().strip('~'):
+                        self.assertIn(build_site.esc(line.strip().strip('~')), rendered)
+        self.assertEqual(build_site.paragraphs('About ~10 items.'), '<p>About ~10 items.</p>')
+
+    def test_catalog_controls_require_successful_javascript_initialization(self):
+        for locale in ('en', 'zh'):
+            page = (self.output / locale / 'index.html').read_text()
+            self.assertRegex(page, r'<section[^>]*id="catalog-tools"[^>]* hidden>')
+            self.assertEqual(page.count('<li data-lens '), 116)
+
 
 if __name__ == '__main__':
     unittest.main()

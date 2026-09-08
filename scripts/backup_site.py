@@ -169,6 +169,8 @@ def main():
                     headers = {k: response.headers[k] for k in ('ETag', 'Last-Modified') if k in response.headers}
                 if path == 'assets/strings/en.json' and raw != (ROOT / 'archive/en.json').read_bytes():
                     raise ValueError('Live English localization differs from translation source; use a new workspace for a new snapshot')
+                if url in cache and (digest(raw) != cache[url]['sha256'] or len(raw) != cache[url]['bytes']):
+                    raise ValueError(f'Upstream bytes differ from the recorded snapshot: {path}; refusing to replace the archived version')
                 target = destination / path
                 target.parent.mkdir(parents=True, exist_ok=True)
                 temporary = target.with_name(target.name + '.part')
@@ -198,7 +200,7 @@ def main():
             for item, raw in pool.map(fetch, batch):
                 url = item['url']
                 if raw is None:
-                    records.pop(url, None)
+                    # Retain any original checksum so subsequent resumes remain pinned.
                     failures[url] = item
                     checkpoint()
                     continue

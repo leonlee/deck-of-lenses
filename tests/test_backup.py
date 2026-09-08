@@ -96,6 +96,25 @@ class BackupTests(unittest.TestCase):
         self.run_cli('--resume')
         self.assertEqual((target / 'index.html').read_bytes(), self.urls[backup.BASE])
 
+    def test_resume_never_accepts_new_upstream_bytes_for_recorded_file(self):
+        self.run_cli()
+        url = backup.BASE + 'js/app.js'
+        target = self.root / 'archive/site/js/app.js'
+        old_bytes = target.read_bytes()
+        original_record = next(item for item in deck.read(self.root / 'archive/site-manifest.json')['files'] if item['url'] == url)
+        target.write_bytes(b'damaged')
+        self.urls[url] = b'new upstream version'
+        for _ in range(2):
+            with self.assertRaisesRegex(ValueError, 'Checksum mismatch'):
+                self.run_cli('--resume')
+            self.assertEqual(target.read_bytes(), b'damaged')
+            manifest = deck.read(self.root / 'archive/site-manifest.json')
+            self.assertIn(original_record, manifest['files'])
+            self.assertTrue(any('Upstream bytes differ' in f['error'] for f in manifest['failures']))
+        self.urls[url] = old_bytes
+        self.run_cli('--resume')
+        self.assertEqual(target.read_bytes(), old_bytes)
+
     def test_missing_dependency_record_is_detected_even_without_failure(self):
         self.run_cli()
         path = self.root / 'archive/site-manifest.json'

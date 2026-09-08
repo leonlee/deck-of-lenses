@@ -4,7 +4,7 @@ import { readFileSync } from 'node:fs';
 import { runInNewContext } from 'node:vm';
 
 const script = readFileSync(new URL('../web/app.js', import.meta.url), 'utf8');
-function setup() {
+function setup(restoredQuery = '') {
   const element = (data = {}) => ({
     dataset: data, events: {}, hidden: false, attributes: {}, value: '',
     addEventListener(name, callback) { this.events[name] = callback; },
@@ -17,13 +17,16 @@ function setup() {
     element({ search: '1 Emotion 情感', suits: 'Experience' }),
   ];
   const filters = ['all', 'Game', 'Experience'].map(filter => element({ filter }));
-  const nodes = Object.fromEntries(['search', 'count', 'empty', 'clear'].map(id => ['#' + id, element()]));
+  const nodes = Object.fromEntries(['search', 'count', 'empty', 'clear', 'catalog-tools'].map(id => ['#' + id, element()]));
+  nodes['#search'].value = restoredQuery;
+  nodes['#catalog-tools'].hidden = true;
+  const window = element();
   const document = {
     querySelector: selector => nodes[selector],
     querySelectorAll: selector => selector === '[data-lens]' ? cards : filters,
   };
-  runInNewContext(script, { document });
-  return { cards, filters, nodes };
+  runInNewContext(script, { document, window });
+  return { cards, filters, nodes, window };
 }
 
 test('English and Chinese search find the same matching lenses', () => {
@@ -51,4 +54,14 @@ test('Category filtering combines with search, and clear restores all lenses', (
 });
 test('Reader pages need no catalog controls', () => {
   assert.doesNotThrow(() => runInNewContext(script, { document: { querySelector: () => null } }));
+});
+test('Restored search values agree with results on initialization and pageshow', () => {
+  const { nodes, cards, window } = setup('运气');
+  assert.equal(nodes['#count'].textContent, 2);
+  assert.deepEqual(cards.map(card => card.hidden), [false, false, true]);
+  assert.equal(nodes['#catalog-tools'].hidden, false);
+  nodes['#search'].value = 'Emotion';
+  window.events.pageshow();
+  assert.deepEqual(cards.map(card => card.hidden), [true, true, false]);
+  assert.equal(nodes['#count'].textContent, 1);
 });

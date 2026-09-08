@@ -4,7 +4,7 @@
   const cards = [...document.querySelectorAll('[data-lens]')];
   const filters = [...document.querySelectorAll('[data-filter]')];
   let active = 'all';
-  const normalize = value => value.normalize('NFKC').toLocaleLowerCase().trim();
+  const normalize = value => value.normalize('NFKC').toLowerCase().trim();
   function update() {
     const words = normalize(input.value).split(/\s+/).filter(Boolean);
     let count = 0;
@@ -29,4 +29,8 @@
     update();
     input.focus();
   });
+  // Browsers can restore form values before or after this script runs.
+  window.addEventListener('pageshow', update);
+  update();
+  document.querySelector('#catalog-tools').hidden = false;
 })();

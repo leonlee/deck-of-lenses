@@ -2,6 +2,7 @@
 """Build a dependency-free bilingual static reader for GitHub Pages."""
 import copy
 import html
+import re
 import shutil
 from pathlib import Path
 
@@ -44,9 +45,14 @@ def slug(lens):
 
 
 def paragraphs(value):
-    # Source descriptions use ~...~ for quotations. Keep content as escaped text.
-    return ''.join('<p>' + esc(part.strip().strip('~')).replace('\n', '<br>') + '</p>'
-                   for part in value.split('\n\n') if part.strip())
+    # Parse the source's leading quotation without stripping literal tildes elsewhere.
+    quote = re.match(r'^\s*~(.*?)~\s*(.*)$', value, re.DOTALL)
+    def prose(text):
+        return ''.join('<p>' + '<br>'.join(esc(line.strip()) for line in part.strip().splitlines()) + '</p>'
+                       for part in re.split(r'\n[ \t]*\n', text) if part.strip())
+    if quote:
+        return '<blockquote>' + prose(quote[1]) + '</blockquote>' + prose(quote[2])
+    return prose(value)
 
 
 def shell(locale, title, content, base, alternate, catalog=False):
@@ -94,7 +100,7 @@ def catalog(locale, lenses, english, chinese, base='../'):
                       for key in ('Designer', 'Player', 'Experience', 'Process', 'Game'))
     content = f'''<section class="intro"><div><p class="eyebrow">JESSE SCHELL · THE ART OF GAME DESIGN</p>
 <h1>{t['title']}</h1><p class="subtitle">{t['subtitle']}</p></div><span class="edition">EN / 简体中文</span></section>
-<section class="tools" aria-label="{t['search']}">
+<section class="tools" id="catalog-tools" aria-label="{t['search']}" hidden>
 <label class="search"><span aria-hidden="true">⌕</span><span class="sr-only">{t['search']}</span><input type="search" id="search" placeholder="{t['placeholder']}" autocomplete="off"></label>
 <div class="filters" role="group" aria-label="{t['catalog']}"><button type="button" data-filter="all" aria-pressed="true">{t['all']}</button>{filters}</div>
 </section>

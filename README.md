@@ -6,7 +6,7 @@ An authorized snapshot of the [Deck of Lenses](https://deck.artofgamedesign.com/
 
 **在线阅读：[English](https://leonlee.github.io/deck-of-lenses/en/) · [简体中文](https://leonlee.github.io/deck-of-lenses/zh/)**
 
-The GitHub Pages reader includes an illustrated catalog, bilingual title search, category filters, and a reading page for every lens. Language links keep you on the same card. The complete text is available without JavaScript; JavaScript enhances catalog search and filtering.
+The GitHub Pages reader includes an illustrated catalog, bilingual title search, category filters, and a reading page for every lens. Language links keep you on the same card. The complete text is available without JavaScript; search and filter controls appear only after their behavior has initialized. Restored search text is reapplied when returning to the catalog.
 
 - [阅读中英对照卡牌](docs/lenses.zh-CN.md)
 - [简体中文本地化文件](locales/zh-CN.json) — preserves the original localization schema and non-text metadata.
@@ -91,7 +91,7 @@ The archive is a dated snapshot, not an automatic synchronization job. `scripts/
 python3 scripts/backup_site.py --resume
 ```
 
-Resume reuses only files whose bytes match their manifest checksums, retries unavailable resources, and refetches missing or damaged files. Existing files with no manifest record are downloaded again. Newly discovered dependencies are included. If the live English localization differs from the imported translation source, recovery fails instead of silently replacing that source. Use a separate workspace for a new source revision. Original application bugs, external shopping links, and feedback links remain as supplied by the source site.
+Resume reuses only files whose bytes match their manifest checksums, retries unavailable resources, and refetches missing or damaged files. A replacement for a previously recorded file must match its original checksum and size; newer upstream bytes are rejected, and the original checksum is retained across retries. Existing files with no manifest record are downloaded again. Newly discovered dependencies are included. If the live English localization differs from the imported translation source, recovery fails instead of silently replacing that source. Use a separate workspace for a new source revision. Original application bugs, external shopping links, and feedback links remain as supplied by the source site.
 
 ## Build the reading site
 
